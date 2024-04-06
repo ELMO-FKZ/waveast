@@ -1,0 +1,28 @@
+.partmemb-buttons {
+margin-bottom: 2rem; }
+    .partmemb-button {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    transition: all var(--main-duration) ease; }
+    .partmemb-button:hover {
+    background-color: var(--yellow-color); }
+    .partmemb-button svg {
+    font-size: 2rem; }
+    .partmemb-button:first-child {
+    margin-right: 1rem; }
+.partmemb-items {
+display: flex;
+gap: 2rem;
+overflow-x: auto;
+scroll-behavior: smooth; }
+.partmemb-items::-webkit-scrollbar {display: none; }
+    .partmemb-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 14rem; }
+            .partmemb-img {
+            display: block;
+            height: auto;
+            width: 100%; }

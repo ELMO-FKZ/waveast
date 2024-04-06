@@ -1,0 +1,8 @@
+.page-header {
+padding-block: 15rem;
+position: relative;
+background-image: url("../../assets/headerImage.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+text-align: center; }
