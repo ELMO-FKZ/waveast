@@ -1,8 +1,34 @@
 .page-header {
-padding-block: 15rem;
+padding-block: 14rem 4rem;
 position: relative;
-background-image: url("../../assets/headerImage.webp");
+background-color: var(--primary-color);
+background-image: url("../../assets/slideOne.webp");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 text-align: center; }
+.page-header::before {
+position: absolute; 
+content: "";
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: var(--primary-color);
+opacity: 0.8;}
+    .page-header__heading {
+    position: relative;
+    z-index: 2;
+    }
+    .waves__static {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    min-height: 7rem;
+    max-height: 9rem; }
+        .parallax__static > use:nth-child(1) {
+        transform: translateX(9px); }
+
+    

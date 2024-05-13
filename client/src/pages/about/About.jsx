@@ -20,9 +20,9 @@ function About() {
         <div className="about">
             <PageHeader pageTitle="Who we are?" />
             <div className="about__company container">
-                <p><span className="about__company-name">Waveast</span> Installation & Park Services is a leading company based in Warsaw, Poland, specializing in a wide range of services for amusement items and water parks. Since our establishment in 2021, we have been dedicated to providing exceptional engineering, installation, maintenance, expansion, renovation, and consultancy services.</p>
-                <p>At <span className="about__company-name">Waveast</span>, we take pride in our ability to cater to diverse clients, including hotels, waterparks, and individuals. Our skilled team excels in constructing various types of swimming pools and decorative pools, offering comprehensive solutions that include circulation, filtration, and all mechanical and electrical systems.</p>
-                <p>In addition to our exceptional services, <span className="about__company-name">Waveast</span> also provides a wide selection of high-quality composite materials and plastic raw materials that meet industry standards. We understand the importance of using reliable and durable materials in every project. Moreover, our team of professional and talented engineers and technicians is committed to fulfilling our customers&apos; requests with expertise and dedication.</p>
+                <p><span className="company-name">Waveast</span> Installation & Park Services is a leading company based in Warsaw, Poland, specializing in a wide range of services for amusement items and water parks. Since our establishment in 2021, we have been dedicated to providing exceptional engineering, installation, maintenance, expansion, renovation, and consultancy services.</p>
+                <p>At <span className="company-name">Waveast</span>, we take pride in our ability to cater to diverse clients, including hotels, waterparks, and individuals. Our skilled team excels in constructing various types of swimming pools and decorative pools, offering comprehensive solutions that include circulation, filtration, and all mechanical and electrical systems.</p>
+                <p>In addition to our exceptional services, <span className="company-name">Waveast</span> also provides a wide selection of high-quality composite materials and plastic raw materials that meet industry standards. We understand the importance of using reliable and durable materials in every project. Moreover, our team of professional and talented engineers and technicians is committed to fulfilling our customers&apos; requests with expertise and dedication.</p>
             </div>
             <div className="section__padding container">
                 <SpecialHeadingTwo title="Why we?" />
@@ -70,8 +70,8 @@ function About() {
             <div className="section__padding container">
                 <SpecialHeadingTwo title="Our people" />
                 <div className="company__people">
-                    <p><span className="about__company-name">Waveast</span> Installation & Park Services was founded by two engineers with over ten years of industry experience. Additionally, <span className="about__company-name">Waveast</span> has a global presence due to its dynamic technical team and strategic alliances with partners worldwide.</p>
-                    <p>With a customer-focused after-sales team and competent designers and engineers, <span className="about__company-name">Waveast</span> strives to provide the best service possible to its clients.</p>
+                    <p><span className="company-name">Waveast</span> Installation & Park Services was founded by two engineers with over ten years of industry experience. Additionally, <span className="company-name">Waveast</span> has a global presence due to its dynamic technical team and strategic alliances with partners worldwide.</p>
+                    <p>With a customer-focused after-sales team and competent designers and engineers, <span className="company-name">Waveast</span> strives to provide the best service possible to its clients.</p>
                 </div>
             </div>
             <div className="section__padding container">

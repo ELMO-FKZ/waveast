@@ -213,3 +213,7 @@ height: 100vh; }
 
 .jvectormap-container path {
 fill: var(--primary-color); }
+
+.company-name {
+font-size: 600;
+color: var(--primary-color); }

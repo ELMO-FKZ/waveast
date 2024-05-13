@@ -15,11 +15,15 @@ function ServicesMain() {
                 {
                     servicesItems.map((service) => {
                         return (
-                            <div className="main__services-item" key={service.id}>
+                            <div key={service.id}>
+                            <div className="main__services-item" >
                                 <div className="main__services-icon">
+                                    <span className="main__services-hidden"></span>
                                     {service.icon}
                                 </div>
                                 {service.title}
+                            </div>
+
                             </div>
                         )
                     })
