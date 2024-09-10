@@ -6,9 +6,6 @@ function ServicesServ() {
 
   return (
     <>
-        <div className="services__overview container"> 
-            <p><span className="company-name">Waveast</span> Installation & Park Services is a leading provider of comprehensive services for amusement items and water parks. With a strong commitment to excellence, we specialize in delivering exceptional engineering, installation, maintenance, expansion, renovation, and consultancy services.</p>
-        </div>
         <div className="section__padding container">
             <SpecialHeadingTwo title="Water park services" />
             <div className="services__container">
@@ -28,9 +25,6 @@ function ServicesServ() {
                     })
                 }
             </div>
-        </div>
-        <div className="section__padding container">
-            <SpecialHeadingTwo title="Water park installation" />
         </div>
     </>
   )
