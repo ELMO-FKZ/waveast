@@ -10,7 +10,7 @@ function Experience() {
             <meta name="description" 
                 content="We have been in… Aqua Magica | Spain Land of Legends | Turkey Aqua Park | Albania Aquaterra | Moldova Baghdadland | Iraq Cartoon Network Amazone | Thailand Hotel Izvor | Serbia Marina Aquapark Hillah | Iraq Suntago Waterpark | Poland Maritim Crystal Beach Hotel | Mauritius Oasis Aquapark | Turkey The Wave Coventry | England" />
         </Helmet>
-        <PageHeader pageTitle="Our projects" />
+        <PageHeader pageTitle="We've been in..." />
         <div>Experience</div>
         </>
     )

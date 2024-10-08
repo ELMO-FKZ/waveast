@@ -1,7 +1,7 @@
 .special-heading {
 margin-bottom: 5rem;
 text-align: center;
-color: var(--sm-text-color); }
+color: var(--text-color); }
     .special-title {
     position: relative;
     display: inline-block;

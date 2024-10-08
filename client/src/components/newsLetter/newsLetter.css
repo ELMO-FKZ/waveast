@@ -23,7 +23,7 @@ margin-top: 3.5rem; } }
                 border-top-left-radius: 0.4rem;
                 border-bottom-left-radius: 0.4rem;}
                 .newsletter__input:focus {
-                border-color: var(--primary-color); }
+                border-color: var(--primary-blue); }
                 .newsletter__input--valid {
                 border-color: hsla(161, 98%, 34%, 0.726);
                 background-color: hsla(161, 98%, 34%, 0.082); }
@@ -46,10 +46,10 @@ margin-top: 3.5rem; } }
                 border-bottom-right-radius: 0.4rem;
                 background-color: var(--yellow-color);
                 border: 2px solid var(--yellow-color);
-                color: var(--sm-text-color);
+                color: var(--text-color);
                 font-weight: 600;
                 transition: all var(--main-duration) ease-in-out; }
                 .newsletter__btn:hover {
-                background-color: var(--primary-color);
-                border: 2px solid var(--primary-color);
+                background-color: var(--primary-blue);
+                border: 2px solid var(--primary-blue);
                 color: var(--background-color); }

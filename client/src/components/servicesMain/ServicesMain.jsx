@@ -1,17 +1,31 @@
+import { useRef, memo } from "react"
 import SpecialHeading from "../specialHeading/SpecialHeading"
 import servicesItems from "../../data/servicesItems"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
 import "./servicesMain.css"
 
-function ServicesMain() {
+const ServicesMain = memo(function ServicesMain() {
+
+    const carousel = useRef()
+
+    const handleLeftClick = (e) => {
+        e.preventDefault()
+        carousel.current.scrollLeft -= carousel.current.offsetWidth
+    }
+
+    const handleRightClick = (e) => {
+        e.preventDefault()
+        carousel.current.scrollLeft += carousel.current.offsetWidth
+    }
+
     return (
         <div className="section__padding container">
             <SpecialHeading title="Services" subtitle="Comprehensive services for every need" />
             <div className="main__services-buttons">
-                <button className="main__services-button"><FaChevronLeft /></button>
-                <button className="main__services-button"><FaChevronRight /></button>
+                <button className="main__services-button" onClick={handleLeftClick}><FaChevronLeft /></button>
+                <button className="main__services-button" onClick={handleRightClick}><FaChevronRight /></button>
             </div>
-            <div className="main__services-items" >
+            <div className="main__services-items" ref={carousel} >
                 {
                     servicesItems.map((service) => {
                         return (
@@ -31,6 +45,6 @@ function ServicesMain() {
             </div>
         </div>
     )
-}
+})
 
 export default ServicesMain

@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
 import Nav from "../nav/Nav"
-import Control from "../control/Control"
+import ScrollUp from "../scrollUp/ScrollUp"
 import Footer from "../footer/Footer"
 
 function Layout() {
@@ -9,7 +9,7 @@ function Layout() {
         <>
         <Nav />
         <Outlet />
-        <Control />
+        <ScrollUp />
         <Footer />
         </>
     )

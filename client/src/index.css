@@ -4,10 +4,16 @@
 
 :root  { 
 --background-color: #fff; 
---sm-text-color: #222;
---logo-color: #80b3e1;
---primary-color: #0077a4;
+--text-color: #222;
+/* --logo-color: #80b3e1; */
+--primary-blue: hsl(196, 100%, 32%);
+--input-border-focus: hsl(196, 100%, 70%);
+--input-border: hsl(196, 100%, 80%);
+--input-background: hsl(196, 100%, 98%);
+/* --input-border: hsl(207 53% 86%); */
+/* --input-border-focus: hsl(207, 53%, 60%); */
 /* --yellow-color: #ffe066; */
+/* #f2f7fb */
 --yellow-color: #D0E2E8;
 --secondary-color: #F4F4F4;
 --thumb-color:#adb5bd;
@@ -50,7 +56,7 @@ font-size: 1.6rem;
 line-height: 1.15;
 font-family: var(--primary-font);
 font-weight: 400;
-color: var(--sm-text-color); } 
+color: var(--text-color); } 
 .body--overflow-hidden {
 overflow-y: hidden; }
 
@@ -59,7 +65,7 @@ list-style: none; }
 
 a { 
 text-decoration: none;
-color: var(--sm-text-color); }
+color: var(--text-color); }
 
 img { 
 user-select: none; }
@@ -147,20 +153,20 @@ font-weight: 600;
 user-select: none; }
 
 .btn--primary {
-color: var(--sm-text-color);
+color: var(--text-color);
 background-color: var(--yellow-color);
 transition: all var(--main-duration) ease-in-out; }
 .btn--primary:hover {
 color: var(--background-color);
-background-color: var(--primary-color); }
+background-color: var(--primary-blue); }
 
 .secondary__btn {
-color: var(--primary-color);
+color: var(--primary-blue);
 background-color: var(--background-color);
 margin-left: 1rem;
 transition: all var(--main-duration) ease-in-out; }
 .secondary__btn:hover {
-color: var(--sm-text-color); }
+color: var(--text-color); }
 
 .feedback-message {
 text-align: center; }
@@ -179,7 +185,7 @@ text-align: center; }
   .feedback-message__title--down {
   margin-top: 4rem; }
   .feedback-message__link {
-  color: var(--primary-color);
+  color: var(--primary-blue);
   font-weight: 500; }
 
 .section__padding {
@@ -212,8 +218,9 @@ height: 100vh; }
 
 
 .jvectormap-container path {
-fill: var(--primary-color); }
+fill: var(--primary-blue); }
 
 .company-name {
 font-size: 600;
-color: var(--primary-color); }
+font-weight: 600;
+color: var(--primary-blue); }

@@ -20,7 +20,7 @@ scroll-behavior: smooth; }
     overflow: hidden;
     /* position: relative; */
     padding: 2rem 4rem;
-    color: var(--primary-color);
+    color: var(--primary-blue);
     font-weight: 500;
     border-radius: 0.4rem;
     border: solid 1px var(--yellow-color);

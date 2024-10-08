@@ -18,7 +18,7 @@ grid-template-columns: repeat(4, 1fr); } }
     .statistic:hover {
     background-color: var(--yellow-color); }
         .statistic__title {
-        color: var(--primary-color);
+        color: var(--primary-blue);
         font-weight: 600;
         font-size: 2.4rem;
         margin-bottom: 1rem; }

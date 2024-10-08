@@ -1,8 +1,8 @@
 import { useState, useEffect, memo } from "react"
 import { FaArrowUp } from "react-icons/fa"
-import "./control.css"
+import "./scrollUp.css"
 
-const Control = memo(function Control() {
+const ScrollUp = memo(function ScrollUp() {
 
     const [isPageOnScroll, setIsPageOnScroll] = useState(false)
 
@@ -32,4 +32,4 @@ const Control = memo(function Control() {
     )
 })
 
-export default Control
+export default ScrollUp

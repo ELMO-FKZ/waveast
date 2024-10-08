@@ -6,7 +6,7 @@ text-align: justify;
 margin-top: 5rem; }
     .about__company-name {
     font-size: 600;
-    color: var(--primary-color); }
+    color: var(--primary-blue); }
 
     .reason__container {
     display: flex;
@@ -58,7 +58,7 @@ margin: 0 auto; }
             height: 100%;
             width: auto; }
         .statement__title {
-        color: var(--primary-color);
+        color: var(--primary-blue);
         text-align: center; }
         .statement__content {
         text-align: justify; }

@@ -15,10 +15,10 @@ margin: 0 auto; }
         cursor: pointer;
         transition: all var(--main-duration) ease; }
         .faq__question--clicked {
-        color: var(--primary-color);
+        color: var(--primary-blue);
         background-color: var(--yellow-color); }
         .faq__question:hover {
-        color: var(--primary-color);
+        color: var(--primary-blue);
         background-color: var(--yellow-color); }
                 .faq__icon--hide {
                 display: none; }

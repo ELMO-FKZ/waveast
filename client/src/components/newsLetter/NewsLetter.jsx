@@ -1,5 +1,5 @@
 import { useState, useRef } from "react"
-import { validateEmail } from "../../utlis/validateEmail"
+import { validateEmail } from "../../utils/validateEmail"
 import SpecialHeading from "../specialHeading/SpecialHeading"
 import "./newsLetter.css"
 

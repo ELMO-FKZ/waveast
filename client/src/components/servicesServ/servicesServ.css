@@ -33,7 +33,7 @@ gap: 2rem 2rem; } }
         /* border: 1px solid var(--yellow-color); */
      }
             .services__title {
-            color: var(--primary-color); }
+            color: var(--primary-blue); }
             .services__para {
             text-align: justify; }
             @media (min-width: 40em) { 

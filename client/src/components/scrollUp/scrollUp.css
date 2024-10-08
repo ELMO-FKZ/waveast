@@ -6,7 +6,7 @@ position: fixed;
 right: 2rem;
 bottom: 2rem;
 background: var(--yellow-color);
-color: var(--sm-text-color);
+color: var(--text-color);
 box-shadow: var(--shadow-color) 0px 10px 30px -20px;
 text-align: center;
 z-index: 90;
@@ -14,7 +14,7 @@ opacity: 0;
 transition: all 0.3s ease-in-out;
 animation: fadeIn 0.3s ease-in-out 0.4s forwards; }
 .up-control:hover {
-background-color: var(--primary-color);
+background-color: var(--primary-blue);
 color: var(--background-color); }
 @keyframes fadeIn {
     0% { opacity: 0; }

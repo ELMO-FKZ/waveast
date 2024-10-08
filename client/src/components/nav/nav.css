@@ -26,7 +26,7 @@ z-index: 100; }
             .nav__open,
             .nav__close {
             font-size: 2.5rem;
-            color: var(--primary-color); }
+            color: var(--primary-blue); }
             .nav__open--hide,
             .nav__close--hide {
             display: none; }
@@ -62,7 +62,7 @@ z-index: 100; }
         background-color: var(--secondary-color); } }
                 .nav__link {text-transform: uppercase;}
                 .nav__link--active {
-                color: var(--primary-color);
+                color: var(--primary-blue);
                 font-weight: 500; }
                 @media (max-width: 61.9375em) {
                 .nav__link {

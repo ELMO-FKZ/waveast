@@ -76,11 +76,11 @@ function About() {
             </div>
             <div className="section__padding container">
                 <SpecialHeadingTwo title="Our partners" />
-                <Partmemb items={partners} />
+                <Partmemb items={partners} targetClick="partners" />
             </div>
             <div className="section__padding container section__margin-bottom">
                 <SpecialHeadingTwo title="Our memberships" />
-                <Partmemb items={memberships} />
+                <Partmemb items={memberships} targetClick="members" />
             </div>
         </div>
         </>
