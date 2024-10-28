@@ -1,36 +1,40 @@
-// Installation images
-import image1_1 from "../assets/gallery_images/1_1";
-import image1_2 from "../assets/gallery_images/1_2";
-import image1_3 from "../assets/gallery_images/1_3";
-import image1_4 from "../assets/gallery_images/1_4";
-import image1_5 from "../assets/gallery_images/1_5";
-import image1_6 from "../assets/gallery_images/1_6";
-import image1_7 from "../assets/gallery_images/1_7";
-import image1_8 from "../assets/gallery_images/1_8";
-import image1_9 from "../assets/gallery_images/1_9";
-import image1_10 from "../assets/gallery_images/1_10";
-import image1_11 from "../assets/gallery_images/1_11";
-import image1_12 from "../assets/gallery_images/1_12";
-import image1_13 from "../assets/gallery_images/1_13";
-import image1_14 from "../assets/gallery_images/1_14";
-import image1_15 from "../assets/gallery_images/1_15";
-import image1_16 from "../assets/gallery_images/1_16";
-import image1_17 from "../assets/gallery_images/1_17";
-import image1_18 from "../assets/gallery_images/1_18";
-import image1_19 from "../assets/gallery_images/1_19";
-import image1_20 from "../assets/gallery_images/1_20";
-import image1_21 from "../assets/gallery_images/1_21";
+// Installation
+import image1_1 from "../assets/gallery_images/installation-1.jpeg"
+import image1_2 from "../assets/gallery_images/installation-2.jpeg"
+import image1_3 from "../assets/gallery_images/installation-3.jpeg"
+import image1_4 from "../assets/gallery_images/installation-4.jpeg"
+import image1_5 from "../assets/gallery_images/installation-5.jpeg"
+import image1_6 from "../assets/gallery_images/installation-6.jpg"
+import image1_7 from "../assets/gallery_images/installation-7.jpg"
+import image1_8 from "../assets/gallery_images/installation-8.jpg"
+import image1_9 from "../assets/gallery_images/installation-9.jpg"
+import image1_10 from "../assets/gallery_images/installation-10.jpg"
+import image1_11 from "../assets/gallery_images/installation-11.jpg"
+import image1_12 from "../assets/gallery_images/installation-12.jpg"
+import image1_13 from "../assets/gallery_images/installation-13.jpg"
 
-// Polishing images
-import image2_1 from "../assets/gallery_images/2_1";
-import image2_2 from "../assets/gallery_images/2_2";
-import image2_3 from "../assets/gallery_images/2_3";
-import image2_4 from "../assets/gallery_images/2_4";
-import image2_5 from "../assets/gallery_images/2_5";
+// Expansion
+import image2_1 from "../assets/gallery_images/expansion-1.jpg"
+import image2_2 from "../assets/gallery_images/expansion-2.jpg"
+import image2_3 from "../assets/gallery_images/expansion-3.jpg"
+import image2_4 from "../assets/gallery_images/expansion-4.jpg"
+import image2_5 from "../assets/gallery_images/expansion-5.jpg"
+import image2_6 from "../assets/gallery_images/expansion-6.jpg"
+import image2_7 from "../assets/gallery_images/expansion-7.jpg"
+import image2_8 from "../assets/gallery_images/expansion-8.jpg"
 
-// Refurbishing
-import image3_1 from "../assets/gallery_images/3_1";
-import image3_2 from "../assets/gallery_images/3_2";
+// Renovation
+import image3_1 from "../assets/gallery_images/renovation-1.jpg"
+import image3_2 from "../assets/gallery_images/renovation-2.jpg"
+import image3_3 from "../assets/gallery_images/renovation-3.jpg"
+import image3_4 from "../assets/gallery_images/renovation-4.jpg"
+
+// Maintenance
+import image4_1 from "../assets/gallery_images/maintenance-1.jpg"
+import image4_2 from "../assets/gallery_images/maintenance-2.jpg"
+import image4_3 from "../assets/gallery_images/maintenance-3.jpg"
+
+// galleryImages
 
 export const galleryImages = [
     {"src": image1_1, "category": "installation", "title": "","description": ""},
@@ -46,19 +50,19 @@ export const galleryImages = [
     {"src": image1_11, "category": "installation", "title": "","description": ""},
     {"src": image1_12, "category": "installation", "title": "","description": ""},
     {"src": image1_13, "category": "installation", "title": "","description": ""},
-    {"src": image1_14, "category": "installation", "title": "","description": ""},
-    {"src": image1_15, "category": "installation", "title": "","description": ""},
-    {"src": image1_16, "category": "installation", "title": "","description": ""},
-    {"src": image1_17, "category": "installation", "title": "","description": ""},
-    {"src": image1_18, "category": "installation", "title": "","description": ""},
-    {"src": image1_19, "category": "installation", "title": "","description": ""},
-    {"src": image1_20, "category": "installation", "title": "","description": ""},
-    {"src": image1_21, "category": "installation", "title": "","description": ""},
-    {"src": image2_1, "category": "polishing", "title": "","description": ""},
-    {"src": image2_2, "category": "polishing", "title": "","description": ""},
-    {"src": image2_3, "category": "polishing", "title": "","description": ""},
-    {"src": image2_4, "category": "polishing", "title": "","description": ""},
-    {"src": image2_5, "category": "polishing", "title": "","description": ""},
-    {"src": image3_1, "category": "refurbishing", "title": "","description": ""},
-    {"src": image3_2, "category": "refurbishing", "title": "","description": ""},
-];
+    {"src": image2_1, "category": "expansion", "title": "","description": ""},
+    {"src": image2_2, "category": "expansion", "title": "","description": ""},
+    {"src": image2_3, "category": "expansion", "title": "","description": ""},
+    {"src": image2_4, "category": "expansion", "title": "","description": ""},
+    {"src": image2_5, "category": "expansion", "title": "","description": ""},
+    {"src": image2_6, "category": "expansion", "title": "","description": ""},
+    {"src": image2_7, "category": "expansion", "title": "","description": ""},
+    {"src": image2_8, "category": "expansion", "title": "","description": ""},
+    {"src": image3_1, "category": "renovation", "title": "","description": ""},
+    {"src": image3_2, "category": "renovation", "title": "","description": ""},
+    {"src": image3_3, "category": "renovation", "title": "","description": ""},
+    {"src": image3_4, "category": "renovation", "title": "","description": ""},
+    {"src": image4_1, "category": "maintenance", "title": "","description": ""},
+    {"src": image4_2, "category": "maintenance", "title": "","description": ""},
+    {"src": image4_3, "category": "maintenance", "title": "","description": ""},
+]

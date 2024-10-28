@@ -1,9 +1,12 @@
 import { useRef, memo } from "react"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
+import { useTranslation } from "react-i18next"
 import PropTypes from "prop-types"
 import "./partmemb.css"
 
 const Partmemb = memo(function Partmemb({items, targetClick}) {
+
+    const {t} = useTranslation()
 
     const partCarousel = useRef()
     const membCarousel = useRef()
@@ -29,9 +32,9 @@ const Partmemb = memo(function Partmemb({items, targetClick}) {
 
     return (
     <>
-    <div className="partmemb-buttons">
-        <button className="partmemb-button" onClick={handleLeftClick} ><FaChevronLeft /></button>
-        <button className="partmemb-button" onClick={handleRightClick} ><FaChevronRight /></button>
+    <div className="carousel-buttons">
+        <button className="carousel-button btn--primary" aria-label={t(`carouselBtnAriaLabel.left`)} onClick={handleLeftClick} ><FaChevronLeft /></button>
+        <button className="carousel-button btn--primary" aria-label={t(`carouselBtnAriaLabel.right`)} onClick={handleRightClick} ><FaChevronRight /></button>
     </div>
     <div className="partmemb-items" ref={targetClick === "partners" ? partCarousel : membCarousel} >
         {

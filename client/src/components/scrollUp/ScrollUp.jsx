@@ -1,10 +1,17 @@
 import { useState, useEffect, memo } from "react"
 import { FaArrowUp } from "react-icons/fa"
+import { useTranslation } from "react-i18next"
 import "./scrollUp.css"
 
 const ScrollUp = memo(function ScrollUp() {
 
     const [isPageOnScroll, setIsPageOnScroll] = useState(false)
+
+    const {t} = useTranslation()
+
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
 
     useEffect(() => {
         function handlePageOnScroll() {
@@ -15,17 +22,13 @@ const ScrollUp = memo(function ScrollUp() {
             window.removeEventListener("scroll", handlePageOnScroll)
         }
     }, [])
-
-    const handleScrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" })
-    }
     
     return (
         <>
         {
             isPageOnScroll && 
-            <button className="up-control" onClick={handleScrollToTop} >
-                <span className="control__icon"><FaArrowUp /></span>
+            <button className="scrollup" onClick={handleScrollToTop} aria-label={t(`scrollUpAriaLabel`)} >
+                <span className="scrollup__icon"><FaArrowUp /></span>
             </button>
         }
         </>

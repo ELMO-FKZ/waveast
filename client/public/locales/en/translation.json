@@ -1,0 +1,195 @@
+{
+    "nav": {
+        "logoLabel": "go home",
+        "navLinks": [
+            "home",
+            "about us",
+            "services",
+            "projects",
+            "contact us"
+        ],
+        "darkInputAriaLabel": "dark mode switcher",
+        "langIconAriaLabel": "Switch the language"
+    }, 
+    "footer": {
+        "information": "Information",
+        "about": "About us",
+        "contact": "Contact us",
+        "expertise": "Our expertise",
+        "services": "Services",
+        "projects": "Projects",
+        "follow": "Follow us",
+        "LinkedInAriaLabel": "LinkedIn account link",
+        "InstagramAriaLabel": "Instagram account link",
+        "FacebookAriaLabel": "Facebook account link",
+        "TwitterAriaLabel": "Twitter account link"
+    },
+    "scrollUpAriaLabel": "scroll up",
+    "landing": {
+        "subTitle": "Riding the Waves of Exceptional Installations and Water Park Services",
+        "button": "Explore Our Catalog"
+    },
+    "statistics": [
+        "Years of experience",
+        "Completed projects",
+        "Countries we worked in",
+        "continents we worked in"
+    ],
+    "carouselBtnAriaLabel": {
+        "left": "Scroll left",
+        "right": "Scroll Right"
+    },
+    "services": [
+        {"title":"Installation", "content": "Both “Only supervisor” or “ Full Scope Installation” services with our skilled and expert engineers, technicians and installers."},
+        {"title":"Expansion", "content": "Advising and supplying expansion parts for the current parks."},
+        {"title":"Renovation", "content": "Renewing the old parks with multiple solutions."},
+        {"title":"Maintenance", "content": "Periodical maintenance, re-painting ,re-locating services with our talented technicians and repairment."},
+        {"title": "Engineering", "content": "Design and calculations of the structures according to European Norms."},
+        {"title":"Consulting", "content": "Solving the troubles and advicing for new oppprtunities in the parks."}
+    ],
+    "sectionHeadings": {
+        "services": {"title": "Services", "subTitle": "comprehensive services for every need"},
+        "projects": {"title": "Projects", "subTitle": "our projects presence across the globe"},
+        "faqs": {"title": "F.A.Q.", "subTitle": "Frequently asked questions"},
+        "newsletter": {"title": "Newsletter", "subTitle": "Be the first one to know"}
+    },
+    "faqs": {
+        "accordion": [
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."}
+        ],
+        "showBtn": "Show more"
+    },
+    "newsLetter": {
+        "placeHolder": "Enter you email",
+        "subscribeBtn": "Subscribe",
+        "error": {
+            "requiredEmail": "Email is required",
+            "validEmail": "Enter a valid email"
+        },
+        "modal": {
+            "success": {
+                "title": "Welcome to Our Community!", 
+                "message": "Thank you for subscribing to our newsletter! You’re now on the list to receive the latest updates, and insights directly to your inbox."
+            },
+            "error": {
+                "title": "Oops! Something Went Wrong",
+                "message": "Unfortunately, we were unable to process your subscription at this time. Please check your email address and try again. If you continue to experience issues, don’t hesitate to contact us for assistance. Thank you for your understanding!"
+            },
+            "okayBtn": "Okay"
+        }
+    },
+    "whyWe": [
+        {"title":"Experience", "paragraph":"Our entire staff has over ten years of expertise in the industry."},
+        {"title":"Customer Care", "paragraph":"We provide online customer service 24 hours a day, seven days a week, and we are a customer-focused, customer-satisfaction-oriented organization."},
+        {"title":"Know How", "paragraph":"With our skilled team, we are constantly ready to offer fresh ideas and consultation to our consumers."},
+        {"title":"Quality", "paragraph":"Our products, services, and materials are all of the highest quality."},
+        {"title":"Competitive Prices", "paragraph":"We provide high-quality service at reasonable prices."},
+        {"title":"Warranty", "paragraph":"Our services and goods are covered by a variety of warranties."},
+        {"title":"Safety", "paragraph":"Our top goal is the health and safety of people and the environment, as well as the long-term durability of our products."}
+    ],
+    "iaapaAlt": "IAAPA member logo",
+    "basenprofAlt": "BASENPROF member logo",
+    "isabaAlt": "ISABA partner logo",
+    "apexAlt": "APEX partner logo",
+    "pageTitles": {
+        "about": "Who we are?",
+        "services": "Our services",
+        "projects": "We've been in...",
+        "contact": "Get in touch"
+    },
+    "specialHeadings": {
+        "whyWe": "Why we?",
+        "visionMissionValues": "Our vision, mission and values",
+        "people": "Our people",
+        "partners": "Our partners",
+        "memberships": "Our memberships",
+        "waterParkServices": "Water park services",
+        "waterParkInstallation": "Water park installation"
+    },
+    "companyVision": {
+        "title":"Vision",
+        "paragraph": "To become the most successful and recognised after-sales service company in the waterpark industry on a global scale."
+    },
+    "companyMission": {
+        "title": "Mission",
+        "paragraph": "Waveast strives to meet its client's needs and safety with the greatest quality at reasonable rates, thanks to its highly qualified technical team."
+    },
+    "companyValues": {
+        "title": "Values",
+        "paragraph": ["Responsiblity", "Professionalism", "Reliability", "Team work", "Quality", "Excellence"]
+    },
+    "companyPeople": [
+        "Waveast Installation & Park Services was founded by two engineers with over ten years of industry experience. Additionally, Waveast has a global presence due to its dynamic technical team and strategic alliances with partners worldwide.",
+        "With a customer-focused after-sales team and competent designers and engineers, Waveast strives to provide the best service possible to its clients."
+    ],
+    "aboutCompany": [
+        "Waveast Installation & Park Services is a leading company based in Warsaw, Poland, specializing in a wide range of services for amusement items and water parks. Since our establishment, we have been dedicated to providing exceptional engineering, installation, maintenance, expansion, renovation, and consultancy services.",
+        "Waveast, we take pride in our ability to cater to diverse clients, including hotels, waterparks, and individuals. Our skilled team excels in constructing various types of swimming pools and decorative pools, offering comprehensive solutions that include circulation, filtration, and all mechanical and electrical systems.",
+        "In addition to our exceptional services, Waveast also provides a wide selection of high-quality composite materials and plastic raw materials that meet industry standards. We understand the importance of using reliable and durable materials in every project. Moreover, our team of professional and talented engineers and technicians is committed to fulfilling our customers; requests with expertise and dedication."
+    ],
+    "servicesCompany": [
+        "Waveast Installation & Park Services is a leading provider of comprehensive services for amusement items and water parks. With a strong commitment to excellence, we specialize in delivering exceptional engineering, installation, maintenance, expansion, renovation, and consultancy services."
+    ],
+    "projectsCompany": [
+        "Waveast Installation & Park Services has successfully completed numerous projects around the world, showcasing our expertise in creating exceptional amusement items and water parks. Our global presence reflects our commitment to excellence and our ability to meet diverse client needs across various environments."
+    ],
+    "contactCompany": "For all inquiries, use the contact form or reach out directly using the contact information provided below.",
+    "projectsPlaces": {
+        "seville": "Seville, Spain",
+        "antalya": "Antalya, Turkey",
+        "tirana": "Tirana, Albania",
+        "chisinau": "Chisinau, Moldova",
+        "baghdad": "Baghdad, Iraq",
+        "pattaya": "Pattaya, Thailand",
+        "arandjelovac": "Arandjelovac, Serbia",
+        "babilon": "Babilon, Iraq",
+        "wrecza": "Wrecza, Poland",
+        "quatreCocos": "Quatre Cocos, Mauritius",
+        "izmir": "Izmir, Turkey",
+        "coventry": "Coventry, England"
+    },
+    "contact": {
+        "contactInfo": {
+            "address": "Address",
+            "email": "Email",
+            "phone": "Phone"
+        },
+        "contactForm": {
+            "fullName": {"label": "Full name", "placeholder": "Enter your full name"},
+            "email": {"label": "Email", "placeholder": "Enter your email"},
+            "subject": {"label": "Subject", "placeholder": "Enter the subject"},
+            "message": {"label": "Message", "placeholder": "Enter your message"},
+            "submitBtn": "Submit"
+        },
+        "error": {
+            "requiredName": "Full name is required",
+            "validName": "Enter a valid full name",
+            "requiredEmail": "Email is required",
+            "validEmail": "Enter a valid email",
+            "requiredSubject": "Subject is required",
+            "validSubject": "Subject must be at least two characters",
+            "requiredMessage": "Message is required",
+            "validMessage": "Message must be at least two characters"
+        },
+        "modal": {
+            "success": {
+                "title": "Thank You for Reaching Out!", 
+                "message": "Your message has been sent successfully. We appreciate your interest and will get back to you as soon as possible."
+            },
+            "error": {
+                "title": "Oops! Something Went Wrong",
+                "message": "We encountered an error while trying to send your message. Please try again or reach out to us directly via our contact information."
+            },
+            "okayBtn": "Okay"
+        }
+    }
+}

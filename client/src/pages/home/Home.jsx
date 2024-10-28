@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async"
 import Landing from "../../components/landing/Landing"
 import ServicesMain from "../../components/servicesMain/ServicesMain"
 import Statistics from "../../components/statistics/Statistics"
-import WorldMap from "../../components/worldMap/WorldMap"
+import ProjectsMain from "../../components/projectsMain/ProjectsMain"
 import Faqs from "../../components/faqs/Faqs"
 import NewsLetter from "../../components/newsLetter/NewsLetter"
 
@@ -18,7 +18,7 @@ function Home() {
         <Landing />
         <Statistics />
         <ServicesMain />
-        <WorldMap />
+        <ProjectsMain />
         <Faqs />
         <NewsLetter />
         </>

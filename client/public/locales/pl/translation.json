@@ -1,0 +1,195 @@
+{
+    "nav": {
+        "logoLabel": "wróć do domu",
+        "navLinks": [
+            "strona główna",
+            "o nas",
+            "usługi",
+            "projekty",
+            "skontaktuj się z nami"
+        ],
+        "darkInputAriaLabel": "przełącznik trybu ciemnego",
+        "langIconAriaLabel": "Zmień język"
+    }, 
+    "footer": {
+        "information": "Informacje",
+        "about": "O nas",
+        "contact": "Skontaktuj się z nami",
+        "expertise": "Nasza wiedza",
+        "services": "Usługi",
+        "projects": "Projekty",
+        "follow": "Śledź nas",
+        "LinkedInAriaLabel": "Link do konta LinkedIn",
+        "InstagramAriaLabel": "Link do konta Instagram",
+        "FacebookAriaLabel": "Link do konta Facebook",
+        "TwitterAriaLabel": "Link do konta Twitter"
+    },
+    "scrollUpAriaLabel": "Przewiń w górę",
+    "landing": {
+        "subTitle": "Fala wyjątkowych instalacji i usług parków wodnych",
+        "button": "Zbadaj Nasz Katalog"
+    },
+    "statistics": [
+        "Lata doświadczenia",
+        "Zrealizowane projekty",
+        "Kraje, w których pracowaliśmy",
+        "kontynenty, na których pracowaliśmy"
+    ],
+    "carouselBtnAriaLabel": {
+        "left": "Przewiń w lewo",
+        "right": "Przewiń w prawo"
+    },
+    "services": [
+        {"title":"Instalacja", "content": "Usługi „Tylko nadzorca” lub „Pełna instalacja” z naszymi wykwalifikowanymi i doświadczonymi inżynierami, technikami i instalatorami."},
+        {"title":"Rozbudowa", "content": "Doradztwo i dostarczanie części do rozbudowy dla obecnych parków."},
+        {"title":"Renowacja", "content": "Odnowienie starych parków za pomocą różnych rozwiązań."},
+        {"title":"Konserwacja", "content": "Okresowa konserwacja, malowanie, usługi relokacji z naszymi utalentowanymi technikami i serwisantami."},
+        {"title": "Inżynieria", "content": "Projektowanie i obliczenia struktur zgodnie z normami europejskimi."},
+        {"title":"Doradztwo", "content": "Rozwiązywanie problemów i doradztwo w zakresie nowych możliwości w parkach."}
+    ],
+    "sectionHeadings": {
+        "services": {"title": "Usługi", "subTitle": "kompleksowe usługi dla każdego potrzeb"},
+        "projects": {"title": "Projekty", "subTitle": "nasza obecność projektów na całym świecie"},
+        "faqs": {"title": "F.A.Q.", "subTitle": "Najczęściej zadawane pytania"},
+        "newsletter": {"title": "Newsletter", "subTitle": "Bądź pierwszym, który się dowie"}
+    },
+    "faqs": {
+        "accordion": [
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "PL: Lorem ipsum dolor sit amet?", "answer": "PL: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."}
+        ],
+        "showBtn": "Pokaż więcej"
+    },
+    "newsLetter": {
+        "placeHolder": "Wprowadź swój email",
+        "subscribeBtn": "Subskrybuj",
+        "error": {
+            "requiredEmail": "Email jest wymagany",
+            "validEmail": "Wprowadź prawidłowy email"
+        },
+        "modal": {
+            "success": {
+                "title": "Witamy w naszej społeczności!",
+                "message": "Dziękujemy za zapisanie się do naszego newslettera! Jesteś teraz na liście, aby otrzymywać najnowsze aktualizacje i informacje bezpośrednio na swoją skrzynkę odbiorczą."
+            },
+            "error": {
+                "title": "Ups! Coś poszło nie tak",
+                "message": "Niestety, nie mogliśmy przetworzyć Twojego subskrypcji w tym momencie. Proszę sprawdź swój adres e-mail i spróbuj ponownie. Jeśli nadal występują problemy, nie wahaj się z nami skontaktować w celu uzyskania pomocy. Dziękujemy za zrozumienie!"
+            },
+            "okayBtn": "w porządku"
+        }
+    },
+    "whyWe": [
+        {"title":"Doświadczenie", "paragraph":"Nasz cały personel ma ponad dziesięcioletnie doświadczenie w branży."},
+        {"title":"Obsługa Klienta", "paragraph":"Oferujemy obsługę klienta online 24 godziny na dobę, 7 dni w tygodniu, i jesteśmy organizacją skoncentrowaną na kliencie i zorientowaną na satysfakcję klienta."},
+        {"title":"Wiedza", "paragraph":"Dzięki naszemu wykwalifikowanemu zespołowi jesteśmy zawsze gotowi oferować nowe pomysły i konsultacje naszym klientom."},
+        {"title":"Jakość", "paragraph":"Nasze produkty, usługi i materiały są najwyższej jakości."},
+        {"title":"Konkurencyjne Ceny", "paragraph":"Oferujemy usługi wysokiej jakości w rozsądnych cenach."},
+        {"title":"Gwarancja", "paragraph":"Nasze usługi i towary są objęte różnymi gwarancjami."},
+        {"title":"Bezpieczeństwo", "paragraph":"Naszym najwyższym priorytetem jest zdrowie i bezpieczeństwo ludzi oraz środowiska, a także długoterminowa trwałość naszych produktów."}
+    ],
+    "iaapaAlt": "Logo członka IAAPA",
+    "basenprofAlt": "Logo członka BASENPROF",
+    "isabaAlt": "Logo partnera ISABA",
+    "apexAlt": "Logo partnera APEX",
+    "pageTitles": {
+        "about": "Kim jesteśmy?",
+        "services": "Nasze usługi",
+        "projects": "Byliśmy w...",
+        "contact": "Skontaktuj się z nami"
+    },
+    "specialHeadings": {
+        "whyWe": "Dlaczego my?",
+        "visionMissionValues": "Nasza wizja, misja i wartości",
+        "people": "Nasi ludzie",
+        "partners": "Nasi partnerzy",
+        "memberships": "Nasze członkostwa",
+        "waterParkServices": "Usługi parku wodnego",
+        "waterParkInstallation": "Instalacja parku wodnego"
+    },
+    "companyVision": {
+        "title":"Wizja",
+        "paragraph": "Stać się najbardziej udaną i rozpoznawalną firmą serwisową w branży parków wodnych na skalę globalną."
+    },
+    "companyMission": {
+        "title": "Misja",
+        "paragraph": "Waveast dąży do zaspokojenia potrzeb i bezpieczeństwa swoich klientów, oferując najwyższą jakość w rozsądnych cenach, dzięki wysoko wykwalifikowanemu zespołowi technicznemu."
+    },
+    "companyValues": {
+        "title": "Wartości",
+        "paragraph": ["Odpowiedzialność", "Profesjonalizm", "Niezawodność", "Praca zespołowa", "Jakość", "Doskonałość"]
+    },
+    "companyPeople": [
+        "Waveast Installation & Park Services została założona przez dwóch inżynierów z ponad dziesięcioletnim doświadczeniem w branży. Dodatkowo, Waveast ma globalną obecność dzięki swojemu dynamicznemu zespołowi technicznemu i strategicznym sojuszom z partnerami na całym świecie.",
+        "Z zespołem obsługi posprzedażowej skoncentrowanym na kliencie oraz kompetentnymi projektantami i inżynierami, Waveast dąży do zapewnienia jak najlepszej obsługi swoim klientom."
+    ],
+    "aboutCompany": [
+        "Waveast Installation & Park Services to wiodąca firma z siedzibą w Warszawie, Polska, specjalizująca się w szerokim zakresie usług dla obiektów rekreacyjnych i parków wodnych. Od momentu założenia, jesteśmy zaangażowani w świadczenie wyjątkowych usług inżynieryjnych, instalacyjnych, konserwacyjnych, rozbudowy, renowacji i doradztwa.",
+        "W Waveast jesteśmy dumni z naszej zdolności do obsługi różnorodnych klientów, w tym hoteli, parków wodnych i osób prywatnych. Nasz wykwalifikowany zespół doskonale radzi sobie z budową różnych typów basenów i basenów dekoracyjnych, oferując kompleksowe rozwiązania, które obejmują cyrkulację, filtrację oraz wszystkie systemy mechaniczne i elektryczne.",
+        "Oprócz naszych wyjątkowych usług, Waveast oferuje również szeroki wybór wysokiej jakości materiałów kompozytowych i surowców plastikowych, które spełniają normy branżowe. Rozumiemy znaczenie stosowania niezawodnych i trwałych materiałów w każdym projekcie. Co więcej, nasz zespół profesjonalnych i utalentowanych inżynierów oraz techników zobowiązuje się do spełniania oczekiwań naszych klientów z fachowością i zaangażowaniem."
+    ],
+    "servicesCompany": [
+        "Waveast Installation & Park Services jest wiodącym dostawcą kompleksowych usług dla obiektów rozrywkowych i parków wodnych. Z silnym zaangażowaniem w doskonałość specjalizujemy się w świadczeniu wyjątkowych usług inżynieryjnych, instalacyjnych, konserwacyjnych, rozbudowy, renowacji i doradztwa."
+    ],
+    "projectsCompany": [
+        "Waveast Installation & Park Services z powodzeniem zrealizowało liczne projekty na całym świecie, prezentując nasze doświadczenie w tworzeniu wyjątkowych obiektów rozrywkowych i parków wodnych. Nasza obecność na rynku globalnym odzwierciedla naszą zdolność do zaspokajania różnych potrzeb klientów w różnych środowiskach."
+    ],
+    "contactCompany": "Wszystkie zapytania prosimy kierować za pomocą formularza kontaktowego lub bezpośrednio, korzystając z poniższych informacji kontaktowych.",
+    "projectsPlaces": {
+        "seville": "Sewilla, Hiszpania",
+        "antalya": "Antalya, Turcja",
+        "tirana": "Tirana, Albania",
+        "chisinau": "Kiszyniów, Mołdawia",
+        "baghdad": "Bagdad, Irak",
+        "pattaya": "Pattaya, Tajlandia",
+        "arandjelovac": "Arandjelovac, Serbie",
+        "babilon": "Babilon, Irak",
+        "wrecza": "Wrecza, Polska",
+        "quatreCocos": "Quatre Cocos, Mauritius",
+        "izmir": "Izmir, Turcja",
+        "coventry": "Coventry, Anglia"
+    },
+    "contact": {
+        "contactInfo": {
+            "address": "Adres",
+            "email": "Email",
+            "phone": "Telefon"
+        },
+        "contactForm": {
+            "fullName": {"label": "Pełne imię", "placeholder": "Wprowadź swoje pełne imię"},
+            "email": {"label": "Email", "placeholder": "Wprowadź swój email"},
+            "subject": {"label": "Temat", "placeholder": "Wprowadź temat"},
+            "message": {"label": "Wiadomość", "placeholder": "Wprowadź swoją wiadomość"},
+            "submitBtn": "Wyślij"
+        },
+        "error": {
+            "requiredName": "Pełne imię i nazwisko jest wymagane",
+            "validName": "Wprowadź prawidłowe pełne imię i nazwisko",
+            "requiredEmail": "Email jest wymagany",
+            "validEmail": "Wprowadź prawidłowy email",
+            "requiredSubject": "Temat jest wymagany",
+            "validSubject": "Temat musi mieć co najmniej dwa znaki",
+            "requiredMessage": "Wiadomość jest wymagana",
+            "validMessage": "Wiadomość musi mieć co najmniej dwa znaki"
+        },
+        "modal": {
+            "success": {
+                "title": "Dziękujemy za kontakt!",
+                "message": "Twoja wiadomość została pomyślnie wysłana. Doceniamy Twoje zainteresowanie i skontaktujemy się z Tobą tak szybko, jak to możliwe."
+            },
+            "error": {
+                "title": "Ups! Coś poszło nie tak",
+                "message": "Napotkaliśmy błąd podczas próby wysłania Twojej wiadomości. Proszę spróbuj ponownie lub skontaktuj się z nami bezpośrednio za pomocą naszych danych kontaktowych."
+            },
+            "okayBtn": "w porządku"
+        }
+    }
+}

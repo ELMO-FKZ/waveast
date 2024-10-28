@@ -6,12 +6,12 @@ import Renovation from "../components/svg/Renovation";
 import Consulting from "../components/svg/Consulting";
 
 const servicesItems = [
-    {id: 1, icon: <Engineering />, title: "Engineering", content: "Design and calculations of the structures according to European Norms."},
-    {id: 2, icon: <Installation />, title:"Installation", content: "Both “Only supervisor” or “ Full Scope Installation” services with our skilled and expert engineers, technicians and installers."},
-    {id: 3, icon: <Maintenance />, title:"Maintenance", content: "Periodical maintenance, re-painting ,re-locating services with our talented technicians and repairment."},
-    {id: 4, icon: <Expansion/>, title:"Expansion", content: "Advising and supplying expansion parts for the current parks."},
-    {id: 5, icon: <Renovation/>, title:"Renovation", content: "Renewing the old parks with multiple solutions."},
-    {id: 6, icon: <Consulting/>, title:"Consulting", content: "Solving the troubles and advicing for new oppprtunities in the parks."}
+    {id: 1, icon: <Installation />, titleKey: "services.0.title", contentKey: "services.0.content"},
+    {id: 2, icon: <Expansion/>, titleKey: "services.1.title", contentKey: "services.1.content"},
+    {id: 3, icon: <Renovation/>, titleKey: "services.2.title", contentKey: "services.2.content"},
+    {id: 4, icon: <Maintenance />, titleKey: "services.3.title", contentKey: "services.3.content"},
+    {id: 5, icon: <Engineering />, titleKey: "services.4.title", contentKey: "services.4.content"},
+    {id: 6, icon: <Consulting/>, titleKey: "services.5.title", contentKey: "services.5.content"}
 ];
 
 export default servicesItems;

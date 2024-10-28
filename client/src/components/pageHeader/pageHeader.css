@@ -18,8 +18,7 @@ background-color: var(--primary-blue);
 opacity: 0.8;}
     .page-header__heading {
     position: relative;
-    z-index: 2;
-    }
+    z-index: 2; }
     .waves__static {
     display: block;
     position: absolute;
@@ -30,5 +29,3 @@ opacity: 0.8;}
     max-height: 9rem; }
         .parallax__static > use:nth-child(1) {
         transform: translateX(9px); }
-
-    

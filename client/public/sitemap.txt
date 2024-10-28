@@ -3,3 +3,13 @@ https://waveast.pl/about
 https://waveast.pl/services
 https://waveast.pl/projects
 https://waveast.pl/contact
+
+
+# 1- After hosting, go to Google search console.
+# 2- paste the URl of your website.
+# 3- Choose the validation method of HTML tag: copy the HTML tag and paste it in your index.html file along with the mega tags.
+# 4- wait few minutes that the website will get redeployed then click on verify.
+# 5- Go to sitemaps and paste th URl of your sitemap: https://waveast.pl/sitemap.txt
+
+
+# Don't put anything other than URLs in the sitemap file.

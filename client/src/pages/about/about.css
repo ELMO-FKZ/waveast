@@ -16,7 +16,7 @@ margin-top: 5rem; }
         .reason__number {
         width: 3rem;
         height: 3rem;
-        background-color: var(--yellow-color);
+        background-color: var(--tertiary-blue);
         display: grid;
         place-items: center; }
         .reason__content {
@@ -35,11 +35,11 @@ margin: 0 auto; }
     padding: 6rem 2rem 2rem;
     margin-top: 4rem;
     border-radius: 0.4rem;
-    border: 1px solid var(--yellow-color);
-    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-blue);
+    background-color: var(--primary-background-color);
     transition: all var(--main-duration) ease; }
     .statement:hover { 
-    background-color: var(--yellow-color);
+    background-color: var(--tertiary-blue);
     box-shadow: var(--shadow-color) 0px 10px 30px -20px; }
     .statement:hover .statement__icon {
     box-shadow: var(--shadow-color) 0px 10px 30px -20px; }
@@ -52,7 +52,8 @@ margin: 0 auto; }
         height: 8rem;
         padding: 2rem;
         border-radius: 50%;
-        background-color: var(--yellow-color); }
+        background-color: var(--tertiary-blue);
+        border: 1px solid var(--secondary-blue); }
             .statement__icon svg {
             display: block;
             height: 100%;

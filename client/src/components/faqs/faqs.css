@@ -3,7 +3,7 @@ text-align: justify;
 max-width: 70rem;
 margin: 0 auto; }
         .faq {
-        border: solid 1px var(--yellow-color);
+        border: solid 1px var(--secondary-blue);
         border-radius: 0.4rem; }
         .faq:not(:last-child) {margin-bottom: 0.5rem; }
         .faq__question {
@@ -16,10 +16,10 @@ margin: 0 auto; }
         transition: all var(--main-duration) ease; }
         .faq__question--clicked {
         color: var(--primary-blue);
-        background-color: var(--yellow-color); }
+        background-color: var(--tertiary-blue); }
         .faq__question:hover {
         color: var(--primary-blue);
-        background-color: var(--yellow-color); }
+        background-color: var(--tertiary-blue); }
                 .faq__icon--hide {
                 display: none; }
         .faq__answer {

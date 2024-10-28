@@ -17,6 +17,6 @@ z-index: 1; }
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
-    background-color: var(--yellow-color);
+    background-color: var(--secondary-blue);
     transform: translate(-50%, -25%);
     z-index: -1; }

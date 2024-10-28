@@ -1,14 +1,50 @@
+import React from "react"
 import { Helmet } from "react-helmet-async"
 import { FaEye, FaHandshake, FaBullseye } from "react-icons/fa"
+import { useTranslation } from "react-i18next"
+import { wrapCompanyName } from "../../utils/wrapCompanyName"
 import PageHeader from "../../components/pageHeader/PageHeader"
 import SpecialHeadingTwo from "../../components/specialHeadingTwo/SpecialHeadingTwo"
-import reasons from "../../data/reasons"
-import "./about.css"
 import Partmemb from "../../components/partmemb/Partmemb"
-import partners from "../../data/partners"
-import memberships from "../../data/memberships"
+import iaapa from "../../assets/IAAPAMember.png"
+import basenprof from "../../assets/basenprof.png"
+import isaba from "../../assets/isaba.jpg"
+import apex from "../../assets/Apex.jpg"
+import "./about.css"
+
+const memberships = [
+    {id: 1, src: iaapa, altKey: "iaapaAlt"},
+    {id: 2, src: basenprof, altKey: "basenprofAlt"}
+]
+
+const partners = [
+    {id: 1, src: isaba, altKey: "isabaAlt"},
+    {id: 2, src: apex, altKey: "apexAlt"},
+]
+
+const reasons = [
+    {id: 1, titleKey:"whyWe.0.title", paragraphKey:"whyWe.0.paragraph"},
+    {id: 2, titleKey:"whyWe.1.title", paragraphKey:"whyWe.1.paragraph"},
+    {id: 3, titleKey:"whyWe.2.title", paragraphKey:"whyWe.2.paragraph"},
+    {id: 4, titleKey:"whyWe.3.title", paragraphKey:"whyWe.3.paragraph"},
+    {id: 5, titleKey:"whyWe.4.title", paragraphKey:"whyWe.4.paragraph"},
+    {id: 7, titleKey:"whyWe.5.title", paragraphKey:"whyWe.5.paragraph"},
+    {id: 8, titleKey:"whyWe.6.title", paragraphKey:"whyWe.6.paragraph"}
+]
+
+const values = [
+    {id: 1, valueKey: "companyValues.paragraph.0"},
+    {id: 2, valueKey: "companyValues.paragraph.1"},
+    {id: 3, valueKey: "companyValues.paragraph.2"},
+    {id: 4, valueKey: "companyValues.paragraph.3"},
+    {id: 5, valueKey: "companyValues.paragraph.4"},
+    {id: 6, valueKey: "companyValues.paragraph.5"}
+]
 
 function About() {
+
+    const {t} = useTranslation()
+
     return (
         <>
         <Helmet>
@@ -18,68 +54,63 @@ function About() {
                 content="Waveast Installation & Park Services is a leading company based in Warsaw, Poland, specializing in a wide range of services for amusement items and water parks. Since our establishment in 2021, we have been dedicated to providing exceptional engineering, installation, maintenance, expansion, renovation, and consultancy services." />
         </Helmet>
         <div className="about">
-            <PageHeader pageTitle="Who we are?" />
+            <PageHeader pageTitle={t(`pageTitles.about`)} />
             <div className="about__company container">
-                <p><span className="company-name">Waveast</span> Installation & Park Services is a leading company based in Warsaw, Poland, specializing in a wide range of services for amusement items and water parks. Since our establishment in 2021, we have been dedicated to providing exceptional engineering, installation, maintenance, expansion, renovation, and consultancy services.</p>
-                <p>At <span className="company-name">Waveast</span>, we take pride in our ability to cater to diverse clients, including hotels, waterparks, and individuals. Our skilled team excels in constructing various types of swimming pools and decorative pools, offering comprehensive solutions that include circulation, filtration, and all mechanical and electrical systems.</p>
-                <p>In addition to our exceptional services, <span className="company-name">Waveast</span> also provides a wide selection of high-quality composite materials and plastic raw materials that meet industry standards. We understand the importance of using reliable and durable materials in every project. Moreover, our team of professional and talented engineers and technicians is committed to fulfilling our customers&apos; requests with expertise and dedication.</p>
+                <p>{wrapCompanyName(t(`aboutCompany.0`))}</p>
+                <p>{wrapCompanyName(t(`aboutCompany.1`))}</p>
+                <p>{wrapCompanyName(t(`aboutCompany.2`))}</p>
             </div>
             <div className="section__padding container">
-                <SpecialHeadingTwo title="Why we?" />
+                <SpecialHeadingTwo title={t(`specialHeadings.whyWe`)} />
                 {reasons.map((reason) => (
                     <div className="reason__container" key={reason.id}>
                         <div className="reason__number">{reason.id}</div>
                         <div className="reason__content">
-                            <h3 className="reason__subtitle">{reason.title}</h3>
-                            <p className="reason__para">{reason.paragraph}</p>
+                            <h3 className="reason__subtitle">{t(reason.titleKey)}</h3>
+                            <p className="reason__para">{t(reason.paragraphKey)}</p>
                         </div>
                     </div>
                 ))}
             </div>
             <div className="section__padding container">
-                <SpecialHeadingTwo title="Our vision, mission and values" />
+                <SpecialHeadingTwo title={t(`specialHeadings.visionMissionValues`)} />
                 <div className="statements">
                     <div className="statement">
                         <div className="statement__icon"><FaEye /></div>
-                        <h3 className="statement__title">Vision</h3>
-                        <p className="statement__content">
-                            To become the most successful and recognised after-sales service company in the waterpark industry on a global scale.
-                        </p>
+                        <h3 className="statement__title">{t(`companyVision.title`)}</h3>
+                        <p className="statement__content">{t(`companyVision.paragraph`)}</p>
                     </div>
                     <div className="statement">
                         <div className="statement__icon"><FaBullseye /></div>
-                        <h3 className="statement__title">Mission</h3>
-                        <p className="statement__content">
-                        Waveast strives to meet its client&#39;s needs and safety with the greatest quality at reasonable rates, thanks to its highly qualified technical team.
-                        </p>
+                        <h3 className="statement__title">{t(`companyMission.title`)}</h3>
+                        <p className="statement__content">{t(`companyMission.paragraph`)}</p>
                     </div>
                     <div className="statement">
                         <div className="statement__icon"><FaHandshake /></div>
-                        <h3 className="statement__title">Values</h3>
+                        <h3 className="statement__title">{t(`companyValues.title`)}</h3>
                         <p className="statement__content">
-                            Responsiblity<br/>
-                            Professionalism<br/>
-                            Reliability<br/>
-                            Team work<br/>
-                            Quality<br/>
-                            Excellence<br />
+                            {values.map((value) => (
+                                <React.Fragment key={value.id}>
+                                    {t(value.valueKey)}<br/>
+                                </React.Fragment>
+                            ))}
                         </p>
                     </div>
                 </div>
             </div>
             <div className="section__padding container">
-                <SpecialHeadingTwo title="Our people" />
+                <SpecialHeadingTwo title={t(`specialHeadings.people`)} />
                 <div className="company__people">
-                    <p><span className="company-name">Waveast</span> Installation & Park Services was founded by two engineers with over ten years of industry experience. Additionally, <span className="company-name">Waveast</span> has a global presence due to its dynamic technical team and strategic alliances with partners worldwide.</p>
-                    <p>With a customer-focused after-sales team and competent designers and engineers, <span className="company-name">Waveast</span> strives to provide the best service possible to its clients.</p>
+                    <p>{wrapCompanyName(t(`companyPeople.0`))}</p>
+                    <p>{wrapCompanyName(t(`companyPeople.1`))}</p>
                 </div>
             </div>
             <div className="section__padding container">
-                <SpecialHeadingTwo title="Our partners" />
+                <SpecialHeadingTwo title={t(`specialHeadings.partners`)} />
                 <Partmemb items={partners} targetClick="partners" />
             </div>
             <div className="section__padding container section__margin-bottom">
-                <SpecialHeadingTwo title="Our memberships" />
+                <SpecialHeadingTwo title={t(`specialHeadings.memberships`)} />
                 <Partmemb items={memberships} targetClick="members" />
             </div>
         </div>

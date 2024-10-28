@@ -3,21 +3,45 @@
 \*------------------------*/
 
 :root  { 
---background-color: #fff; 
---text-color: #222;
-/* --logo-color: #80b3e1; */
+--primary-background-color: hsl(0, 0%, 100%);
+--secondary-background-color: hsl(0, 0%, 96%);
+--tertiary-background-color: hsl(0, 0%, 91%);
+
 --primary-blue: hsl(196, 100%, 32%);
+--secondary-blue: hsl(196, 33%, 86%);
+--tertiary-blue: hsl(196, 33%, 94%);
+--quaternary-blue: hsl(209, 61%, 69%);
+
+--text-color: hsl(0, 0%, 13%);
+
+--wave-one-color: rgba(255, 255, 255, 0.7);
+--wave-two-color: rgba(255, 255, 255, 0.5);
+--wave-three-color: rgba(255, 255, 255, 0.3);
+--wave-four-color: rgba(255, 255, 255, 1.0);
+
+--error-text-color: hsl(7, 76%, 44%); 
+
+--error-lighter-color: hsla(7, 76%, 44%, 0.966);
+--error-darker-color: hsla(7, 100%, 68%, 0.082);
+--valid-lighter-color: hsla(161, 98%, 34%);
+--valid-darker-color: hsla(161, 98%, 34%, 0.082);
+
+
+--thumb-color:hsl(210, 11%, 71%);
+--thumb-hover:hsl(210, 7%, 56%);
+
+/* --logo-color: #80b3e1; */
+
+/* --secondary-blue: hsl(196, 33%, 86%);  */
 --input-border-focus: hsl(196, 100%, 70%);
 --input-border: hsl(196, 100%, 80%);
 --input-background: hsl(196, 100%, 98%);
-/* --input-border: hsl(207 53% 86%); */
-/* --input-border-focus: hsl(207, 53%, 60%); */
-/* --yellow-color: #ffe066; */
-/* #f2f7fb */
---yellow-color: #D0E2E8;
---secondary-color: #F4F4F4;
---thumb-color:#adb5bd;
---thumb-hover:#868e96;
+/*
+--secondary-background-color: --grey-96%
+hsl(0deg 0% 90.98%
+
+*/
+--secondary-background-color: hsl(0, 0%, 96%);
 --green-toast:#22c55e;
 --green-feedback: #88c488;
 --red-feedback: #e28e8e;
@@ -29,6 +53,31 @@
 --main-duration : 0.3s;
 --primary-font: 'Montserrat', sans-serif;
 --secondary-font: 'Work Sans', sans-serif; } 
+
+.body--dark {
+  --primary-background-color: hsl(0, 0%, 20%);
+--secondary-background-color: hsl(0, 0%, 14%); 
+--tertiary-background-color: hsl(0, 0%, 18%);
+
+/* #80B2E0 */ /* hsl(196, 100%, 70%) */
+--primary-blue: hsl(209, 61%, 69%);
+--secondary-blue: hsl(195, 33%, 23%); 
+--tertiary-blue: hsl(196, 13%, 25%); 
+--quaternary-blue: hsl(196, 100%, 32%);
+
+
+--text-color: hsl(0, 0%, 95%); 
+
+--wave-one-color: rgba(51, 51, 51, 0.3);
+--wave-two-color: rgba(51, 51, 51, 0.5);
+--wave-three-color: rgba(51, 51, 51, 0.7);
+--wave-four-color: rgba(51, 51, 51, 1.0);
+
+--error-text-color: hsl(7, 100%, 76%);
+
+--thumb-color:hsl(0, 0%, 40%);
+--thumb-hover:hsl(0, 0%, 50%);
+}
 
 /*------------------------*\
 # GLOBAL RULES
@@ -51,7 +100,7 @@ font-size: 65%; } }
 
 body { 
 overflow-x: hidden;
-background-color: var(--background-color);
+background-color: var(--primary-background-color);
 font-size: 1.6rem;
 line-height: 1.15;
 font-family: var(--primary-font);
@@ -83,7 +132,7 @@ font-size: 3.2rem;
 line-height: 1.3;
 font-family: var(--secondary-font);
 font-weight: 600;
-color: var(--background-color); }
+color: var(--primary-background-color); }
 
 h2 {
 margin-bottom: 2rem;
@@ -103,7 +152,7 @@ line-height: 1.7; }
 width: 1rem; }
 
 ::-webkit-scrollbar-track {
-background-color: var(--background-color);
+background-color: var(--primary-background-color);
 border-radius: 10rem; }
 
 ::-webkit-scrollbar-thumb {
@@ -154,39 +203,34 @@ user-select: none; }
 
 .btn--primary {
 color: var(--text-color);
-background-color: var(--yellow-color);
+background-color: var(--secondary-blue);
 transition: all var(--main-duration) ease-in-out; }
 .btn--primary:hover {
-color: var(--background-color);
+color: var(--primary-background-color);
 background-color: var(--primary-blue); }
 
-.secondary__btn {
+.btn--secondary {
 color: var(--primary-blue);
-background-color: var(--background-color);
+background-color: var(--primary-background-color);
 margin-left: 1rem;
 transition: all var(--main-duration) ease-in-out; }
-.secondary__btn:hover {
+.btn--secondary:hover {
 color: var(--text-color); }
 
-.feedback-message {
-text-align: center; }
-  .feedback-message__icon {
-  font-size: 6rem; }
-  .feedback-message__icon--green {
-  color: var(--green-feedback); }
-  .feedback-message__icon--red {
-  color: var(--red-feedback); }
-  .feedback-message__icon--grey {
-  color: var(--thumb-color);}
-  .feedback-message__title {
-  margin-bottom: 2rem;
-  font-size: 2.4rem;
-  font-weight: 500; }
-  .feedback-message__title--down {
-  margin-top: 4rem; }
-  .feedback-message__link {
-  color: var(--primary-blue);
-  font-weight: 500; }
+.btn--active {
+background-color: var(--secondary-blue); }
+
+.carousel-buttons {
+margin-bottom: 2rem; }
+    .carousel-button {
+    display: inline-grid;
+    place-items: center;
+    width: 3rem;
+    height: 3rem; }
+    .carousel-button svg {
+    font-size: 2rem; }
+    .carousel-button:first-child {
+    margin-right: 2rem; }
 
 .section__padding {
 padding-top: var(--lg-section-padding-top); }
@@ -199,28 +243,44 @@ padding-top: var(--sm-section-padding-top); } }
 
 .section__margin-bottom {
 margin-bottom: 5.5rem; }
-
-.loader-container {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh; }
-  .loader {
-  border: 10px solid #F4F4F4;
-  border-top: 10px solid #008DC3;
-  border-radius: 50%;
-  width: 8rem;
-  height: 8rem;
-  animation: spin 2s linear infinite; }
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }}
-
+@media (max-width: 61.9375em) { 
+.section__margin-bottom {
+margin-bottom: 4.5rem; } }
+@media (max-width: 47.9375em) { 
+.section__margin-bottom {
+margin-bottom: 3.5rem; } }
 
 .jvectormap-container path {
 fill: var(--primary-blue); }
 
 .company-name {
-font-size: 600;
 font-weight: 600;
 color: var(--primary-blue); }
+
+.modal__backdrop {
+position: fixed;
+z-index: 100;
+display: grid;
+place-items: center;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: var(--overlay-color); }
+  .modal__box {
+    background-color: var(--primary-background-color);
+    border-radius: 0.4rem;
+    border: 1px solid var(--tertiary-background-color);
+    box-shadow: var(--shadow-color) 0px 10px 30px -20px;
+    margin-inline: 2rem;
+    padding: 2rem;
+    max-width: 70rem;
+    text-align: center; }
+        .modal__title {
+        color: var(--primary-blue);
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin-bottom: 2rem; }
+        .modal__text {
+        font-size: 1.8rem;
+        margin-bottom: 2rem; }

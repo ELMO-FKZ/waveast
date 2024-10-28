@@ -16,7 +16,7 @@ grid-template-columns: repeat(4, 1fr); } }
     user-select: none;
     transition: all var(--main-duration) ease; }
     .statistic:hover {
-    background-color: var(--yellow-color); }
+    background-color: var(--tertiary-blue); }
         .statistic__title {
         color: var(--primary-blue);
         font-weight: 600;

@@ -10,10 +10,10 @@ function PageHeader({pageTitle}) {
                     <path id="gentle-wave__static" d="M-160 44c30 0 58-18 88-18s58 18 88 18 58-18 88-18 58 18 88 18v44h-352z" ></path>
                 </defs>
                 <g className="parallax__static">
-                    <use x="48" fill="rgba(255,255,255,0.7)" xlinkHref="#gentle-wave__static"></use>
-                    <use x="48" y="3" fill="rgba(255,255,255,0.5)" xlinkHref="#gentle-wave__static"></use>
-                    <use x="48" y="5" fill="rgba(255,255,255,0.3)" xlinkHref="#gentle-wave__static"></use>
-                    <use x="48" y="7" fill="#fff" xlinkHref="#gentle-wave__static"></use>
+                    <use x="48" fill="var(--wave-one-color)" xlinkHref="#gentle-wave__static"></use>
+                    <use x="48" y="3" fill="var(--wave-two-color)" xlinkHref="#gentle-wave__static"></use>
+                    <use x="48" y="5" fill="var(--wave-three-color)" xlinkHref="#gentle-wave__static"></use>
+                    <use x="48" y="7" fill="var(--wave-four-color)" xlinkHref="#gentle-wave__static"></use>
                 </g>
             </svg>
         </div>

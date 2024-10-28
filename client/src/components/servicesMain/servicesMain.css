@@ -1,15 +1,3 @@
-.main__services-buttons {
-margin-bottom: 2rem; }
-    .main__services-button {
-    padding: 1rem;
-    background-color: var(--secondary-color);
-    transition: all var(--main-duration) ease; }
-    .main__services-button:hover {
-    background-color: var(--yellow-color); }
-    .main__services-button svg {
-    font-size: 2rem; }
-    .main__services-button:first-child {
-    margin-right: 1rem; }
 .main__services-items {
 display: flex;
 gap: 2rem;
@@ -18,34 +6,18 @@ scroll-behavior: smooth; }
 .main__services-items::-webkit-scrollbar {display: none; }
     .main__services-item {
     overflow: hidden;
-    /* position: relative; */
     padding: 2rem 4rem;
     color: var(--primary-blue);
     font-weight: 500;
     border-radius: 0.4rem;
-    border: solid 1px var(--yellow-color);
+    border: solid 1px var(--tertiary-background-color);
     transition: all var(--main-duration) ease; }
     .main__services-item:hover {
-    /* background-color: var(--yellow-color); */
+    background-color: var(--secondary-background-color);
     box-shadow: var(--shadow-color) 0 10px 30px -20px; }
-    /* .main__services-item:hover .main__services-icon svg {
-    transform: scale(1.6) rotate(360deg); } */
     .main__services-item:hover .main__services-hidden {
-        width: 40rem;
-        height: 40rem;
-    }
-        .main__services-hidden {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: -1;
-        border-radius: 50%;
-        width: 0.5rem;
-        height: 0.5rem;
-        background-color: var(--yellow-color);
-        transition: all 0.6s ease;
-        }
+    width: 40rem;
+    height: 40rem; }
         .main__services-icon {
         display: flex;
         position: relative;
@@ -53,9 +25,20 @@ scroll-behavior: smooth; }
         align-items: center;
         width: 8rem;
         height: 8rem;
-        background-color: var(--yellow-color);
+        background-color: var(--secondary-background-color);
         border-radius: 50%;
         margin: 0 auto 1rem; }
+            .main__services-hidden {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            border-radius: 50%;
+            width: 0.5rem;
+            height: 0.5rem;
+            background-color: var(--secondary-background-color);
+            transition: all 0.6s ease; }
             .main__services-icon svg {
             display: block;
             height: 50%;

@@ -2,57 +2,60 @@ import { memo } from "react"
 import { Link as LinkRouter } from "react-router-dom"
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa"
 import { FaXTwitter } from "react-icons/fa6"
+import { useTranslation } from "react-i18next"
 import "./footer.css"
+
+const currentYear = new Date().getFullYear().toString()
 
 const Footer = memo(function Footer() {
 
-    const currentYear = new Date().getFullYear().toString()
+    const { t } = useTranslation()
 
     return (
         <section className="footer">
-            <div className="footer__Inner container">
+            <div className="footer__inner container">
                 <div className="footer__info" >
-                    <h3 className="footer__title">Information</h3>
+                    <h3 className="footer__title">{t(`footer.information`)}</h3>
                     <ul className="footer__list">
                         <li className="footer__listItem">
-                            <LinkRouter className="footer__link" to="/about">About us</LinkRouter>
+                            <LinkRouter className="footer__link" to="/about">{t('footer.about')}</LinkRouter>
                         </li>
                         <li className="footer__listItem">
-                            <LinkRouter className="footer__link" to="/contact">Contact us</LinkRouter>
+                            <LinkRouter className="footer__link" to="/contact">{t('footer.contact')}</LinkRouter>
                         </li>
                     </ul>
                 </div>
                 <div className="footer__costumer" >
-                    <h3 className="footer__title">Our expertise</h3>
+                    <h3 className="footer__title">{t(`expertise`)}</h3>
                     <ul className="footer__list">
                         <li className="footer__listItem">
-                            <LinkRouter className="footer__link" to="/services">Services</LinkRouter>
+                            <LinkRouter className="footer__link" to="/services">{t(`footer.services`)}</LinkRouter>
                         </li>
                         <li className="footer__listItem">
-                            <LinkRouter className="footer__link" to="/projects">Projects</LinkRouter>
+                            <LinkRouter className="footer__link" to="/projects">{t(`footer.projects`)}</LinkRouter>
                         </li>
                     </ul>
                 </div>
                 <div className="footer__follow">
-                    <h3 className="footer__title">Follow us</h3>
+                    <h3 className="footer__title">{t(`follow`)}</h3>
                     <ul className="footer__list">
                         <li className="footer__listItem footer__listItem--social" >
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="LinkedIn account link">
+                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.LinkedInAriaLabel`)} >
                                 <FaLinkedinIn />
                             </a>
                         </li>
                         <li className="footer__listItem footer__listItem--social" >
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="Instagram account link">
+                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.InstagramAriaLabel`)} >
                                 <FaInstagram />
                             </a>
                         </li>
                         <li className="footer__listItem footer__listItem--social" >
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="Facebook account link" >
+                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.FacebookAriaLabel`)} >
                                 <FaFacebookF />
                             </a>
                         </li>
                         <li className="footer__listItem footer__listItem--social" >
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label="Twitter account link">
+                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.TwitterAriaLabel`)} >
                                 <FaXTwitter />
                             </a>
                         </li>
