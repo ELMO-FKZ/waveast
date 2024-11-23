@@ -9,10 +9,10 @@ const currentYear = new Date().getFullYear().toString()
 
 const Footer = memo(function Footer() {
 
-    const { t } = useTranslation()
+    const {t} = useTranslation()
 
     return (
-        <section className="footer">
+        <section className="footer section__padding--top">
             <div className="footer__inner container">
                 <div className="footer__info" >
                     <h3 className="footer__title">{t(`footer.information`)}</h3>
@@ -26,7 +26,7 @@ const Footer = memo(function Footer() {
                     </ul>
                 </div>
                 <div className="footer__costumer" >
-                    <h3 className="footer__title">{t(`expertise`)}</h3>
+                    <h3 className="footer__title">{t(`footer.expertise`)}</h3>
                     <ul className="footer__list">
                         <li className="footer__listItem">
                             <LinkRouter className="footer__link" to="/services">{t(`footer.services`)}</LinkRouter>
@@ -37,7 +37,7 @@ const Footer = memo(function Footer() {
                     </ul>
                 </div>
                 <div className="footer__follow">
-                    <h3 className="footer__title">{t(`follow`)}</h3>
+                    <h3 className="footer__title">{t(`footer.follow`)}</h3>
                     <ul className="footer__list">
                         <li className="footer__listItem footer__listItem--social" >
                             <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.LinkedInAriaLabel`)} >

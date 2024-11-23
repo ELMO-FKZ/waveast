@@ -1,15 +1,6 @@
 .newsletter {
-background-color: var(--secondary-background-color);
-padding-block: 5.5rem;
-margin-top: 5.5rem; }
-@media (max-width: 61.9375em) { 
-.newsletter {
-padding-block: 4.5rem;
-margin-top: 4.5rem; } }
-@media (max-width: 47.9375em) { 
-.newsletter {
-padding-block: 3.5rem;
-margin-top: 3.5rem; } } 
+position: relative;
+background: var(--card-hover); }
         .newsletter__form {
         text-align: center; }
             .newsletter__div {
@@ -18,14 +9,14 @@ margin-top: 3.5rem; } }
                 .newsletter__input {
                 outline: 1px solid transparent;
                 padding: 1rem; 
-                border: 1px solid var(--secondary-blue);
-                background-color: var(--primary-background-color); 
-                color: var(--text-color);
+                border: 1px solid var(--moonstone);
+                background-color: var(--mint-cream); 
+                color: var(--rich-black);
                 border-top-left-radius: 0.4rem;
                 border-bottom-left-radius: 0.4rem;}
                 .newsletter__input:focus {
-                outline-color: var(--primary-blue);
-                border-color: var(--primary-blue); }
+                outline-color: var(--moonstone);
+                border-color: var(--moonstone); }
                 .newsletter__input--error {
                 border-color: var(--error-lighter-color);
                 background-color:var(--error-darker-color); }
@@ -46,12 +37,12 @@ margin-top: 3.5rem; } }
                 padding: 1rem;
                 border-top-right-radius: 0.4rem;
                 border-bottom-right-radius: 0.4rem;
-                background-color: var(--secondary-blue);
-                border: 2px solid var(--secondary-blue);
-                color: var(--text-color);
+                background: var(--btn-background);
+                border: 1px solid var(--moonstone);
+                color: var(--cyan-dark);
                 font-weight: 600;
                 transition: all var(--main-duration) ease-in-out; }
                 .newsletter__btn:hover {
-                background-color: var(--primary-blue);
-                border: 2px solid var(--primary-blue);
-                color: var(--primary-background-color); }
+                /* color: var(--primary-background-color); */
+                background: var(--btn-hover);
+                border: 1px solid var(--moonstone); }

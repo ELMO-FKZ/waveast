@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { FaCheck } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa"
 
 const useInform = (title, message, okay) => {
     

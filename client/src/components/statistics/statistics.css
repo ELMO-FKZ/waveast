@@ -1,8 +1,7 @@
 .statistics {
 display: grid;
 grid-template-columns: repeat(2, 1fr); 
-gap: 3rem 2rem;
-padding-block: 3rem; }
+gap: 3rem 2rem; }
 @media (max-width: 30em) { 
 .statistics {
 grid-template-columns: repeat(1, 1fr);; } }
@@ -14,11 +13,12 @@ grid-template-columns: repeat(4, 1fr); } }
     border-radius: 0.4rem;
     text-align: center;
     user-select: none;
-    transition: all var(--main-duration) ease; }
+    transition: background 0.5s ease; }
     .statistic:hover {
-    background-color: var(--tertiary-blue); }
+    background: var(--card-hover); }
         .statistic__title {
-        color: var(--primary-blue);
+        color: var(--moonstone);
         font-weight: 600;
         font-size: 2.4rem;
         margin-bottom: 1rem; }
+        .statistic:hover .statistic__title {color: var(--warm-orange); }

@@ -1,7 +1,9 @@
+import { memo } from "react"
 import PropTypes from "prop-types"
 import "./pageHeader.css"
 
-function PageHeader({pageTitle}) {
+const PageHeader = memo(function PageHeader({pageTitle}) {
+    
     return (
         <div className="page-header">
             <h1 className="page-header__heading">{pageTitle}</h1>
@@ -18,7 +20,7 @@ function PageHeader({pageTitle}) {
             </svg>
         </div>
     )
-}
+})
 
 PageHeader.propTypes = {
     pageTitle: PropTypes.string

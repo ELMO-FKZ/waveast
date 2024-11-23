@@ -8,7 +8,7 @@ import useInform from "../../hooks/useInform"
 import "./contact.css"
 
 const contactDetails = [
-    {id: 1, icon: <FaMapMarkerAlt />, title: "contact.contactInfo.address", content: "Ul. Ludwika Rydygiera 8/609 01-793"},
+    {id: 1, icon: <FaMapMarkerAlt />, title: "contact.contactInfo.address", content: "Ul. Ludwika Rydygiera 8/609 01-793, Warsaw Poland."},
     {id: 2, icon: <FaPhoneAlt />, title:"contact.contactInfo.email", content: "we@waveast.pl"},
     {id: 3, icon: <FaEnvelope />, title:"contact.contactInfo.phone", content: "+48 731 736 446"}
 ]
@@ -17,13 +17,13 @@ function Contact() {
 
     const {t} = useTranslation()
 
-    const [ DialogSuccess, informSuccess ] = useInform(
+    const [DialogSuccess, informSuccess] = useInform(
         t(`contact.modal.success.title`),
         t(`contact.modal.success.message`),
         t(`contact.modal.okayBtn`)
     )
 
-    const [ DialogError, informError ] = useInform(
+    const [DialogError, informError] = useInform(
         t(`contact.modal.error.title`),
         t(`contact.modal.error.message`),
         t(`contact.modal.okayBtn`)
@@ -77,12 +77,12 @@ function Contact() {
             <meta name="description" 
                 content="Waveast Installation & Park Services is a company that provides engineering, installation, maintenance, expansion, renovation, and consultancy services for amusement items and water parks. It was created in 2021 in Warsaw, Poland." />
         </Helmet>
-        <PageHeader pageTitle={t(`pageTitles.contact`)} />
-        <p className="contact__para container">{t(`contactCompany`)}</p>
-        <div className="contact container section__padding section__margin-bottom">
-            <div className="contact__info">
-                {
-                    contactDetails.map((contactDetail) => {
+        <div className="contact__page">
+            <PageHeader pageTitle={t(`pageTitles.contact`)} />
+            <p className="contact__para container section__padding--block">{t(`contactCompany`)}</p>
+            <div className="contact container section__padding--block">
+                <div className="contact__info">
+                    {contactDetails.map((contactDetail) => {
                         return (
                             <div className="contact__info-detail" key={contactDetail.id}>
                                 <div className="contact__info-icon">{contactDetail.icon}</div>
@@ -92,79 +92,82 @@ function Contact() {
                                 </div>
                             </div>
                         )
-                    })
-                }
-            </div>
-            <form className="contact__form" method="" onSubmit={(e) => sendMessage(e) }>
-                <div className="contact__form-detail">
-                    <div className="contact__form-name">
-                        <label className="contact__form-label" htmlFor="name">{t(`contact.contactForm.fullName.label`)}</label>
+                    })}
+                </div>
+                <form className="contact__form" method="" onSubmit={(e) => sendMessage(e) }>
+                    <div className="contact__form-detail">
+                        <div className="contact__form-name">
+                            <label className="contact__form-label" htmlFor="name">{t(`contact.contactForm.fullName.label`)}</label>
+                            <input className="contact__form-input" 
+                                ref={refName} 
+                                value={values.name}
+                                id="name" 
+                                type="text" 
+                                placeholder={t(`contact.contactForm.fullName.placeholder`)} 
+                                name="name" 
+                                onChange={(e) => handleChange(e)}
+                                autoComplete="off" 
+                                required 
+                            />
+                            {errors.name && <span className="contact__form-error">{errors.name}</span>}
+                        </div>
+                        <div className="contact__form-email">
+                            <label className="contact__form-label" htmlFor="email">{t(`contact.contactForm.email.label`)}</label>
+                            <input className="contact__form-input" 
+                                ref={refEmail} 
+                                value={values.email}
+                                id="email" 
+                                type="email" 
+                                placeholder={t(`contact.contactForm.email.placeholder`)} 
+                                name="email" 
+                                onChange={(e) => handleChange(e)}
+                                autoComplete="off" 
+                                required 
+                            />
+                            {errors.email && <span className="contact__form-error">{errors.email}</span>}
+                        </div>
+                    </div>
+                    <div className="contact__form-subject">
+                        <label className="contact__form-label" htmlFor="subject">{t(`contact.contactForm.subject.label`)}</label>
                         <input className="contact__form-input" 
-                            ref={refName} 
-                            value={values.name}
-                            id="name" 
+                            ref={refSubject} 
+                            value={values.subject}
+                            id="subject"  
                             type="text" 
-                            placeholder={t(`contact.contactForm.fullName.placeholder`)} 
-                            name="name" 
+                            placeholder={t(`contact.contactForm.subject.placeholder`)} 
+                            name="subject" 
                             onChange={(e) => handleChange(e)}
                             autoComplete="off" 
                             required 
                         />
-                        {errors.name && <span className="contact__form-error">{errors.name}</span>}
+                        {errors.subject && <span className="contact__form-error">{errors.subject}</span>}
                     </div>
-                    <div className="contact__form-email">
-                        <label className="contact__form-label" htmlFor="email">{t(`contact.contactForm.email.label`)}</label>
-                        <input className="contact__form-input" 
-                            ref={refEmail} 
-                            value={values.email}
-                            id="email" 
-                            type="email" 
-                            placeholder={t(`contact.contactForm.email.placeholder`)} 
-                            name="email" 
+                    <div className="contact__form-message">
+                        <label className="contact__form-label" htmlFor="message">{t(`contact.contactForm.message.label`)}</label>
+                        <textarea className="contact__form-input" 
+                            ref={refMessage}
+                            value={values.message}
+                            id="message" 
+                            rows={10} 
+                            placeholder={t(`contact.contactForm.message.placeholder`)} 
+                            name="message" 
                             onChange={(e) => handleChange(e)}
-                            autoComplete="off" 
-                            required 
-                        />
-                        {errors.email && <span className="contact__form-error">{errors.email}</span>}
+                            autoComplete="off"
+                            required >
+                        </textarea>
+                        {errors.message && <span className="contact__form-error">{errors.message}</span>}
                     </div>
-                </div>
-                <div className="contact__form-subject">
-                    <label className="contact__form-label" htmlFor="subject">{t(`contact.contactForm.subject.label`)}</label>
-                    <input className="contact__form-input" 
-                        ref={refSubject} 
-                        value={values.subject}
-                        id="subject"  
-                        type="text" 
-                        placeholder={t(`contact.contactForm.subject.placeholder`)} 
-                        name="subject" 
-                        onChange={(e) => handleChange(e)}
-                        autoComplete="off" 
-                        required 
-                    />
-                    {errors.subject && <span className="contact__form-error">{errors.subject}</span>}
-                </div>
-                <div className="contact__form-message">
-                    <label className="contact__form-label" htmlFor="message">{t(`contact.contactForm.message.label`)}</label>
-                    <textarea className="contact__form-input" 
-                        ref={refMessage}
-                        value={values.message}
-                        id="message" 
-                        rows={10} 
-                        placeholder={t(`contact.contactForm.message.placeholder`)} 
-                        name="message" 
-                        onChange={(e) => handleChange(e)}
-                        autoComplete="off"
-                        required >
-                    </textarea>
-                    {errors.message && <span className="contact__form-error">{errors.message}</span>}
-                </div>
-                <div className="contact__form-btn">
-                    <button className="btn btn--primary" type="submit" id="submit" value="submit" name="Submit">{t(`contact.contactForm.submitBtn`)} <FaPaperPlane/></button>
-                </div>
-            </form>
+                    <div className="contact__form-btn">
+                        <button className="btn btn--primary" type="submit" id="submit" value="submit" name="Submit">{t(`contact.contactForm.submitBtn`)} <FaPaperPlane/></button>
+                    </div>
+                </form>
+            </div>
+            <div className="contact__map-container">
+                <iframe className="contact__map" loading="lazy" src="https://maps.google.com/maps?q=Wr%C3%B3bla%206A%2C%2002-736%20Warszawa&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="Wróbla 6A, 02-736 Warszawa" aria-label="Wróbla 6A, 02-736 Warszawa"></iframe>
+            </div>
+            <DialogSuccess />
+            <DialogError />
         </div>
-        <DialogSuccess />
-        <DialogError />
         </>
     )
 }

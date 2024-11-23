@@ -1,11 +1,12 @@
-import { useState, useRef } from "react"
+import { useState, useRef, memo } from "react"
 import { useTranslation } from "react-i18next"
 import { validateEmail } from "../../utils/validateEmail"
 import SpecialHeading from "../specialHeading/SpecialHeading"
 import useInform from "../../hooks/useInform"
+// import BackgroundLight from "../svg/BackgroundLight"
 import "./newsLetter.css"
 
-function NewsLetter() {
+const NewsLetter = memo(function NewsLetter() {
 
     const [input, setInput] = useState("")
     const [errors, setErrors] = useState("")
@@ -54,7 +55,7 @@ function NewsLetter() {
 
     return (
         <>
-        <div className="newsletter">
+        <div className="newsletter section__padding--block">
             <div className="container">
                 <SpecialHeading title={t(`sectionHeadings.newsletter.title`)} subtitle={t(`sectionHeadings.newsletter.subTitle`)} />
                 <form className="newsletter__form" method="" onSubmit={(e) => subscribeHandler(e)}>
@@ -73,11 +74,12 @@ function NewsLetter() {
                     </div>
                 </form>
             </div>
+            {/* <BackgroundLight /> */}
         </div>
         <DialogSuccess />
         <DialogError />
         </>
     )
-}
+})
 
 export default NewsLetter

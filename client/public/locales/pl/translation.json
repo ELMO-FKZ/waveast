@@ -45,6 +45,7 @@
         {"title":"Renowacja", "content": "Odnowienie starych parków za pomocą różnych rozwiązań."},
         {"title":"Konserwacja", "content": "Okresowa konserwacja, malowanie, usługi relokacji z naszymi utalentowanymi technikami i serwisantami."},
         {"title": "Inżynieria", "content": "Projektowanie i obliczenia struktur zgodnie z normami europejskimi."},
+        {"title":"Doradztwo", "content": "Rozwiązywanie problemów i doradztwo w zakresie nowych możliwości w parkach."},
         {"title":"Doradztwo", "content": "Rozwiązywanie problemów i doradztwo w zakresie nowych możliwości w parkach."}
     ],
     "sectionHeadings": {
@@ -104,11 +105,13 @@
         "about": "Kim jesteśmy?",
         "services": "Nasze usługi",
         "projects": "Byliśmy w...",
-        "contact": "Skontaktuj się z nami"
+        "contact": "Skontaktuj się z nami",
+        "privacy": "Polityka prywatności",
+        "cookie": "Polityka plików cookie"
     },
     "specialHeadings": {
         "whyWe": "Dlaczego my?",
-        "visionMissionValues": "Nasza wizja, misja i wartości",
+        "visionMissionValues": "Nasze Zobowiązanie",
         "people": "Nasi ludzie",
         "partners": "Nasi partnerzy",
         "memberships": "Nasze członkostwa",
@@ -132,7 +135,7 @@
         "Z zespołem obsługi posprzedażowej skoncentrowanym na kliencie oraz kompetentnymi projektantami i inżynierami, Waveast dąży do zapewnienia jak najlepszej obsługi swoim klientom."
     ],
     "aboutCompany": [
-        "Waveast Installation & Park Services to wiodąca firma z siedzibą w Warszawie, Polska, specjalizująca się w szerokim zakresie usług dla obiektów rekreacyjnych i parków wodnych. Od momentu założenia, jesteśmy zaangażowani w świadczenie wyjątkowych usług inżynieryjnych, instalacyjnych, konserwacyjnych, rozbudowy, renowacji i doradztwa.",
+        "Waveast Installation & Park Services to wiodąca firma z siedzibą w Warszawie, Polska, specjalizująca się w szerokim zakresie usług dla obiektów rekreacyjnych i parków wodnych. Od momentu założenia w 2021, jesteśmy zaangażowani w świadczenie wyjątkowych usług inżynieryjnych, instalacyjnych, konserwacyjnych, rozbudowy, renowacji i doradztwa.",
         "W Waveast jesteśmy dumni z naszej zdolności do obsługi różnorodnych klientów, w tym hoteli, parków wodnych i osób prywatnych. Nasz wykwalifikowany zespół doskonale radzi sobie z budową różnych typów basenów i basenów dekoracyjnych, oferując kompleksowe rozwiązania, które obejmują cyrkulację, filtrację oraz wszystkie systemy mechaniczne i elektryczne.",
         "Oprócz naszych wyjątkowych usług, Waveast oferuje również szeroki wybór wysokiej jakości materiałów kompozytowych i surowców plastikowych, które spełniają normy branżowe. Rozumiemy znaczenie stosowania niezawodnych i trwałych materiałów w każdym projekcie. Co więcej, nasz zespół profesjonalnych i utalentowanych inżynierów oraz techników zobowiązuje się do spełniania oczekiwań naszych klientów z fachowością i zaangażowaniem."
     ],
@@ -190,6 +193,10 @@
                 "message": "Napotkaliśmy błąd podczas próby wysłania Twojej wiadomości. Proszę spróbuj ponownie lub skontaktuj się z nami bezpośrednio za pomocą naszych danych kontaktowych."
             },
             "okayBtn": "w porządku"
+        },
+        "notFound": {
+            "pageNotFound": "Strona nie znaleziona",
+            "goBack": "Wróć"
         }
     }
 }

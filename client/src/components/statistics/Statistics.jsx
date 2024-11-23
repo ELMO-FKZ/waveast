@@ -1,19 +1,23 @@
+import { memo } from "react"
 import { useTranslation } from "react-i18next"
+import { getProjectsCount, getYearsSince2011, countUniqueCountries, continent } from "../../utils/companyCounter"
 import "./statistics.css"
 
-const statistics = [
-    {id: 1, title: "+15", statisticsKey: "statistics.0"},
-    {id: 2, title: "+60", statisticsKey: "statistics.1"},
-    {id: 3, title: "12", statisticsKey: "statistics.2"},
-    {id: 4, title: "3", statisticsKey: "statistics.3"}
-]
-
-function Statistics() {
+const Statistics = memo(function Statistics() {
 
     const {t} = useTranslation()
+    const experienceCount = `+${getYearsSince2011()}`
+    const projectCount = `+${getProjectsCount()}`
+
+    const statistics = [
+        { id: 1, title: experienceCount, statisticsKey: "statistics.0" },
+        { id: 2, title: projectCount, statisticsKey: "statistics.1" },
+        { id: 3, title: countUniqueCountries().toString(), statisticsKey: "statistics.2" },
+        { id: 4, title: continent, statisticsKey: "statistics.3" }
+    ]
 
     return (
-        <div className="statistics container" >
+        <div className="statistics container section__padding--block" >
             {
                 statistics.map((statistic) => {
                     return (
@@ -26,6 +30,6 @@ function Statistics() {
             }
         </div>
     )
-}
+})
 
 export default Statistics

@@ -40,7 +40,7 @@ const Faqs = memo(function Faqs() {
     }
 
     return (
-        <div className="section__padding container">
+        <div className="section__padding--block container">
             <SpecialHeading title={t(`sectionHeadings.faqs.title`)} subtitle={t(`sectionHeadings.faqs.subTitle`)} />
             <div className="faqs">
                 {faqs.slice(0, itemsToShow).map((faq) => {

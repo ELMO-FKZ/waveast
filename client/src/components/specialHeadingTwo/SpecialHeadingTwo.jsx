@@ -7,7 +7,9 @@ const SpecialHeadingTwo= memo(function SpecialHeadingTwo({ title }) {
 
     return (
         <div className="special-heading-two">
-            <h2 className="special-title-two">{title}</h2>
+            <h2 className="special-title-two">
+                <span className="special-span-two">{title.charAt(0)}</span>{title.slice(1)}
+            </h2>
         </div>
     )
 })

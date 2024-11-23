@@ -1,6 +1,5 @@
 .contact__para {
 text-align: center;
-margin-top: 5rem;
 max-width: 70rem; }
 .contact {
 display: flex;
@@ -12,10 +11,12 @@ flex-direction: column;
 align-items: center; 
 gap: 4rem; } }
     .contact__info {
+    background: var(--card-hover);
+    border: 1px solid var(--mint-cream-dark);
+    position: relative;
     flex: 0 0 auto;
     width: 33%;
     padding: 1rem;
-    background-color: var(--tertiary-blue);
     border-radius: 0.4rem; }
     @media (max-width: 47.9375em) { 
     .contact__info {
@@ -29,11 +30,15 @@ gap: 4rem; } }
             place-items: center;
             min-width: 4rem;
             max-height: 4rem;
-            background-color: var(--primary-background-color); }
+            background-color: var(--mint-cream);
+            border: 1px solid var(--mint-cream-dark);
+            border-radius: 0.4rem; }
                 .contact__info-icon svg {
-                fill: var(--primary-blue); }
+                fill: var(--warm-orange); }
                 .conatct__info-title {
-                color: var(--primary-blue); }
+                    font-size: 1.8rem;
+                    margin-top: 0.8rem;
+                color: var(--warm-orange); }
     .contact__form {
     max-width: 70rem;
     flex: 1; } 
@@ -59,22 +64,24 @@ gap: 4rem; } }
         position: relative;
         padding-top: 3rem; }
             .contact__form-label {
+            color: var(--moonstone);
+            font-weight: 500;
             display: block;
             margin-bottom: 1rem;
             text-align: left;
             letter-spacing: 0.1rem; }
             .contact__form-input {
             outline: 1px solid transparent;
-            border: 1px solid var(--tertiary-background-color);
+            border: 1px solid var(--mint-cream-dark);
             border-radius: 0.4rem;
             width: 100%;
             padding: 1rem;
-            background-color: var(--secondary-background-color);
-            color: var(--text-color); }
+            background-color: var(--mint-cream);
+            color: var(--rich-black); }
 
             .contact__form-input:focus {
-            outline-color: var(--primary-blue);
-            border-color: var(--primary-blue); }
+            outline-color: var(--moonstone);
+            border-color: var(--moonstone); }
             .contact__form-input--error {
             border-color: var(--error-lighter-color);
             background-color:var(--error-darker-color); }
@@ -95,3 +102,9 @@ gap: 4rem; } }
         .contact__form-btn {
         margin-top: 3rem;
         text-align: center; }
+
+        .contact__map {
+        display: block;
+        width: 100%;
+        height: 40rem;
+        }

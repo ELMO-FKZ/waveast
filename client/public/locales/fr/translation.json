@@ -45,6 +45,7 @@
         {"title":"Rénovation", "content": "Renouvellement des anciens parcs avec plusieurs solutions."},
         {"title":"Maintenance", "content": "Maintenance périodique, re-peinture, services de relocalisation avec nos techniciens talentueux et réparateurs."},
         {"title": "Ingénierie", "content": "Conception et calculs des structures selon les normes européennes."},
+        {"title":"Consultation", "content": "Résolution des problèmes et conseils pour de nouvelles opportunités dans les parcs."},
         {"title":"Consultation", "content": "Résolution des problèmes et conseils pour de nouvelles opportunités dans les parcs."}
     ],
     "sectionHeadings": {
@@ -101,14 +102,16 @@
     "isabaAlt": "Logo partenaire ISABA",
     "apexAlt": "Logo partenaire APEX",
     "pageTitles": {
-        "about": "Qui sommes-nous ?",
+        "about": "Qui sommes-nous?",
         "services": "Nos services",
         "projects": "Nous avons été dans...",
-        "contact": "Contactez-nous"
+        "contact": "Contactez-nous",
+        "privacy": "Politique de confidentialité",
+        "cookie": "Politique de cookies"
     },
     "specialHeadings": {
-        "whyWe": "Pourquoi nous ?",
-        "visionMissionValues": "Notre vision, mission et valeurs",
+        "whyWe": "Pourquoi nous?",
+        "visionMissionValues": "Notre Engagement",
         "people": "Notre équipe",
         "partners": "Nos partenaires",
         "memberships": "Nos adhésions",
@@ -132,7 +135,7 @@
         "Avec une équipe de service après-vente axée sur le client et des designers et ingénieurs compétents, Waveast s'efforce de fournir le meilleur service possible à ses clients."
     ],
     "aboutCompany": [
-        "Waveast Installation & Park Services est une entreprise leader basée à Varsovie, en Pologne, spécialisée dans une large gamme de services pour les équipements de loisirs et les parcs aquatiques. Depuis notre création, nous nous sommes engagés à fournir des services d'ingénierie, d'installation, de maintenance, d'expansion, de rénovation et de conseil exceptionnels.",
+        "Waveast Installation & Park Services est une entreprise leader basée à Varsovie, en Pologne, spécialisée dans une large gamme de services pour les équipements de loisirs et les parcs aquatiques. Depuis notre création en 2021, nous nous sommes engagés à fournir des services d'ingénierie, d'installation, de maintenance, d'expansion, de rénovation et de conseil exceptionnels.",
         "Chez Waveast, nous sommes fiers de notre capacité à répondre à des clients divers, y compris des hôtels, des parcs aquatiques et des particuliers. Notre équipe qualifiée excelle dans la construction de divers types de piscines et de piscines décoratives, offrant des solutions complètes qui incluent la circulation, la filtration et tous les systèmes mécaniques et électriques.",
         "En plus de nos services exceptionnels, Waveast propose également une large sélection de matériaux composites de haute qualité et de matières plastiques brutes conformes aux normes de l'industrie. Nous comprenons l'importance d'utiliser des matériaux fiables et durables dans chaque projet. De plus, notre équipe d'ingénieurs et de techniciens professionnels et talentueux s'engage à satisfaire les demandes de nos clients avec expertise et dévouement."
     ],
@@ -168,7 +171,7 @@
             "email": {"label": "Email", "placeholder": "Entrez votre email"},
             "subject": {"label": "Objet", "placeholder": "Entrez l'objet"},
             "message": {"label": "Message", "placeholder": "Entrez votre message"},
-            "submitBtn": "Soumettre"
+            "submitBtn": "Envoyer"
         },
         "error": {
             "requiredName": "Le nom complet est requis",
@@ -190,6 +193,10 @@
                 "message": "Nous avons rencontré une erreur en essayant d'envoyer votre message. Veuillez réessayer ou contactez-nous directement via nos informations de contact."
             },
             "okayBtn": "D'accord"
+        },
+        "notFound": {
+            "pageNotFound": "Page non trouvée",
+            "goBack": "Retourner"
         }
     }
 }

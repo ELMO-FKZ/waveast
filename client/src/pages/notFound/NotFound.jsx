@@ -1,11 +1,15 @@
 import { Link as LinkRouter} from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import "./notFound.css"
 
 function NotFound() {
+
+    const {t} = useTranslation()
+    
     return (
         <div className="notfound container">
             <div className="notfound__title">404</div>
-            <div>Page Not Found</div>
+            <div>{t(`notFound.pageNotFound`)}</div>
             <div className="notfound__image">
                 <svg xmlns="http://www.w3.org/2000/svg" width="653" height="176" viewBox="0 0 653 176" preserveAspectRatio="xMidYMid meet" >
                     <g transform="translate(0.000000,176.000000) scale(0.100000,-0.100000)" fill="var(--primary-blue)" stroke="none" >
@@ -14,7 +18,7 @@ function NotFound() {
                     </g>
                 </svg>
             </div>
-            <LinkRouter className="btn btn--primary" to="/">Go back</LinkRouter>
+            <LinkRouter className="btn btn--primary" to="/">{t(`notFound.goBack`)}</LinkRouter>
         </div>
     )
 }

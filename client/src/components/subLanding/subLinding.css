@@ -1,0 +1,22 @@
+.main__content {
+text-align: center; }
+    .main__image {
+    height: 7rem; }
+        .main__img {
+        display: block;
+        height: 100%;
+        width: auto;
+        margin: 0 auto; }
+    .main__para {
+    margin-top: 3rem;
+    color: var(--rich-black);
+    font-size: 1.8rem;
+    font-weight: 400;
+    max-width: 45rem;
+    margin: 0 auto; }
+    /* .btn--landing {
+    color: var(--landing-btn-color);
+    background-color: var(--landing-btn-background);
+    transition: all var(--main-duration) ease-in-out; }
+    .btn--landing:hover {
+    color: var(--landing-btn-hover); } */

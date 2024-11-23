@@ -16,12 +16,12 @@ const sendEmail = async (req, res) => {
   const options = {
     from: email,
     to: process.env.EMAIL_USER,
-    subject: "Newsletter subscription",
+    subject: "Newsletter Subscription",
     html: `
-    <p>sender'email: ${email}</p>
-    <p>message's subject: Newsletter subscription</p>
-    <p>message:</p>
-    <p>I would like to be part of waveast community</p>`
+    <div style="font-family: Arial, sans-serif; padding: 20px;">
+      <h2 style="color: #0076A8; background-color: #B3E0F0; text-align: center;">New Newsletter Subscription</h2>
+      <p style="font-size: 16px; color: #222;"><strong>Email:</strong> ${email}</p>
+    </div>`
   };
 
   // Send Email

@@ -1,8 +1,12 @@
 import React from "react"
 import { Helmet } from "react-helmet-async"
-import { FaEye, FaHandshake, FaBullseye } from "react-icons/fa"
+// import { FaEye, FaHandshake, FaBullseye } from "react-icons/fa"
 import { useTranslation } from "react-i18next"
 import { wrapCompanyName } from "../../utils/wrapCompanyName"
+import { getProjectsCount, countUniqueCountries, yearFounded, teamSize } from "../../utils/companyCounter"
+import Vision from "../../components/svg/Vision"
+import Mission from "../../components/svg/Mission"
+import Values from "../../components/svg/Values"
 import PageHeader from "../../components/pageHeader/PageHeader"
 import SpecialHeadingTwo from "../../components/specialHeadingTwo/SpecialHeadingTwo"
 import Partmemb from "../../components/partmemb/Partmemb"
@@ -44,6 +48,8 @@ const values = [
 function About() {
 
     const {t} = useTranslation()
+    const projectCount = getProjectsCount()
+    const countryCount = countUniqueCountries()
 
     return (
         <>
@@ -53,63 +59,74 @@ function About() {
             <meta name="description" 
                 content="Waveast Installation & Park Services is a leading company based in Warsaw, Poland, specializing in a wide range of services for amusement items and water parks. Since our establishment in 2021, we have been dedicated to providing exceptional engineering, installation, maintenance, expansion, renovation, and consultancy services." />
         </Helmet>
-        <div className="about">
+        <div className="about__page">
             <PageHeader pageTitle={t(`pageTitles.about`)} />
-            <div className="about__company container">
-                <p>{wrapCompanyName(t(`aboutCompany.0`))}</p>
-                <p>{wrapCompanyName(t(`aboutCompany.1`))}</p>
+            <div className="about__company container section__padding--block">
+                <p>{wrapCompanyName(t(`aboutCompany.0`, { yearFounded, teamSize }))}</p>
+                <p>{wrapCompanyName(t(`aboutCompany.1`, { projectCount, countryCount }))}</p>
                 <p>{wrapCompanyName(t(`aboutCompany.2`))}</p>
             </div>
-            <div className="section__padding container">
+            <div className="section__padding--block container">
                 <SpecialHeadingTwo title={t(`specialHeadings.whyWe`)} />
                 {reasons.map((reason) => (
                     <div className="reason__container" key={reason.id}>
                         <div className="reason__number">{reason.id}</div>
                         <div className="reason__content">
-                            <h3 className="reason__subtitle">{t(reason.titleKey)}</h3>
+                            <h3 className="reason__title">{t(reason.titleKey)}</h3>
                             <p className="reason__para">{t(reason.paragraphKey)}</p>
                         </div>
                     </div>
                 ))}
             </div>
-            <div className="section__padding container">
+            <div className="section__padding--block container">
                 <SpecialHeadingTwo title={t(`specialHeadings.visionMissionValues`)} />
                 <div className="statements">
                     <div className="statement">
-                        <div className="statement__icon"><FaEye /></div>
-                        <h3 className="statement__title">{t(`companyVision.title`)}</h3>
-                        <p className="statement__content">{t(`companyVision.paragraph`)}</p>
+                        <div className="statement__icon"><Vision /></div>
+                        <div className="statement__container">
+                            <div className="statement__hidden"></div>
+                            <h3 className="statement__title">{t(`companyVision.title`)}</h3>
+                            <p className="statement__content">{t(`companyVision.paragraph`)}</p>
+                        </div>
                     </div>
                     <div className="statement">
-                        <div className="statement__icon"><FaBullseye /></div>
-                        <h3 className="statement__title">{t(`companyMission.title`)}</h3>
-                        <p className="statement__content">{t(`companyMission.paragraph`)}</p>
+                        <div className="statement__icon"><Mission /></div>
+                        <div className="statement__container">
+                            <div className="statement__hidden"></div>
+                            <h3 className="statement__title">{t(`companyMission.title`)}</h3>
+                            <p className="statement__content">{t(`companyMission.paragraph`)}</p>
+                        </div>
                     </div>
                     <div className="statement">
-                        <div className="statement__icon"><FaHandshake /></div>
-                        <h3 className="statement__title">{t(`companyValues.title`)}</h3>
-                        <p className="statement__content">
-                            {values.map((value) => (
-                                <React.Fragment key={value.id}>
-                                    {t(value.valueKey)}<br/>
-                                </React.Fragment>
-                            ))}
-                        </p>
+                        <div className="statement__icon"><Values /></div>
+                        <div className="statement__container">
+                            <div className="statement__hidden"></div>
+                            <h3 className="statement__title">{t(`companyValues.title`)}</h3>
+                            <p className="statement__content">
+                                {values.map((value) => (
+                                    <React.Fragment key={value.id}>
+                                        {t(value.valueKey)}<br/>
+                                    </React.Fragment>
+                                ))}
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="section__padding container">
-                <SpecialHeadingTwo title={t(`specialHeadings.people`)} />
-                <div className="company__people">
-                    <p>{wrapCompanyName(t(`companyPeople.0`))}</p>
-                    <p>{wrapCompanyName(t(`companyPeople.1`))}</p>
+            <div className="section__people">
+                <div className="section__padding--block container">
+                    <SpecialHeadingTwo title={t(`specialHeadings.people`)} />
+                    <div className="company__people">
+                        <p>{wrapCompanyName(t(`companyPeople.0`))}</p>
+                        <p>{wrapCompanyName(t(`companyPeople.1`))}</p>
+                    </div>
                 </div>
             </div>
-            <div className="section__padding container">
+            <div className="section__padding--block container">
                 <SpecialHeadingTwo title={t(`specialHeadings.partners`)} />
                 <Partmemb items={partners} targetClick="partners" />
             </div>
-            <div className="section__padding container section__margin-bottom">
+            <div className="section__padding--block container">
                 <SpecialHeadingTwo title={t(`specialHeadings.memberships`)} />
                 <Partmemb items={memberships} targetClick="members" />
             </div>

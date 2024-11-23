@@ -14,16 +14,19 @@ const sendMessage = async (req, res) => {
   });
 
   const options = {
-    from: `${name} <${email}>`,
+    from: `<${email}>`,
     to: process.env.EMAIL_USER,
-    subject: subject,
+    subject: "Contact Form",
     html: `
-    <p>sender'name: ${name}</p>
-    <p>sender'email: ${email}</p>
-    <p>message's subject: ${subject}</p>
-    <p>message:</p>
-    <p>${message}</p>`
-  };
+    <div style="font-family: Arial, sans-serif; padding: 20px;">
+      <h2 style="color: #0076A8; background-color: #B3E0F0; text-align: center;">New Contact Form Submission</h2>
+      <p style="font-size: 16px; color: #222;"> <strong>From:</strong> ${name}</p>
+      <p style="font-size: 16px; color: #222;"><strong>Email:</strong> ${email}</p>
+      <p style="font-size: 16px; color: #222;"><strong>Subject:</strong> ${subject}</p>
+      <p style="font-size: 16px; color: #222;"><strong>Message:</strong></p>
+      <p style="font-size: 16px; color: #0076A8; text-align: justify;">${message}</p>
+    </div>`
+};
 
   // Send Email
   transporter.sendMail(options, function (error, info) {

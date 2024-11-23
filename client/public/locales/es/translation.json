@@ -1,0 +1,201 @@
+{
+    "nav": {
+        "logoLabel": "regresar a casa",
+        "navLinks": [
+            "inicio",
+            "sobre nosotros",
+            "servicios",
+            "proyectos",
+            "contáctenos"
+        ],
+        "darkInputAriaLabel": "interruptor de modo oscuro",
+        "langIconAriaLabel": "Cambiar el idioma"
+    },
+    "footer": {
+        "information": "Información",
+        "about": "Sobre nosotros",
+        "contact": "Contáctenos",
+        "expertise": "Nuestra experiencia",
+        "services": "Servicios",
+        "projects": "Proyectos",
+        "follow": "Síguenos",
+        "LinkedInAriaLabel": "enlace a la cuenta de LinkedIn",
+        "InstagramAriaLabel": "enlace a la cuenta de Instagram",
+        "FacebookAriaLabel": "enlace a la cuenta de Facebook",
+        "TwitterAriaLabel": "enlace a la cuenta de Twitter"
+    },
+    "scrollUpAriaLabel": "desplazarse hacia arriba",
+    "landing": {
+        "subTitle": "Surfeando las Olas de Instalaciones Excepcionales y Servicios de Parques Acuáticos",
+        "button": "Explorar Nuestro Catálogo"
+    },
+    "statistics": [
+        "Años de experiencia",
+        "Proyectos completados",
+        "Países en los que trabajamos",
+        "continentes en los que trabajamos"
+    ],
+    "carouselBtnAriaLabel": {
+        "left": "Desplazarse a la izquierda",
+        "right": "Desplazarse a la derecha"
+    },
+    "services": [
+        {"title":"Instalación", "content": "Servicios de “Solo supervisor” o “Instalación de alcance completo” con nuestros ingenieros, técnicos e instaladores capacitados y expertos."},
+        {"title":"Expansión", "content": "Asesoramiento y suministro de piezas de expansión para los parques actuales."},
+        {"title":"Renovación", "content": "Renovación de parques antiguos con múltiples soluciones."},
+        {"title":"Mantenimiento", "content": "Mantenimiento periódico, repintura, servicios de reubicación con nuestros técnicos y reparadores talentosos."},
+        {"title": "Ingeniería", "content": "Diseño y cálculos de las estructuras de acuerdo con las Normas Europeas."},
+        {"title":"Consultoría", "content": "Solucionando problemas y asesorando sobre nuevas oportunidades en los parques."},
+        {"title":"Consultoría", "content": "Solucionando problemas y asesorando sobre nuevas oportunidades en los parques."}
+    ],
+    "sectionHeadings": {
+        "services": {"title": "Servicios", "subTitle": "servicios integrales para cada necesidad"},
+        "projects": {"title": "Proyectos", "subTitle": "nuestra presencia en proyectos a nivel global"},
+        "faqs": {"title": "P. FAQ.", "subTitle": "Preguntas frecuentes"},
+        "newsletter": {"title": "Boletín", "subTitle": "Sé el primero en saber"}
+    },
+    "faqs": {
+        "accordion": [
+            {"question": "ES: ¿Lorem ipsum dolor sit amet?", "answer": "ES: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "ES: ¿Lorem ipsum dolor sit amet?", "answer": "ES: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "ES: ¿Lorem ipsum dolor sit amet?", "answer": "ES: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "ES: ¿Lorem ipsum dolor sit amet?", "answer": "ES: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "ES: ¿Lorem ipsum dolor sit amet?", "answer": "ES: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "ES: ¿Lorem ipsum dolor sit amet?", "answer": "ES: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "ES: ¿Lorem ipsum dolor sit amet?", "answer": "ES: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "ES: ¿Lorem ipsum dolor sit amet?", "answer": "ES: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
+            {"question": "ES: ¿Lorem ipsum dolor sit amet?", "answer": "ES: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."}
+        ],
+        "showBtn": "Mostrar más"
+    },
+    "newsLetter": {
+        "placeHolder": "Introduce tu email",
+        "subscribeBtn": "Suscribirse",
+        "error": {
+            "requiredEmail": "El email es requerido",
+            "validEmail": "Introduce un email válido"
+        },
+        "modal": {
+            "success": {
+                "title": "¡Bienvenido a Nuestra Comunidad!", 
+                "message": "Gracias por suscribirte a nuestro boletín. Ahora estás en la lista para recibir las últimas actualizaciones y noticias directamente en tu bandeja de entrada."
+            },
+            "error": {
+                "title": "¡Oops! Algo salió mal",
+                "message": "Desafortunadamente, no hemos podido procesar tu suscripción en este momento. Por favor, verifica tu dirección de correo electrónico y vuelve a intentarlo. Si continúas teniendo problemas, no dudes en contactarnos para obtener asistencia. ¡Gracias por tu comprensión!"
+            },
+            "okayBtn": "Está bien"
+        }
+    },
+    "whyWe": [
+        {"title":"Experiencia", "paragraph":"Todo nuestro personal tiene más de diez años de experiencia en la industria."},
+        {"title":"Atención al Cliente", "paragraph":"Ofrecemos servicio de atención al cliente en línea las 24 horas, los 7 días de la semana, y somos una organización enfocada en el cliente y en la satisfacción del cliente."},
+        {"title":"Conocimientos", "paragraph":"Con nuestro equipo capacitado, siempre estamos listos para ofrecer nuevas ideas y consultoría a nuestros clientes."},
+        {"title":"Calidad", "paragraph":"Nuestros productos, servicios y materiales son de la más alta calidad."},
+        {"title":"Precios Competitivos", "paragraph":"Ofrecemos servicios de alta calidad a precios razonables."},
+        {"title":"Garantía", "paragraph":"Nuestros servicios y productos están cubiertos por una variedad de garantías."},
+        {"title":"Seguridad", "paragraph":"Nuestra principal prioridad es la salud y seguridad de las personas y el medio ambiente, así como la durabilidad a largo plazo de nuestros productos."}
+    ],
+    "iaapaAlt": "Logo de miembro de IAAPA",
+    "basenprofAlt": "Logo de miembro de BASENPROF",
+    "isabaAlt": "Logo de socio de ISABA",
+    "apexAlt": "Logo de socio de APEX",
+    "pageTitles": {
+        "about": "¿Quiénes somos?",
+        "services": "Nuestros servicios",
+        "projects": "Hemos estado en...",
+        "contact": "Ponerse en contacto",
+        "privacy": "Política de privacidad",
+        "cookie": "Política de cookies"
+    },
+    "specialHeadings": {
+        "whyWe": "¿Por qué nosotros?",
+        "visionMissionValues": "Nuestro compromiso",
+        "people": "Nuestra gente",
+        "partners": "Nuestros socios",
+        "memberships": "Nuestras membresías",
+        "waterParkServices": "Servicios de parques acuáticos",
+        "waterParkInstallation": "Instalación de parques acuáticos"
+    },
+    "companyVision": {
+        "title":"Visión",
+        "paragraph": "Convertirse en la empresa de servicio postventa más exitosa y reconocida en la industria de parques acuáticos a nivel mundial."
+    },
+    "companyMission": {
+        "title": "Misión",
+        "paragraph": "Waveast se esfuerza por satisfacer las necesidades y la seguridad de sus clientes con la mejor calidad a precios razonables, gracias a su altamente calificado equipo técnico."
+    },
+    "companyValues": {
+        "title": "Valores",
+        "paragraph": ["Responsabilidad", "Profesionalismo", "Fiabilidad", "Trabajo en equipo", "Calidad", "Excelencia"]
+    },
+    "companyPeople": [
+        "Waveast Installation & Park Services fue fundada por dos ingenieros con más de diez años de experiencia en la industria. Además, Waveast tiene una presencia global gracias a su dinámico equipo técnico y alianzas estratégicas con socios en todo el mundo.",
+        "Con un equipo postventa enfocado en el cliente y diseñadores e ingenieros competentes, Waveast se esfuerza por brindar el mejor servicio posible a sus clientes."
+    ],
+    "aboutCompany": [
+        "Waveast Installation & Park Services es una empresa líder con sede en Varsovia, Polonia, especializada en una amplia gama de servicios para artículos de entretenimiento y parques acuáticos. Desde nuestra fundación en 2021, nos hemos dedicado a proporcionar servicios excepcionales de ingeniería, instalación, mantenimiento, expansión, renovación y consultoría.",
+        "En Waveast, nos enorgullecemos de nuestra capacidad para atender a una variedad de clientes, incluidos hoteles, parques acuáticos e individuos. Nuestro equipo capacitado sobresale en la construcción de diversos tipos de piscinas y piscinas decorativas, ofreciendo soluciones integrales que incluyen circulación, filtración y todos los sistemas mecánicos y eléctricos.",
+        "Además de nuestros servicios excepcionales, Waveast también proporciona una amplia selección de materiales compuestos de alta calidad y materias primas plásticas que cumplen con los estándares de la industria. Entendemos la importancia de utilizar materiales confiables y duraderos en cada proyecto. Además, nuestro equipo de ingenieros y técnicos profesionales y talentosos se compromete a cumplir con las solicitudes de nuestros clientes con experiencia y dedicación."
+    ],
+    "servicesCompany": [
+        "Waveast Installation & Park Services es un proveedor líder de servicios integrales para artículos de entretenimiento y parques acuáticos. Con un fuerte compromiso con la excelencia, nos especializamos en ofrecer servicios excepcionales de ingeniería, instalación, mantenimiento, expansión, renovación y consultoría."
+    ],
+    "projectsCompany": [
+        "Waveast Installation & Park Services ha completado con éxito numerosos proyectos en todo el mundo, mostrando nuestra experiencia en la creación de artículos excepcionales de entretenimiento y parques acuáticos. Nuestra presencia global refleja nuestro compromiso con la excelencia y nuestra capacidad para satisfacer las diversas necesidades de los clientes en varios entornos."
+    ],
+    "contactCompany": "Para todas las consultas, utiliza el formulario de contacto o comunícate directamente utilizando la información de contacto que se proporciona a continuación.",
+    "projectsPlaces": {
+        "seville": "Sevilla, España",
+        "antalya": "Antalya, Turquía",
+        "tirana": "Tirana, Albania",
+        "chisinau": "Chisináu, Moldova",
+        "baghdad": "Bagdad, Irak",
+        "pattaya": "Pattaya, Tailandia",
+        "arandjelovac": "Arandjelovac, Serbia",
+        "babilon": "Babilon, Irak",
+        "wrecza": "Wrecza, Polonia",
+        "quatreCocos": "Quatre Cocos, Mauricio",
+        "izmir": "Esmirna, Turquía",
+        "coventry": "Coventry, Inglaterra"
+    },
+    "contact": {
+        "contactInfo": {
+            "address": "Dirección",
+            "email": "Correo electrónico",
+            "phone": "Teléfono"
+        },
+        "contactForm": {
+            "fullName": {"label": "Nombre completo", "placeholder": "Introduce tu nombre completo"},
+            "email": {"label": "Email", "placeholder": "Introduce tu email"},
+            "subject": {"label": "Asunto", "placeholder": "Introduce el asunto"},
+            "message": {"label": "Mensaje", "placeholder": "Introduce tu mensaje"},
+            "submitBtn": "Enviar"
+        },
+        "error": {
+            "requiredName": "El nombre completo es requerido",
+            "validName": "Introduce un nombre completo válido",
+            "requiredEmail": "El email es requerido",
+            "validEmail": "Introduce un email válido",
+            "requiredSubject": "El asunto es requerido",
+            "validSubject": "El asunto debe tener al menos dos caracteres",
+            "requiredMessage": "El mensaje es requerido",
+            "validMessage": "El mensaje debe tener al menos dos caracteres"
+        },
+        "modal": {
+            "success": {
+                "title": "¡Gracias por ponerte en contacto!", 
+                "message": "Tu mensaje ha sido enviado correctamente. Agradecemos tu interés y te responderemos lo antes posible."
+            },
+            "error": {
+                "title": "¡Oops! Algo salió mal",
+                "message": "Encontramos un error al intentar enviar tu mensaje. Por favor, intenta de nuevo o contáctanos directamente a través de nuestra información de contacto."
+            },
+            "okayBtn": "Está bien"
+        },
+        "notFound": {
+            "pageNotFound": "Página No Encontrada",
+            "goBack": "Regresar"
+        }
+    }
+}

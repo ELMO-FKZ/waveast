@@ -3,6 +3,7 @@ import {initReactI18next} from "react-i18next";
 
 import translationEN from "../public/locales/en/translation.json";
 import translationFR from "../public/locales/fr/translation.json";
+import translationES from "../public/locales/es/translation.json"
 import translationPL from "../public/locales/pl/translation.json";
 
 i18next.use(initReactI18next).init({
@@ -14,6 +15,9 @@ i18next.use(initReactI18next).init({
         },
         fr: {
             translation: translationFR
+        },
+        es: {
+            translation: translationES
         },
         pl: {
             translation: translationPL

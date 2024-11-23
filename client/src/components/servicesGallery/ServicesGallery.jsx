@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, memo } from "react"
 import { galleryImages } from "../../data/galleryImages"
 import { useTranslation } from "react-i18next"
 import SpecialHeadingTwo from "../specialHeadingTwo/SpecialHeadingTwo"
@@ -15,7 +15,7 @@ import "yet-another-react-lightbox/plugins/captions.css"
 import "yet-another-react-lightbox/plugins/counter.css"
 import "./servicesGallery.css"
 
-function ServicesGallery() {
+const ServicesGallery = memo(function ServicesGallery() {
 
   const {t} = useTranslation()
 
@@ -33,8 +33,7 @@ function ServicesGallery() {
   const handleFilter = (id, option) => {
     setFilterItems((prev) =>
       prev.map((item) => ({
-        ...item,
-        active: item.id === id,
+        ...item, active: item.id === id,
       }))
     )
     setActiveFilter(option)
@@ -45,14 +44,14 @@ function ServicesGallery() {
   )
 
   return (
-    <div className="container section__margin-bottom">
+    <div className="container section__padding--block">
       <div className="section__padding">
         <SpecialHeadingTwo title={t(`specialHeadings.waterParkInstallation`)} />
       </div>
 
       <div className="service-filter">
         {filterItems.map((item) => (
-          <button key={item.id} className={`btn ${item.active ? "btn--active" : ""}`} onClick={() => handleFilter(item.id, item.option)} >
+          <button key={item.id} className={`btn__filter ${item.active ? "btn__filter--active" : ""}`} onClick={() => handleFilter(item.id, item.option)} >
             {t(item.optionTranslation)}
           </button>
         ))}
@@ -75,6 +74,6 @@ function ServicesGallery() {
       />
     </div>
   )
-}
+})
 
 export default ServicesGallery
