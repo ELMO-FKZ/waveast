@@ -38,7 +38,7 @@ margin: 0 auto; }
     .statement:hover { 
     box-shadow: var(--shadow-color) 0px 10px 30px -20px; }
     .statement:hover .statement__hidden {
-    transform: translate(-50%, -50%) scale(200); }
+    transform: translate(-50%, -50%) scale(140); }
     .statement:hover .statement__title,
     .statement:hover .statement__content {
     color: var(--mint-cream); }
