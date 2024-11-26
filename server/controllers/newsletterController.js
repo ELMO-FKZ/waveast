@@ -15,7 +15,8 @@ const sendEmail = async (req, res) => {
 
   const options = {
     from: email,
-    to: process.env.EMAIL_USER,
+    // to: process.env.EMAIL_USER,
+    to: "we@waveast.pl",
     subject: "Newsletter Subscription",
     html: `
     <div style="font-family: Arial, sans-serif; padding: 20px;">
