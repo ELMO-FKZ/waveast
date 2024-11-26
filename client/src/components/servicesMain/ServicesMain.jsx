@@ -6,22 +6,21 @@ import servicesItems from "../../data/servicesItems"
 import "./servicesMain.css"
 
 const ServicesMain = memo(function ServicesMain() {
-    const { t } = useTranslation()
+    const {t} = useTranslation()
     const carousel = useRef()
     const [currentSlide, setCurrentSlide] = useState(0)
     const [totalSlides, setTotalSlides] = useState(1)
-    const itemWidth = 220 // 22rem = 220px
+    const itemWidth = 220 
 
     useEffect(() => {
         const updateSlideInfo = () => {
             if (!carousel.current) return
             const containerWidth = carousel.current.offsetWidth
-            const itemsPerView = Math.floor(containerWidth / (itemWidth + 32)) // 32px for 2rem gap
+            const itemsPerView = Math.floor(containerWidth / (itemWidth + 32)) 
 
-            // Prevent invalid array length
             if (itemsPerView <= 0) {
-                setTotalSlides(0); // Set totalSlides to 0 to avoid invalid length
-                return;
+                setTotalSlides(0)
+                return
             }
 
             const slides = Math.ceil(servicesItems.length / itemsPerView)

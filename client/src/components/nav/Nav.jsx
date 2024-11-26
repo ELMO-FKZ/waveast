@@ -3,9 +3,9 @@ import { Link as LinkRouter, NavLink } from "react-router-dom"
 import { BiGlobe, BiSolidSun, BiMoon, BiX, BiMenu } from "react-icons/bi"
 import { useTranslation } from "react-i18next"
 import { availableLanguages } from "../../data/availableLanguages"
+import { LanguageContext } from "../../contexts/LanguageContext"
 import useBodyOverflow from "../../hooks/useBodyOverflow"
 import "./nav.css"
-import { LanguageContext } from "../../contexts/LanguageContext"
 
 const navLinks = [
     {id: 1, nameKey:"nav.navLinks.0", path:"/"},
@@ -24,7 +24,6 @@ const Nav = memo(function Nav() {
     const {t} = useTranslation()
     const {currentLanguage, handleCurrentLanguageChange} = useContext(LanguageContext)
 
-    // Changing the language
     const handleLanguageIconClick = () => {
         setIsLanguageBoxShown(prevState => !prevState)
     }
@@ -39,7 +38,6 @@ const Nav = memo(function Nav() {
         setIsLanguageBoxShown(false)
     }
 
-    // Burger click
     const handleEnter = (e) => {
         if (e.keyCode === 13) {
             setIsMenuShown(prevIsMenuShown => !prevIsMenuShown)
@@ -50,7 +48,6 @@ const Nav = memo(function Nav() {
         setIsMenuShown(prevIsMenuShown => !prevIsMenuShown)
     }
 
-    // Menu
     useBodyOverflow(isMenuShown);
 
     useEffect(() => {
@@ -63,7 +60,6 @@ const Nav = memo(function Nav() {
         }
     }, [])
 
-    // Dark mode
     function handleThemeChange() {
         setDarkMode(!darkMode)
     }

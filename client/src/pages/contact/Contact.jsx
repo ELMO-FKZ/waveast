@@ -8,9 +8,10 @@ import useInform from "../../hooks/useInform"
 import "./contact.css"
 
 const contactDetails = [
-    {id: 1, icon: <FaMapMarkerAlt />, title: "contact.contactInfo.address", content: "Ul. Ludwika Rydygiera 8/609 01-793, Warsaw Poland."},
-    {id: 2, icon: <FaPhoneAlt />, title:"contact.contactInfo.email", content: "we@waveast.pl"},
-    {id: 3, icon: <FaEnvelope />, title:"contact.contactInfo.phone", content: "+48 731 736 446"}
+    {id: 1, icon: <FaMapMarkerAlt />, title: "contact.contactInfo.address", content: ["Ul. Ludwika Rydygiera 8/609 01-793, Warsaw Poland."]},
+    {id: 2, icon: <FaMapMarkerAlt />, title: "contact.contactInfo.office", content: ["Wróbla 6A, 02-736 Warsaw Poland"]},
+    {id: 3, icon: <FaPhoneAlt />, title:"contact.contactInfo.email", content: ["we@waveast.pl"]},
+    {id: 4, icon: <FaEnvelope />, title:"contact.contactInfo.phone", content: ["+48 795 564 824", "+48 731 736 446", "+48 730 218 633"]}
 ]
 
 function Contact() {
@@ -88,7 +89,11 @@ function Contact() {
                                 <div className="contact__info-icon">{contactDetail.icon}</div>
                                 <div className="contact__info-text">
                                     <h3 className="conatct__info-title">{t(contactDetail.title)}</h3>
-                                    <p className="contact__info-paragraph">{contactDetail.content}</p>
+                                    {contactDetail.content.map((item, index) => {
+                                        return (
+                                            <p key={index} className="contact__info-paragraph">{item}</p>
+                                        )
+                                    })}
                                 </div>
                             </div>
                         )
@@ -162,8 +167,8 @@ function Contact() {
                     </div>
                 </form>
             </div>
-            <div className="contact__map-container">
-                <iframe className="contact__map" loading="lazy" src="https://maps.google.com/maps?q=Wr%C3%B3bla%206A%2C%2002-736%20Warszawa&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="Wróbla 6A, 02-736 Warszawa" aria-label="Wróbla 6A, 02-736 Warszawa"></iframe>
+            <div className="contact__map-container container section__padding--bottom">
+                <iframe className="contact__map" loading="lazy" src="https://maps.google.com/maps?q=Wr%C3%B3bla%206A%2C%2002-736%20Warszawa&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title={t(`contact.map.address`)} aria-label={t(`contact.map.address`)} ></iframe>
             </div>
             <DialogSuccess />
             <DialogError />

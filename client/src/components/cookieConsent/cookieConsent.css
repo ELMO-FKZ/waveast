@@ -10,7 +10,7 @@ justify-content: center;
 align-items: flex-end;
 z-index: 1000; }
   .banner {
-  background-color: var(--primary-background-color);
+  background-color: var(--mint-cream);
   border-radius: 0.4rem;
   border: 1px solid var(--mint-cream-dark);
   box-shadow: var(--shadow-color) 0px 10px 30px -20px;
@@ -22,7 +22,7 @@ z-index: 1000; }
     align-items: center;
     padding: 2rem; }
       .banner__title {
-      color: var(--quaternary-blue);
+      color: var(--cyan-dark);
       font-weight: 600;
       font-size: 1.8rem; }
       .first-banner__language {
@@ -31,7 +31,7 @@ z-index: 1000; }
         display: grid;
         place-items: center;
         cursor: pointer; }
-        .banner__icon:hover {color: var(--secondary-blue); }
+        .banner__icon:hover {color: var(--moonstone); }
         .banner__icon--first {font-size: 2rem; }
         .first-banner__language-box {
         position: absolute;
@@ -40,7 +40,9 @@ z-index: 1000; }
         width: 16rem;
         padding: 1rem;
         border-radius: 0.4rem;
-        background-color: var(--primary-background-color); }
+        background-color: var(--mint-cream);
+        border: 1px solid var(--mint-cream-dark);
+        box-shadow: var(--shadow-color) 0px 10px 30px -20px; }
         .first-banner__language-box--hidden {display: none; }
           .first-banner__language-radios {
           display: flex;
@@ -48,11 +50,13 @@ z-index: 1000; }
           gap: 2rem;
           padding: 0.5rem; } 
           .first-banner__language-radios--active {
-          background-color: var(--tertiary-blue); } 
+          color: var(--warm-orange);
+          background: var(--card-hover); } 
             .first-banner__language-radio {appearance: none; }
             .first-banner__language-radios label {
             width: 100%;
             cursor: pointer; }
+            .first-banner__language-radios label:hover {color: var(--warm-orange); }
         .first-banner__content {
         display: flex;
         align-items: center;
@@ -65,8 +69,8 @@ z-index: 1000; }
           text-align: justify;
           line-height: 1.5; }
             .banner__link {
-            color: var(--secondary-blue);
-            background-color: var(--primary-background-color); }
+            color: var(--moonstone);
+            background-color: var(--mint-cream); }
           .first-banner__action-buttons {
           display: flex;
           flex-direction: column;
@@ -75,13 +79,16 @@ z-index: 1000; }
           @media (max-width: 40em) { 
           .first-banner__action-buttons {width: 100%; }}
             .first-banner__accept-btn {
-            background: var(--accept-btn-background); }
+            color: var(--static-cyan-dark);
+            background: var(--btn-background); }
             .first-banner__accept-btn:hover {
-            background: var(--accept-btn-hover); }
+            background: var(--btn-hover); }
             .first-banner__reject-btn {
-            background: var(--reject-btn-background); }
+            color: var(--cyan-dark);
+            outline: 2px solid var(--moonstone);
+            background: var(--mint-cream); }
             .first-banner__reject-btn:hover {
-            background: var(--reject-btn-hover); }
+            outline-color: var(--warm-orange); }
 
         .banner__icon--second {font-size: 2.8rem;}
       .second-banner__content {
@@ -92,7 +99,10 @@ z-index: 1000; }
           .banner__subtitle {
           font-weight: 500;
           margin-bottom: 1rem; }
-        .second-banner__accordion {background-color: var(--secondary-background-color); }
+        .second-banner__accordion {
+        background: var(--mint-cream);
+        border-radius: 0.4rem;
+        border: 1px solid var(--mint-cream-dark); }
         .second-banner__accordion:not(:last-child) {margin-bottom: 0.5rem; }
           .second-banner__accordion-top {
           display: flex;
@@ -100,8 +110,8 @@ z-index: 1000; }
           gap: 2rem;
           cursor: pointer;
           padding: 1rem; }
-          .second-banner__accordion-top:hover {background-color: var(--mint-cream-dark); }
-          .second-banner__accordion-top--open {background-color: var(--mint-cream-dark); }
+          .second-banner__accordion-top:hover {background: var(--card-hover); }
+          .second-banner__accordion-top--open {background: var(--card-hover); }
             .second-banner__accordion-chevron {
             font-size: 2.8rem;
             transition: all var(--main-duration) ease-in-out; }
@@ -118,7 +128,7 @@ z-index: 1000; }
             height: 2.2rem;
             padding-inline: 0.5rem; }
               .second-banner__accordion-input {
-              outline: 1px solid var(--text-color);
+              outline: 1px solid var(--rich-black);
               position: absolute;
               appearance: none;
               cursor: pointer;
@@ -126,11 +136,11 @@ z-index: 1000; }
               left: 0;
               width: 100%;
               height: 100%;
-              border: 0.1rem solid var(--text-color);
+              border: 0.1rem solid var(--rich-black);
               border-radius: 1.2rem; }
               .second-banner__accordion-input:hover {
-              outline-color: var(--secondary-blue);
-              border-color: var(--secondary-blue); }  
+              outline-color: var(--moonstone);
+              border-color: var(--moonstone); }  
               .second-banner__accordion-input::before {
               content: "";
               position: absolute;
@@ -140,15 +150,15 @@ z-index: 1000; }
               border-radius: 50%;
               width: 18px;
               height : 18px;
-              background-color: var(--text-color); }  
+              background-color: var(--rich-black); }  
               .second-banner__accordion-input--notallowed {
-              outline-color: var(--input-notallowed-color);
-              border-color: var(--input-notallowed-color);
+              outline-color: var(--mint-cream-dark);
+              border-color: var(--mint-cream-dark);
               cursor: not-allowed; }
               .second-banner__accordion-input--notallowed:hover {
-              outline-color: var(--input-notallowed-color);
-              border-color: var(--input-notallowed-color); }
-              .second-banner__accordion-input--notallowed::before {background-color: var(--input-notallowed-color); }
+              outline-color: var(--mint-cream-dark);
+              border-color: var(--mint-cream-dark); }
+              .second-banner__accordion-input--notallowed::before {background-color: var(--mint-cream-dark); }
               @media (max-width: 61.9375em) {
               .second-banner__accordion-input::before {
               width: 17px;
@@ -157,8 +167,8 @@ z-index: 1000; }
               .second-banner__accordion-input::before {
               width: 19px;
               height : 19px; } }
-              .second-banner__accordion-input:hover::before {background-color: var(--secondary-blue); }  
-              .second-banner__accordion-input--notallowed:hover::before {background-color: var(--input-notallowed-color); }
+              .second-banner__accordion-input:hover::before {background-color: var(--moonstone); }  
+              .second-banner__accordion-input--notallowed:hover::before {background-color: var(--mint-cream-dark); }
               .second-banner__accordion-input:checked::before {transform: translateX(32px); }
               @media (max-width: 61.9375em) {
               .second-banner__accordion-input:checked::before {transform: translateX(27px); } }
@@ -176,7 +186,7 @@ z-index: 1000; }
               display: flex;
               gap: 1rem; }
               .second-banner__accordion-bottom-span {
-              color: var(--secondary-blue);
+              color: var(--warm-orange);
               font-weight: 500;
               min-width: 11rem; }
       .second-banner__action {
@@ -184,7 +194,8 @@ z-index: 1000; }
       padding: 2rem; }
         .second-banner__save-btn {
         min-width: 25rem;
-        background: var(--accept-btn-background); }
-        .second-banner__save-btn:hover {background: var(--accept-btn-hover); }
+        color: var(--static-cyan-dark);
+        background: var(--btn-background); }
+        .second-banner__save-btn:hover {background: var(--btn-hover); }
         @media (max-width: 40em) { 
         .second-banner__save-btn {width: 100%; }}

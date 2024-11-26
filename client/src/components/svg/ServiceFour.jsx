@@ -19,7 +19,7 @@ function ServiceFour() {
                     id="path56-3"
                     d="M33.4339 0.778501L22.6165 7.40384L10.2539 10.4292L7.35654 22.6532L0.784546 33.4092L7.50588 44.0745L10.5725 56.2572L22.9739 59.1158L33.8872 65.5932L44.7045 58.9678L57.0672 55.9425L59.9659 43.7185L66.5365 32.9638L59.8152 22.2998L56.7485 10.1132L44.3445 7.25584L33.4339 0.778501Z"
                     fill="var(--warm-orange)"
-                    stroke="var(--mint-cream)"
+                    stroke="var(--static-mint-cream)"
                     strokeWidth={1.33333}
                     strokeMiterlimit={10}
                   />
@@ -28,7 +28,7 @@ function ServiceFour() {
                   <path
                     id="path57-1"
                     d="M18.0145 49.8825V11.3198H24.4599V49.8825M15.1879 54.4065V49.8825H27.1745V54.4065M42.2719 49.8825V11.3198H48.7172V49.8825M39.4439 54.4065V49.8825H51.4319V54.4065"
-                    stroke="var(--mint-cream)"
+                    stroke="var(--static-mint-cream)"
                     strokeWidth={1.292}
                     strokeMiterlimit={10}
                     strokeLinecap="round"
@@ -39,7 +39,7 @@ function ServiceFour() {
                   <path
                     id="path58-3"
                     d="M14.6177 55.0518H52.3963"
-                    stroke="var(--mint-cream)"
+                    stroke="var(--static-mint-cream)"
                     strokeWidth={1.01067}
                     strokeMiterlimit={10}
                     strokeLinecap="round"
@@ -50,7 +50,7 @@ function ServiceFour() {
                   <path
                     id="path59-99"
                     d="M18.0145 18.558H48.6612M18.0145 30.602H48.6612"
-                    stroke="var(--mint-cream)"
+                    stroke="var(--static-mint-cream)"
                     strokeWidth={1.292}
                     strokeMiterlimit={10}
                     strokeLinecap="round"
@@ -61,7 +61,7 @@ function ServiceFour() {
                   <path
                     id="path60-6"
                     d="M18.0145 42.1927H48.4332"
-                    stroke="var(--mint-cream)"
+                    stroke="var(--static-mint-cream)"
                     strokeWidth={1.28}
                     strokeMiterlimit={10}
                     strokeLinecap="round"
@@ -72,7 +72,7 @@ function ServiceFour() {
                   <path
                     id="path61-5"
                     d="M42.2714 18.558L24.4607 30.602L42.2714 42.1927L27.174 54.406"
-                    stroke="var(--mint-cream)"
+                    stroke="var(--static-mint-cream)"
                     strokeWidth={1.292}
                     strokeMiterlimit={10}
                     strokeLinecap="round"
@@ -85,7 +85,7 @@ function ServiceFour() {
         </g>
         <defs>
           <clipPath id="clip0_4_71">
-            <rect width={67.3212} height={66.3716} fill="var(--mint-cream)" />
+            <rect width={67.3212} height={66.3716} fill="var(--static-mint-cream)" />
           </clipPath>
         </defs>
       </svg>

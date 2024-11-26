@@ -8,7 +8,6 @@ export const LanguageContext = createContext()
 export const LanguageContextProvider = ({ children }) => {
 
     const [currentLanguage, setCurrentLanguage] = useState(localStorage.getItem("lng") || 'en');
-    //const [currentLanguages, setCurrentLanguages] = useState(availableLanguages.map(language => {...language, active: }))
     const {i18n} = useTranslation();
 
     useEffect(() => {
@@ -23,8 +22,8 @@ export const LanguageContextProvider = ({ children }) => {
       };
 
       const contextValues = useMemo(() => {
-        return {currentLanguage, handleCurrentLanguageChange} /*list everything to be shared here*/
-      }, [currentLanguage]) /*dependencies*/
+        return {currentLanguage, handleCurrentLanguageChange} 
+      }, [currentLanguage])
     
       return (
         <LanguageContext.Provider value={contextValues}>

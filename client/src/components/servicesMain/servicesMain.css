@@ -7,7 +7,6 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-    /* padding-bottom: 2rem; */
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -79,7 +78,6 @@ z-index: 1;
     width: auto;
 }
 
-/* Carousel Dots */
 .carousel-dots {
     display: flex;
     justify-content: center;
@@ -107,10 +105,8 @@ z-index: 1;
     transform: scale(1.2);
 }
 
-/* Carousel Buttons */
 .carousel-buttons {
     display: flex;
-    /* justify-content: flex-end; */
     gap: 0.5rem;
     margin-bottom: 1rem;
 }

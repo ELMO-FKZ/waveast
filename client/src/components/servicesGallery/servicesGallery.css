@@ -12,13 +12,11 @@ margin-bottom: 2rem; }
     padding: 1rem 2rem;
     font-weight: 600;
     user-select: none;
-    color: var(--secondary-blue);
+    color: var(--cyan-dark);
     background: var(--card-hover); }
-    .btn__filter:hover {
-    color: var(--quaternary-blue); }
     .btn__filter--active {
-    color: var(--quaternary-blue);
-    background: var(--btn-background); }
+    color: var(--mint-cream);
+    background: var(--moonstone-dark); }
 
 .image-gallery {
 display: grid;

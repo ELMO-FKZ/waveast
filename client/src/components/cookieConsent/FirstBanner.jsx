@@ -12,7 +12,6 @@ function FirstBanner({handleShowPreferences, handleAcceptAll, handleRejectAll}) 
     const {t} = useTranslation()
     const {currentLanguage, handleCurrentLanguageChange} = useContext(LanguageContext)
 
-    // Changing the language
     const handleLanguageIconClick = () => {
         setIsLanguageBoxShown(prevState => !prevState)
     }
@@ -31,9 +30,9 @@ function FirstBanner({handleShowPreferences, handleAcceptAll, handleRejectAll}) 
     <div className="banner__overlay">
         <div className="banner">
             <div className="banner__header">
-                <span className="banner__title">We Use Cookies!</span>
+                <span className="banner__title">{t(`cookieConsent.firstBannerTitle`)}</span>
                 <div className="first-banner__language">
-                    <div className="banner__icon banner__icon--first" onClick={handleLanguageIconClick} onKeyDown={handleLanguageIconClick} tabIndex={0}>
+                    <div className="banner__icon banner__icon--first" aria-label="languages icon" onClick={handleLanguageIconClick} onKeyDown={handleLanguageIconClick} tabIndex={0}>
                         <BiGlobe />
                     </div>
                     <div className={`first-banner__language-box ${!isLanguageBoxShown ? "first-banner__language-box--hidden" : ""}`}>
@@ -57,11 +56,11 @@ function FirstBanner({handleShowPreferences, handleAcceptAll, handleRejectAll}) 
             </div>
             <div className="first-banner__content">
                 <div className="banner__text">
-                    This website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button className="banner__link" onClick={handleShowPreferences}>Let me choose</button>
+                    {t(`cookieConsent.firstBannerText`)} <button className="banner__link" onClick={handleShowPreferences}>{t(`cookieConsent.firstBannerLink`)}</button>
                 </div>
                 <div className="first-banner__action-buttons">
-                    <button className="btn first-banner__accept-btn" onClick={handleAcceptAll}>Accept All</button>
-                    <button className="btn first-banner__reject-btn" onClick={handleRejectAll}>Reject All</button>
+                    <button className="btn first-banner__accept-btn" onClick={handleAcceptAll}>{t(`cookieConsent.firstBannerAccept`)}</button>
+                    <button className="btn first-banner__reject-btn" onClick={handleRejectAll}>{t(`cookieConsent.firstBannerReject`)}</button>
                 </div>
             </div>   
         </div>

@@ -10,14 +10,13 @@ margin: 0 auto; }
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 2rem;
         padding: 1.5rem;
-        border-radius: 0.5rem; 
+        border-radius: 0.5rem;
         cursor: pointer; }
         .faq__question--clicked {
-        /* color: var(--warm-orange); */
         background: var(--card-hover); }
         .faq__question:hover {
-        /* color: var(--warm-orange); */
         background: var(--card-hover); }
                 .faq__icon--hide {
                 display: none; }

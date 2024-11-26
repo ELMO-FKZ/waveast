@@ -161,9 +161,12 @@ z-index: 100; }
                     gap: 2rem;
                     padding: 0.5rem; } 
                     .nav__language-radios--active {
-                    background: var(--tertiary-lg-color); } 
+                    color: var(--warm-orange);
+                    background: var(--card-hover); } 
                         .nav__language-radio {
                         appearance: none; }
                         .nav__language-radios label {
                         width: 100%;
                         cursor: pointer; }
+                        .nav__language-radios label:hover {
+                        color: var(--warm-orange); }

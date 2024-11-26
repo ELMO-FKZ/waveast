@@ -13,9 +13,7 @@ const faqs = [
     {id: 5, questionKey: "faqs.accordion.4.question", answerKey: "faqs.accordion.4.answer"},
     {id: 6, questionKey: "faqs.accordion.5.question", answerKey: "faqs.accordion.5.answer"},
     {id: 7, questionKey: "faqs.accordion.6.question", answerKey: "faqs.accordion.6.answer"},
-    {id: 8, questionKey: "faqs.accordion.7.question", answerKey: "faqs.accordion.7.answer"},
-    {id: 9, questionKey: "faqs.accordion.8.question", answerKey: "faqs.accordion.8.answer"},
-    {id: 10, questionKey: "faqs.accordion.9.question", answerKey: "faqs.accordion.9.answer"}
+    {id: 8, questionKey: "faqs.accordion.7.question", answerKey: "faqs.accordion.7.answer"}
 ]
 
 const Faqs = memo(function Faqs() {

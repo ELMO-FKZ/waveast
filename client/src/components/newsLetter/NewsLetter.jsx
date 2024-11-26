@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next"
 import { validateEmail } from "../../utils/validateEmail"
 import SpecialHeading from "../specialHeading/SpecialHeading"
 import useInform from "../../hooks/useInform"
-// import BackgroundLight from "../svg/BackgroundLight"
 import "./newsLetter.css"
 
 const NewsLetter = memo(function NewsLetter() {
@@ -74,7 +73,6 @@ const NewsLetter = memo(function NewsLetter() {
                     </div>
                 </form>
             </div>
-            {/* <BackgroundLight /> */}
         </div>
         <DialogSuccess />
         <DialogError />

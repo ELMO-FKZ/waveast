@@ -29,11 +29,3 @@ app.get("*", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on PORT: ${PORT}`);
 });
-
-
-// server: mail.waveast.pl
-// incoming port: 143
-// outgoing port : 587
-
-// Gmail
-// klem heiy honv recm

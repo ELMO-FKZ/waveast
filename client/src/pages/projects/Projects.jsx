@@ -23,15 +23,12 @@ function Projects() {
 
     const [index, setIndex] = useState(-1)
 
-    // Map projectsImages to include translated captions
     const slides = projectsImages.map(image => {
         return {
             src: image.src,
             description: t(image.description)
         }
     })
-
-    // At Waveast Installation & Park Services, we believe in creating memorable experiences for our clients and their customers. Our team of dedicated professionals combines expertise and innovation to provide top-notch services that enhance the enjoyment and safety of amusement and entertainment venues. We understand that each project is unique, and we are committed to delivering solutions that exceed expectations.
 
     return (
         <>

@@ -1,5 +1,5 @@
 import { useState, memo } from "react"
-import { galleryImages } from "../../data/galleryImages"
+import { servicesImages } from "../../data/servicesImages"
 import { useTranslation } from "react-i18next"
 import SpecialHeadingTwo from "../specialHeadingTwo/SpecialHeadingTwo"
 import Lightbox from "yet-another-react-lightbox"
@@ -22,10 +22,8 @@ const ServicesGallery = memo(function ServicesGallery() {
   const [index, setIndex] = useState(-1)
 
   const [filterItems, setFilterItems] = useState([
-    { id: 1, option: "Installation", optionTranslation: "services.0.title", active: true },
-    { id: 2, option: "Expansion", optionTranslation: "services.1.title", active: false },
-    { id: 3, option: "Renovation", optionTranslation: "services.2.title", active: false },
-    { id: 4, option: "Maintenance", optionTranslation: "services.3.title", active: false },
+    { id: 1, option: "Installation", optionTranslation: "servicesFilter.installation", active: true },
+    { id: 2, option: "Maintenance", optionTranslation: "servicesFilter.maintenance", active: false }
   ])
 
   const [activeFilter, setActiveFilter] = useState("Installation")
@@ -39,14 +37,14 @@ const ServicesGallery = memo(function ServicesGallery() {
     setActiveFilter(option)
   }
 
-  const FilteredImages = galleryImages.filter(
+  const FilteredImages = servicesImages.filter(
     (image) => (image.category).toLocaleLowerCase() === activeFilter.toLocaleLowerCase()
   )
 
   return (
     <div className="container section__padding--block">
       <div className="section__padding">
-        <SpecialHeadingTwo title={t(`specialHeadings.waterParkInstallation`)} />
+        <SpecialHeadingTwo title={t(`specialHeadings.servicesGallery`)} />
       </div>
 
       <div className="service-filter">

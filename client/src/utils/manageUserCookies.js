@@ -4,5 +4,5 @@ export const getUserCookies = () => {
 };
   
 export const setUserCookies = (preferences) => {
-    document.cookie = `cookieConsent=${JSON.stringify(preferences)}; path=/; max-age=31536000; SameSite=None; Secure`; // 1 year
+    document.cookie = `cookieConsent=${JSON.stringify(preferences)}; path=/; max-age=31536000; SameSite=None; Secure`;
 };

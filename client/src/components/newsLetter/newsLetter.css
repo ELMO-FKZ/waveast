@@ -39,10 +39,9 @@ background: var(--card-hover); }
                 border-bottom-right-radius: 0.4rem;
                 background: var(--btn-background);
                 border: 1px solid var(--moonstone);
-                color: var(--cyan-dark);
+                color: var(--static-cyan-dark);
                 font-weight: 600;
                 transition: all var(--main-duration) ease-in-out; }
                 .newsletter__btn:hover {
-                /* color: var(--primary-background-color); */
                 background: var(--btn-hover);
                 border: 1px solid var(--moonstone); }

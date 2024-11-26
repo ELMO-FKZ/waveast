@@ -1,12 +1,13 @@
 import { useState } from "react"
-// import { Link as LinkRouter} from "react-router-dom"
 import { BiX, BiCheck, BiChevronDown } from "react-icons/bi"
+import { useTranslation } from "react-i18next"
 import PropTypes from "prop-types"
 import "./cookieConsent.css"
 
 function SecondBanner({preferences, handleCloseModal, handleCloseModalEnter, handleCheckboxChange, handleSaveSettings}) {
 
     const [openAccordion, setOpenAccordion] = useState(null)
+    const {t} = useTranslation()
 
     const handleAccordionToggle = (index) => {
         setOpenAccordion(openAccordion === index ? null : index)
@@ -23,21 +24,19 @@ function SecondBanner({preferences, handleCloseModal, handleCloseModalEnter, han
     <div className="banner__overlay">
         <div className="banner">
             <div className="banner__header">
-                <span className="banner__title">Manage Your Preferences</span>
-                <div className="banner__icon banner__icon--second" onClick={handleCloseModal} onKeyDown={handleCloseModalEnter}><BiX /></div>
+                <span className="banner__title">{t(`cookieConsent.secondBannerTitle`)}</span>
+                <div className="banner__icon banner__icon--second" aria-label="close" onClick={handleCloseModal} onKeyDown={handleCloseModalEnter}><BiX /></div>
             </div>
             <div className="second-banner__content">
                 <div className="second-banner__usage">
-                    <div className="banner__subtitle">Cookie usage</div>
-                    <div className="banner__text">I use cookies to ensure the basic functionalities of the website and to enhance your online experience. 
-                        You can choose for each category to opt-in/out whenever you want. 
-                        For more details relative to cookies and other sensitive data, please read the full <a target="_blank" className="banner__link" href="/privacy">privacy policy.</a>
+                    <div className="banner__subtitle">{t(`cookieConsent.secondBannerSubtitle`)}</div>
+                    <div className="banner__text">{t(`cookieConsent.secondBannerText`)} <a target="_blank" className="banner__link" href="/privacy">{t(`cookieConsent.secondBannerLink`)}</a>
                     </div>
                 </div>
                 <div className="second-banner__accordion">
                     <div className={`second-banner__accordion-top ${openAccordion === 0 ? "second-banner__accordion-top--open" : ""}`} onClick={() => handleAccordionToggle(0)} onKeyDown={() => handleAccordionEnter(0)} role="button" tabIndex={0}>
                         <BiChevronDown className={`second-banner__accordion-chevron ${openAccordion === 0 ? "second-banner__accordion-chevron--open" : ""}`} />
-                        <span className="second-banner__accordion-span">Strictly Necessary Cookies</span>
+                        <span className="second-banner__accordion-span">{t(`cookieConsent.firstAccordionTitle`)}</span>
                         <div className="second-banner__accordion-checkbox" onClick={(e) => e.stopPropagation()}>
                             <BiCheck className="second-banner__accordion-svg" />
                             <input className="second-banner__accordion-input second-banner__accordion-input--notallowed" type="checkbox" checked readOnly />
@@ -45,13 +44,13 @@ function SecondBanner({preferences, handleCloseModal, handleCloseModalEnter, han
                         </div>
                     </div>
                     <div className={`second-banner__accordion-bottom ${openAccordion === 0 ? "second-banner__accordion-bottom--open" : ""}`}>
-                        These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly.
+                        {t(`cookieConsent.firstAccordionText`)}
                     </div>
                 </div>
                 <div className="second-banner__accordion">
                     <div className={`second-banner__accordion-top ${openAccordion === 1 ? "second-banner__accordion-top--open" : ""}`} onClick={() => handleAccordionToggle(1)} onKeyDown={() => handleAccordionEnter(1)} role="button" tabIndex={0}>
                         <BiChevronDown className={`second-banner__accordion-chevron ${openAccordion === 1 ? "second-banner__accordion-chevron--open" : ""}`} />
-                        <span className="second-banner__accordion-span">Performance and Analytics Cookies</span>
+                        <span className="second-banner__accordion-span">{t(`cookieConsent.secondAccordionTitle`)}</span>
                         <div className="second-banner__accordion-checkbox" onClick={(e) => e.stopPropagation()}>
                             <BiCheck className="second-banner__accordion-svg" />
                             <input className="second-banner__accordion-input" type="checkbox" checked={preferences.analytics}  onChange={(e) => handleCheckboxChange('analytics', e.target.checked)} />
@@ -59,27 +58,27 @@ function SecondBanner({preferences, handleCloseModal, handleCloseModalEnter, han
                         </div>
                     </div>
                     <div className={`second-banner__accordion-bottom ${openAccordion === 1 ? "second-banner__accordion-bottom--open" : ""}`}>
-                        These cookies allow the website to remember the choices you have made in the past.
+                        {t(`cookieConsent.secondAccordionText`)}
                         <ul>
                             <li className="second-banner__accordion-bottom-li">
                                 <span className="second-banner__accordion-bottom-span">^_ga</span>
-                                <span>Used by Google Analytics to distinguish one visitor from another and lasts for 2 years.</span>
+                                <span>{t(`cookieConsent.gaDescription`)}</span>
                             </li>
                             <li className="second-banner__accordion-bottom-li">
                                 <span className="second-banner__accordion-bottom-span">_gat</span>
-                                <span>Used by Google Analytics to limit the collection of data on high traffic sites. This cookie expires after 1 day.</span>
+                                <span>{t(`cookieConsent.gatDescription`)}</span>
                             </li>
                             <li className="second-banner__accordion-bottom-li">
                                 <span className="second-banner__accordion-bottom-span">_gid</span>
-                                <span>Used by Google Analytics to generate statistical data on how the visitor uses the website. This cookie expires after 1 day.</span>
+                                <span>{t(`cookieConsent.gidDescription`)}</span>
                             </li>
                             <li className="second-banner__accordion-bottom-li">
                                 <span className="second-banner__accordion-bottom-span">lng</span> 
-                                <span>Stores the user's preferred language setting for the website. It expires after the session ends.</span>
+                                <span>{t(`cookieConsent.lngDescription`)}</span>
                             </li>
                             <li className="second-banner__accordion-bottom-li">
                                 <span className="second-banner__accordion-bottom-span">dark-mode</span> 
-                                <span>Saves the user's preference for dark mode or light mode display. It expires after the session ends.</span>
+                                <span>{t(`cookieConsent.darkModeDescription`)}</span>
                             </li>
                         </ul>   
                     </div>
@@ -87,7 +86,7 @@ function SecondBanner({preferences, handleCloseModal, handleCloseModalEnter, han
                 <div className="second-banner__accordion">
                     <div className={`second-banner__accordion-top ${openAccordion === 2 ? "second-banner__accordion-top--open" : ""}`} onClick={() => handleAccordionToggle(2)} onKeyDown={() => handleAccordionEnter(2)} role="button" tabIndex={0}>
                         <BiChevronDown className={`second-banner__accordion-chevron ${openAccordion === 2 ? "second-banner__accordion-chevron--open" : ""}`} />
-                        <span className="second-banner__accordion-span">Advertisement and Targeting Cookies</span>
+                        <span className="second-banner__accordion-span">{t(`cookieConsent.thirdAccordionTitle`)}</span>
                         <div className="second-banner__accordion-checkbox" onClick={(e) => e.stopPropagation()}>
                             <BiCheck className="second-banner__accordion-svg" />
                             <input className="second-banner__accordion-input" type="checkbox" checked={preferences.targeting}  onChange={(e) => {handleCheckboxChange('targeting', e.target.checked)}} />
@@ -95,12 +94,12 @@ function SecondBanner({preferences, handleCloseModal, handleCloseModalEnter, han
                         </div>
                     </div>
                     <div className={`second-banner__accordion-bottom ${openAccordion === 2 ? "second-banner__accordion-bottom--open" : ""}`}>
-                        These cookies collect information about how you use the website, which pages you visited and which links you clicked on. All of the data is anonymized and cannot be used to identify you.
+                        {t(`cookieConsent.thirdAccordionText`)}
                     </div>
                 </div>
             </div>
             <div className="second-banner__action">
-                <button className="btn second-banner__save-btn" onClick={handleSaveSettings}>Save Settings</button>
+                <button className="btn second-banner__save-btn" onClick={handleSaveSettings}>{t(`cookieConsent.secondBannerSave`)}</button>
             </div>
         </div>
     </div>

@@ -15,6 +15,7 @@
         "information": "Information",
         "about": "About us",
         "contact": "Contact us",
+        "catalogue": "Catalogue",
         "expertise": "Our expertise",
         "services": "Services",
         "projects": "Projects",
@@ -26,14 +27,17 @@
     },
     "scrollUpAriaLabel": "scroll up",
     "landing": {
-        "subTitle": "Riding the Waves of Exceptional Installations and Water Park Services",
-        "button": "Explore Our Catalogue"
+        "unsupported": "Your browser does not support the video tag.",
+        "scrollDown": "Scroll Down"
+    },
+    "subLanding": {
+        "subTitle": "Riding the Waves of Exceptional Installations and Water Park Services"
     },
     "statistics": [
         "Years of experience",
         "Completed projects",
         "Countries we worked in",
-        "continents we worked in"
+        "Continents we worked in"
     ],
     "carouselBtnAriaLabel": {
         "left": "Scroll left",
@@ -56,16 +60,14 @@
     },
     "faqs": {
         "accordion": [
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."},
-            {"question": "EN: Lorem ipsum dolor sit amet?", "answer": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna ac aliquam ullamcorper, turpis sapien consequat nunc, nec ultricies nisl nunc nec elit. Nullam euismod, metus nec lacinia tincidunt, nunc nunc tincidunt sem, nec tincidunt nunc metus nec turpis."}
+            {"question": "Does Waveast provide international coverage for its services?", "answer": "Yes, Waveast offers global coverage for most projects and EMEA coverage for all services, ensuring they can meet client needs regardless of location."},
+            {"question": "Who provides the equipment and supplies for Waveast services?", "answer": "As long as equipment and supplies can be transported. Waveast's team comes fully equipped with all necessary tools, equipment, and high-quality supplies ensuring a stress-free experience for our clients."},
+            {"question": "What installation services does Waveast provide?", "answer": "Waveast offers top-notch installation services, This includes but not limited to waterslides & aquatic features, steel structures, amusement rides, climbing units, playgrounds, and hydromechanical systems."},
+            {"question": "What is included in the installation process?", "answer": "The installation process includes comprehensive method sheets and action plans from ideation to installation, product assembly with the assistance of technical consultants and experienced installers, and timely installation that complies with safety regulations and standards."},
+            {"question": "What maintenance services does Waveast offer?", "answer": "Waveast specializes in maintenance and refurbishment services, including comprehensive inspections of parks and products, an annual maintenance program, damage repair, polishing and cleaning of slides, as well as repainting of slides, both inside and out."},
+            {"question": "What does the annual maintenance program include?", "answer": "The annual maintenance program includes, but is not limited to, joint refurbishment, damage repair, polishing and cleaning of slides."},
+            {"question": "How does the maintenance process work at Waveast?", "answer": "Our technicians first conduct an inspection of the client's parks or water slides. Following this inspection, they provide a complete report along with a scope proposal for the necessary work."},
+            {"question": "Is there a warranty for maintenance services?", "answer": "Yes, Waveast offers a seasonal warranty for its maintenance services to ensure customer satisfaction and the durability of the work performed."}
         ],
         "showBtn": "Show more"
     },
@@ -106,8 +108,7 @@
         "services": "Our services",
         "projects": "We've been in...",
         "contact": "Get in touch",
-        "privacy": "Privacy policy",
-        "cookie": "Cookie policy"
+        "privacy": "Privacy policy"
     },
     "specialHeadings": {
         "whyWe": "Why us?",
@@ -115,8 +116,7 @@
         "people": "Our people",
         "partners": "Our partners",
         "memberships": "Our memberships",
-        "waterParkServices": "Water park services",
-        "waterParkInstallation": "Water park installation"
+        "servicesGallery": "Gallery"
     },
     "companyVision": {
         "title":"Vision",
@@ -162,9 +162,14 @@
         "izmir": "Izmir, Turkey",
         "coventry": "Coventry, England"
     },
+    "servicesFilter": {
+        "installation": "Installation",
+        "maintenance": "Maintenance"
+    },
     "contact": {
         "contactInfo": {
             "address": "Address",
+            "office": "Branch office",
             "email": "Email",
             "phone": "Phone"
         },
@@ -174,6 +179,9 @@
             "subject": {"label": "Subject", "placeholder": "Enter the subject"},
             "message": {"label": "Message", "placeholder": "Enter your message"},
             "submitBtn": "Submit"
+        },
+        "map": {
+            "address": "Wróbla 6A, 02-736 Warsaw, Poland."
         },
         "error": {
             "requiredName": "Full name is required",
@@ -195,10 +203,66 @@
                 "message": "We encountered an error while trying to send your message. Please try again or reach out to us directly via our contact information."
             },
             "okayBtn": "Okay"
-        },
-        "notFound": {
-            "pageNotFound": "Page Not Found",
-            "goBack": "Go back"
         }
+    },
+    "notFound": {
+        "pageNotFound": "Page Not Found",
+        "goBack": "Go back"
+    },
+    "cookieConsent": {
+        "firstBannerTitle": "We Use Cookies!",
+        "firstBannerText": "This website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent.",
+        "firstBannerLink": "Let me choose",
+        "firstBannerAccept": "Accept All",
+        "firstBannerReject": "Reject All",
+        "secondBannerTitle": "Manage Your Preferences",
+        "secondBannerSubtitle": "Cookie usage",
+        "secondBannerText": "I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full",
+        "secondBannerLink": "privacy policy.",
+        "firstAccordionTitle": "Strictly Necessary Cookies",
+        "firstAccordionText": "These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly.",
+        "secondAccordionTitle": "Performance and Analytics Cookies",
+        "secondAccordionText": "These cookies allow the website to remember the choices you have made in the past.",
+        "gaDescription": "Used by Google Analytics to distinguish one visitor from another and lasts for 2 years.",
+        "gatDescription": "Used by Google Analytics to limit the collection of data on high traffic sites. This cookie expires after 1 day.",
+        "gidDescription": "Used by Google Analytics to generate statistical data on how the visitor uses the website. This cookie expires after 1 day.",
+        "lngDescription": "Stores the user's preferred language setting for the website. It expires after the session ends.",
+        "darkModeDescription": "Saves the user's preference for dark mode or light mode display. It expires after the session ends.",
+        "thirdAccordionTitle": "Advertisement and Targeting Cookies",
+        "thirdAccordionText": "These cookies collect information about how you use the website, which pages you visited and which links you clicked on. All of the data is anonymized and cannot be used to identify you.",
+        "secondBannerSave": "Save Settings"
+    },
+    "privacy": {
+        "lastUpdated": "Last Updated:",
+        "privacyTextOne": "This Privacy Policy explains how --Waveast Sp. z o. o.-- collects, uses, and shares your information when you use our website --https://waveast.pl/--.",
+        "privacyTextTwo": "By using our website, you agree to let us collect and use your information as described in this policy. We may change this Privacy Policy at any time without notifying you beforehand. We will post the updated policy on our website. The new policy will take effect 180 days after it is posted, and your continued use of the website means you accept the new policy. We recommend that you check this page regularly for updates.",
+        "privacyOneTitle": "How We Collect Your Data?",
+        "privacyOneParagraphOne": "We collect information about you when you use our website. This includes when you:",
+        "privacyOneFirstListItem": "1- Contact us to ask about our services.",
+        "privacyOneSecondListItem": "2- Subscribe to our newsletter.",
+        "privacyOneThirdListItem": "3- Send us your CV or job application.",
+        "privacyOneParagraphTwo": "In the --Contact-- section, you will be asked to fill out a simple form with your personal details. By clicking the --Send-- button, you agree that we can use your information to contact you via email or other methods.",
+        "privacyOneParagraphThree": "In the --Newsletter-- section, you can subscribe by providing your email address. By clicking the --Subscribe-- button, you agree that we can use your email to send you newsletters and other information.",
+        "privacyOneParagraphFour": "You have the right to access your information and can ask us to update or delete it by contacting us through the form on our contact page.",
+        "privacyTwoTitle": "What Information We Collect?",
+        "privacyTwoParagraphOne": "The personal information we collect may include:",
+        "privacyTwoFirstListItem": "1- Your name.",
+        "privacyTwoSecondListItem": "2- Your email address.",
+        "privacyTwoThirdListItem": "3- Your country.",
+        "privacyTwoFourthListItem": "4- Your IP address.",
+        "privacyTwoFifthListItem": "5- Information about the pages you visit on our site.",
+        "privacyThreeTitle": "How We Use Your Data?",
+        "privacyThreeParagraphOne": "We use your data to:",
+        "privacyThreeFirstListItem": "1- Respond to your inquiries about our services.",
+        "privacyThreeSecondListItem": "2- Process your job application.",
+        "privacyThreeThirdListItem": "3- Inform you about changes to our company.",
+        "privacyThreeFourthListItem": "4- Send you newsletters if you’ve agreed to receive them.",
+        "privacyThreeFifthListItem": "5- Communicate with you during negotiations.",
+        "privacyThreeParagraphTwo": "We will keep your information only as long as necessary for these activities.",
+        "privacyFourTitle": "Who Has Access to Your Data?",
+        "privacyFourParagraphOne": "Your data will be stored securely by --Waveast Sp. z o.o.-- We will not sell or share your information with third parties. We take necessary steps to protect your data from loss, misuse, or changes.",
+        "privacyFiveTitle": "How to Access, Update, or Delete Your Data?",
+        "privacyFiveParagraphOne": "If you want to access, update, or delete your information, you can email us at --we@waveast.pl-- or use our contact form at --https://waveast.pl/contact--",
+        "privacyFiveParagraphTwo": "We may need to verify your identity before we can process your request to update or delete your data."
     }
 }

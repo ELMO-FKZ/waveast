@@ -1,6 +1,5 @@
 import React from "react"
 import { Helmet } from "react-helmet-async"
-// import { FaEye, FaHandshake, FaBullseye } from "react-icons/fa"
 import { useTranslation } from "react-i18next"
 import { wrapCompanyName } from "../../utils/wrapCompanyName"
 import { getProjectsCount, countUniqueCountries, yearFounded, teamSize } from "../../utils/companyCounter"

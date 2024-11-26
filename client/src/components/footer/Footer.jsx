@@ -1,15 +1,23 @@
-import { memo } from "react"
+import { useState, useContext, memo, useEffect } from "react"
 import { Link as LinkRouter } from "react-router-dom"
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa"
+import { BiLinkAlt } from "react-icons/bi"
 import { FaXTwitter } from "react-icons/fa6"
 import { useTranslation } from "react-i18next"
+import { LanguageContext } from "../../contexts/LanguageContext"
 import "./footer.css"
 
 const currentYear = new Date().getFullYear().toString()
 
 const Footer = memo(function Footer() {
 
+    const [catalogueLink, setCatalogueLink] = useState("")
+    const {currentLanguage} = useContext(LanguageContext)
     const {t} = useTranslation()
+
+    useEffect(() => {
+        setCatalogueLink(`${import.meta.env.VITE_REACT_APP_CLIENT_URL}/catalogues/catalogue_${currentLanguage}.pdf`)
+    }, [currentLanguage])
 
     return (
         <section className="footer section__padding--top">
@@ -22,6 +30,12 @@ const Footer = memo(function Footer() {
                         </li>
                         <li className="footer__listItem">
                             <LinkRouter className="footer__link" to="/contact">{t('footer.contact')}</LinkRouter>
+                        </li>
+                        <li className="footer__listItem">
+                            <a className="footer__link footer__link--catalogue" href={catalogueLink} target="_blank" rel="noopener noreferrer">
+                                {t('footer.catalogue')}
+                                <BiLinkAlt />
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -40,22 +54,22 @@ const Footer = memo(function Footer() {
                     <h3 className="footer__title">{t(`footer.follow`)}</h3>
                     <ul className="footer__list">
                         <li className="footer__listItem footer__listItem--social" >
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.LinkedInAriaLabel`)} >
+                            <a href="https://www.linkedin.com/company/waveastpolska" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.LinkedInAriaLabel`)} >
                                 <FaLinkedinIn />
                             </a>
                         </li>
                         <li className="footer__listItem footer__listItem--social" >
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.InstagramAriaLabel`)} >
+                            <a href="https://www.instagram.com/waveastpolska" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.InstagramAriaLabel`)} >
                                 <FaInstagram />
                             </a>
                         </li>
                         <li className="footer__listItem footer__listItem--social" >
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.FacebookAriaLabel`)} >
+                            <a href="https://www.facebook.com/waveastpolska" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.FacebookAriaLabel`)} >
                                 <FaFacebookF />
                             </a>
                         </li>
                         <li className="footer__listItem footer__listItem--social" >
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.TwitterAriaLabel`)} >
+                            <a href="https://www.twitter.com/waveastpolska" target="_blank" rel="noopener noreferrer" className="footer__link" aria-label={t(`footer.TwitterAriaLabel`)} >
                                 <FaXTwitter />
                             </a>
                         </li>

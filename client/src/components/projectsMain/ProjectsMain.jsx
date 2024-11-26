@@ -19,7 +19,7 @@ const ProjectsMain = memo(function ProjectsMain() {
                     containerStyle={{width: "100%", height: "100%"}}
                     backgroundColor="var(--moonstone)"
                     markers= {projectPlaces}
-                    markerStyle= {{initial: {fill: 'var(--mint-cream)', stroke: 'var(--cyan-dark)'}}}
+                    markerStyle= {{initial: {fill: 'var(--static-mint-cream)', stroke: 'var(--static-cyan-dark)'}}}
                     />
                 </div>
             </div>

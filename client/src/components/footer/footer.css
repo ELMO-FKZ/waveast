@@ -1,6 +1,6 @@
 .footer {
-background: var(--quaternary-lg-color);
-color: var(--cyan-dark); }
+background: var(--footer-background);
+color: var(--static-cyan-dark); }
     .footer__inner {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -32,6 +32,12 @@ color: var(--cyan-dark); }
                 display: inline-block; }
                 .footer__listItem--social:not(:last-child) {
                 margin-right: 2rem; }
+                    .footer__link {color: var(--static-cyan-dark); }
+                    .footer__link--catalogue {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem; }
     .footer__copyright {
     text-align: center;
     padding-block: 3rem;

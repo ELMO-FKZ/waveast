@@ -13,10 +13,10 @@ width: 100%;
 height: 100%;
 top: 0;
 left: 0;
-background-color: var(--cyan-dark);
+background-color: var(--static-cyan-dark);
 opacity: 0.8;}
     .page-header__heading {
-    color: var(--landing-subtitle-color);
+    color: var(--static-mint-cream);
     position: relative;
     z-index: 2; }
     .waves__static {
