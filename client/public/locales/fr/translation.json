@@ -45,18 +45,18 @@
     },
     "services": [
         {
-            "title": "Toboggans aquatiques & caractéristiques aquatiques",
+            "title": "Toboggans & éléments aquatiques",
             "content": [
-                {"subTitle": "Installation : ", "subContent": "Nous proposons des services de 'Conseiller Technique' ou d'installation complète, fournis par notre équipe hautement qualifiée."},
-                {"subTitle": "Maintenance & Rénovation : ", "subContent": "Nos techniciens qualifiés sont capables de gérer tous les projets de réparation concernant des éléments composites."},
+                {"subTitle": "Installation : ", "subContent": "Nous proposons des services de 'conseil technique ou d'installation complète', fournis par notre équipe hautement qualifiée."},
+                {"subTitle": "Maintenance & Rénovation : ", "subContent": "Nos techniciens qualifiés sont compétents pour gérer tous les projets de réparation liés aux éléments composites."},
                 {"subTitle": "Conception & Ventes : ", "subContent": "Nous créons des solutions sur mesure pour les nouveaux projets ainsi que pour les projets existants."}
             ]
         },
         {
-            "title": "Attractions de loisirs, unités d'escalade & terrains de jeux",
+            "title": "Manèges, unités d'escalade & aires de jeux",
             "content": [
-                {"subTitle": "Installation : ", "subContent": "Nous offrons un assemblage de produits soutenu par nos conseillers et installateurs techniques expérimentés."},
-                {"subTitle": "Consultation : ", "subContent": "Notre équipe peut vous aider à créer des plans directeurs complets et à gérer votre projet depuis le concept initial jusqu'à l'installation."}
+                {"subTitle": "Installation : ", "subContent": "Nous fournissons des services d'assemblage de produits, soutenus par nos conseillers techniques et installateurs expérimentés."},
+                {"subTitle": "Consultation : ", "subContent": "Notre équipe peut vous aider à développer des plans directeurs complets et à gérer votre projet du concept initial à l'installation."}
             ]
         },
         {
@@ -67,21 +67,21 @@
             ]
         },
         {
-            "title": "Assemblage de structures en acier",
+            "title": "Assemblage de structures métallique",
             "content": [
-                {"subTitle": "", "subContent": "Notre équipe est spécialisée dans l'assemblage de structures en acier carbone et inoxydable, y compris des plateformes, entrepôts, abris, bâtiments industriels, escaliers et rampes."}
+                {"subTitle": "", "subContent": "Notre équipe est spécialisée dans l'assemblage de structures en acier au carbone et en acier inoxydable, y compris des plateformes, entrepôts, protecteurs, bâtiments industriels, escaliers et rampes."}
             ]
         },
         {
-            "title": "Systèmes de thématisation",
+            "title": "Systèmes thématiques",
             "content": [
-                {"subTitle": "", "subContent": "Nos systèmes de thématisation de haute qualité sont conçus pour la durabilité et pour compléter l'environnement environnant. Les offres incluent des revêtements de sol en mousse-rubber, décoration en galets, roches artificielles, façades et composants de mobilier."}
+                {"subTitle": "", "subContent": "Nos systèmes de thématisation de haute qualité sont conçus pour la durabilité et pour compléter l'environnement environnant. Les offres incluent des revêtements de sol en mousse de caoutchouc, décoration en galets, roches artificielles, façades et composants de mobilier."}
             ]
         },
         {
             "title": "Mise en service & Certification",
             "content": [
-                {"subTitle": "", "subContent": "Nous garantissons une gestion de la sécurité complète pour les parcs aquatiques et les piscines de loisirs, y compris des inspections, des certifications de sécurité conformes aux normes européennes et américaines, des audits techniques et des services de conseil."}
+                {"subTitle": "", "subContent": "Nous fournissons une gestion de la sécurité complète pour les parcs aquatiques et les piscines de loisirs, y compris les inspections, les certifications de sécurité selon les normes européennes et américaines, les audits techniques et les services de conseil."}
             ]
         },
         {
@@ -99,14 +99,14 @@
     },
     "faqs": {
         "accordion": [
-            {"question": "Waveast propose-t-il une couverture internationale pour ses services ?", "answer": "Oui, Waveast offre une couverture mondiale pour la plupart des projets et une couverture EMEA pour tous les services, garantissant ainsi de répondre aux besoins des clients, peu importe leur emplacement."},
-            {"question": "Qui fournit l'équipement et les fournitures pour les services de Waveast ?", "answer": "Tant que l'équipement et les fournitures peuvent être transportés. L'équipe de Waveast est entièrement équipée de tous les outils, équipements et fournitures de haute qualité, garantissant une expérience sans stress pour nos clients."},
-            {"question": "Quels services d'installation Waveast propose-t-il ?", "answer": "Waveast propose des services d'installation de première qualité. Cela comprend, mais sans s'y limiter, des toboggans aquatiques et des caractéristiques aquatiques, des structures en acier, des attractions de loisirs, des unités d'escalade, des terrains de jeux et des systèmes hydromécaniques."},
+            {"question": "Waveast propose-t-il une couverture internationale pour ses services ?", "answer": "Oui, Waveast offre une couverture mondiale pour la plupart des projets et une couverture EMEA pour tous les services, garantissant ainsi qu'il peut répondre aux besoins des clients, quel que soit leur emplacement."},
+            {"question": "Qui fournit l'équipement et les fournitures pour les services de Waveast ?", "answer": "Tant que l'équipement et les fournitures sont transportables, l'équipe de Waveast est entièrement équipée de tous les outils, équipements et matériaux de haute qualité nécessaires, garantissant ainsi une expérience sans stress pour nos clients."},
+            {"question": "Quels services d'installation Waveast propose-t-il ?", "answer": "Waveast offre des services d'installation de première qualité, notamment, mais sans s'y limiter, des toboggans et des éléments aquatiques, des structures métalliques, des attractions de loisirs, des unités d'escalade, des aires de jeux et des systèmes hydromécaniques."},
             {"question": "Que comprend le processus d'installation ?", "answer": "Le processus d'installation comprend des fiches de méthode complètes et des plans d'action depuis l'idéation jusqu'à l'installation, l'assemblage de produits avec l'assistance de consultants techniques et d'installateurs expérimentés, et une installation en temps utile conforme aux réglementations et normes de sécurité."},
-            {"question": "Quels services de maintenance Waveast propose-t-il ?", "answer": "Waveast se spécialise dans les services de maintenance et de rénovation, y compris des inspections complètes des parcs et des produits, un programme de maintenance annuel, des réparations de dommages, le polissage et le nettoyage des toboggans, ainsi que la peinture des toboggans, à l'intérieur comme à l'extérieur."},
-            {"question": "Que comprend le programme de maintenance annuel ?", "answer": "Le programme de maintenance annuel comprend, mais sans s'y limiter, la rénovation des joints, la réparation des dommages, le polissage et le nettoyage des toboggans."},
-            {"question": "Comment fonctionne le processus de maintenance chez Waveast ?", "answer": "Nos techniciens effectuent d'abord une inspection des parcs ou des toboggans aquatiques des clients. Suite à cette inspection, ils fournissent un rapport complet accompagné d'une proposition d'étendue pour le travail nécessaire."},
-            {"question": "Y a-t-il une garantie pour les services de maintenance ?", "answer": "Oui, Waveast offre une garantie saisonnière pour ses services de maintenance afin d'assurer la satisfaction des clients et la durabilité des travaux effectués."}
+            {"question": "Quels services de maintenance Waveast propose-t-il ?", "answer": "Waveast est spécialisé dans les services de maintenance et de rénovation, notamment les inspections complètes des parcs et produits, un programme de maintenance annuel, les réparations de dommages, le polissage et le nettoyage des toboggans, ainsi que la peinture des toboggans, tant à l'intérieur qu'à l'extérieur."},
+            {"question": "Que comprend le programme de maintenance annuel ?", "answer": "Le programme annuel de maintenance comprend, mais sans s'y limiter, la rénovation des joints, la réparation des dommages et le polissage et le nettoyage des toboggans."},
+            {"question": "Comment fonctionne le processus de maintenance chez Waveast ?", "answer": "Nos techniciens procèdent d'abord à une inspection des parcs et/ou des toboggans aquatiques du client. Après l'inspection, ils fournissent un rapport complet ainsi qu'une proposition du travail nécessaire."},
+            {"question": "Y a-t-il une garantie pour les services de maintenance ?", "answer": "Oui, Waveast offre une garantie saisonnière pour ses services de maintenance afin d'assurer la satisfaction du client et la durabilité à long terme du travail effectué."}
         ],
         "showBtn": "Afficher plus"
     },
@@ -170,8 +170,8 @@
         "paragraph": ["Responsabilité", "Professionnalisme", "Fiabilité", "Travail d'équipe", "Qualité", "Excellence"]
     },
     "companyPeople": [
-        "Waveast Installation & Park Services a été fondée par deux ingénieurs ayant plus de dix ans d'expérience dans l'industrie. De plus, Waveast a une présence mondiale grâce à son équipe technique dynamique et à ses alliances stratégiques avec des partenaires dans le monde entier.",
-        "Avec une équipe après-vente axée sur le client et des designers et ingénieurs compétents, Waveast s'efforce de fournir le meilleur service possible à ses clients."
+        "Waveast Installation & Park Services a été fondée par deux ingénieurs ayant plus de dix ans d'expérience dans l'industrie. De plus, Waveast a une présence mondiale grâce à son équipe technique dynamique et à ses partenariats stratégiques avec des partenaires du monde entier.",
+        "Avec une équipe après-vente axée sur le client, ainsi que des designers et des ingénieurs qualifiés, Waveast est en mesure de fournir un service de la plus haute qualité à ses clients."
     ],
     "aboutCompany": [
         "Fondée en {{yearFounded}} dans la ville animée de Varsovie, Pologne, Waveast représente un fort engagement envers l'industrie des loisirs et du divertissement. La vision et la passion de notre fondateur ont façonné notre parcours, nous incitant à créer des expériences passionnantes pour les gens du monde entier. Avec une équipe talentueuse de plus de {{teamSize}} professionnels, nous allions expertise et dévouement pour fournir des solutions de haute qualité pour les hôtels, parcs à thème, parcs aquatiques et sites de camping.",
@@ -179,12 +179,12 @@
         "Waveast se démarque en tant que nom de premier plan dans l'industrie, avec une forte présence dans les régions EMEA, APAC et LATAM. Nous sommes passionnés par le dépassement des frontières du divertissement et la création d'expériences inoubliables pour les personnes de tous âges."
     ],
     "servicesCompany": [
-        "Waveast Installation & Park Services est un fournisseur de premier plan de solutions complètes pour l'industrie des loisirs et du divertissement. Avec un engagement fort envers l'excellence, nous fournissons des services orientés vers le client, adaptés aux besoins uniques de chaque client.",
+        "Waveast Installation & Park Services est un fournisseur leader de solutions complètes pour l'industrie du divertissement et des loisirs. Avec un fort engagement envers l'excellence, nous fournissons des services axés sur le client, adaptés aux besoins uniques de chaque client.",
         "Voici un aperçu de ce que nous offrons :"
     ],
     "projectsCompany": [
-        "Waveast Installation & Park Services a réussi à réaliser de nombreux projets à travers le monde, mettant en valeur notre expertise dans la création d'éléments d'amusement exceptionnels et de parcs aquatiques. Notre présence mondiale reflète notre engagement envers l'excellence et notre capacité à répondre aux besoins divers des clients dans divers environnements.",
-        "Chez Waveast, nous comprenons que chaque projet est unique et nous nous engageons à offrir des expériences mémorables à nos clients et à leurs clients."
+        "Waveast Installation & Park Services a mené à bien de nombreux projets à travers le monde, démontrant ainsi notre expertise dans la création d'attractions et de parcs aquatiques exceptionnels. Notre présence mondiale reflète notre engagement envers l'excellence et notre capacité à répondre aux besoins divers de nos clients dans différents environnements.",
+        "Chez Waveast, nous comprenons que chaque projet est unique, et nous nous engageons à offrir des expériences mémorables à nos clients et à leurs clients."
     ],
     "contactCompany": "Pour toutes les demandes, utilisez le formulaire de contact ou contactez-nous directement en utilisant les informations de contact fournies ci-dessous.",
     "projectsPlaces": {

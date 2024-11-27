@@ -45,18 +45,18 @@
     },
     "services": [
         {
-            "title": "Deslizadores de agua y características acuáticas",
+            "title": "Toboganes Acuáticos y Elementos Acuáticas",
             "content": [
-                {"subTitle": "Instalación: ", "subContent": "Ofrecemos servicios de 'Asesor Técnico' o 'instalación a gran escala' realizados por nuestro equipo altamente calificado."},
-                {"subTitle": "Mantenimiento y renovación: ", "subContent": "Nuestros técnicos cualificados son versátiles en el manejo de todos los proyectos de reparación relacionados con elementos compuestos."},
+                {"subTitle": "Instalación: ", "subContent": "Ofrecemos servicios de 'asesor técnico' o 'instalación completa', entregados por nuestro equipo altamente calificado."},
+                {"subTitle": "Mantenimiento y renovación: ", "subContent": "Nuestros técnicos calificados son competentes en el manejo de todos los proyectos de reparación relacionados con elementos compuestos."},
                 {"subTitle": "Diseño y ventas: ", "subContent": "Creamos soluciones personalizadas tanto para nuevos desarrollos como para proyectos existentes."}
             ]
         },
         {
-            "title": "Atracciones de diversión, unidades de escalada y parques infantiles",
+            "title": "Juegos de diversión, unidades de escalada y parques infantiles",
             "content": [
-                {"subTitle": "Instalación: ", "subContent": "Ofrecemos ensamblaje de productos respaldado por nuestros asesores técnicos e instaladores experimentados."},
-                {"subTitle": "Consultoría: ", "subContent": "Nuestro equipo puede ayudarte a crear planes maestros integrales y gestionar tu proyecto desde el concepto inicial hasta la instalación."}
+                {"subTitle": "Instalación: ", "subContent": "Brindamos servicios de ensamblaje de productos, respaldados por nuestros asesores técnicos e instaladores experimentados."},
+                {"subTitle": "Consultoría: ", "subContent": "Nuestro equipo puede ayudarlo a desarrollar planes maestros integrales y administrar su proyecto desde el concepto inicial hasta la instalación."}
             ]
         },
         {
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "title": "Ensamblaje de estructuras de acero",
+            "title": "Montaje de estructuras de acero",
             "content": [
                 {"subTitle": "", "subContent": "Nuestro equipo se especializa en el ensamblaje de estructuras de acero al carbono y acero inoxidable, incluyendo plataformas, almacenes, refugios, edificios industriales, escaleras y barandillas."}
             ]
@@ -79,9 +79,9 @@
             ]
         },
         {
-            "title": "Puesta en marcha y certificación",
+            "title": "Puesta en servicio y certificación",
             "content": [
-                {"subTitle": "", "subContent": "Proporcionamos gestión integral de seguridad para parques acuáticos y piscinas recreativas, incluyendo inspecciones, certificaciones de seguridad según las normas europeas y americanas, auditorías técnicas y servicios de consultoría."}
+                {"subTitle": "", "subContent": "Brindamos una gestión de seguridad integral para parques acuáticos y piscinas de ocio, incluidas inspecciones, certificaciones de seguridad de acuerdo con los estándares europeos y estadounidenses, auditorías técnicas y servicios de consultoría."}
             ]
         },
         {
@@ -99,14 +99,14 @@
     },
     "faqs": {
         "accordion": [
-            {"question": "¿Waveast ofrece cobertura internacional para sus servicios?", "answer": "Sí, Waveast ofrece cobertura global para la mayoría de los proyectos y cobertura EMEA para todos los servicios, asegurando que pueden satisfacer las necesidades del cliente sin importar la ubicación."},
-            {"question": "¿Quién proporciona el equipo y los suministros para los servicios de Waveast?", "answer": "Siempre que el equipo y los suministros puedan ser transportados. El equipo de Waveast viene completamente equipado con todas las herramientas, equipos y suministros de alta calidad para garantizar una experiencia sin estrés para nuestros clientes."},
-            {"question": "¿Qué servicios de instalación ofrece Waveast?", "answer": "Waveast ofrece servicios de instalación de primer nivel. Esto incluye, pero no se limita a, deslizadores de agua y características acuáticas, estructuras de acero, atracciones de diversión, unidades de escalada, parques infantiles y sistemas hidromecánicos."},
+            {"question": "¿Waveast ofrece cobertura internacional para sus servicios?", "answer": "Sí, Waveast ofrece cobertura global para la mayoría de los proyectos y cobertura EMEA para todos los servicios, garantizando así que puede satisfacer las necesidades de los clientes independientemente de su ubicación."},
+            {"question": "¿Quién proporciona el equipo y los suministros para los servicios de Waveast?", "answer": "Mientras el equipo y los suministros sean transportables, el equipo de Waveast está completamente equipado con todas las herramientas, equipos y materiales de alta calidad necesarios, garantizando así una experiencia sin estrés para nuestros clientes."},
+            {"question": "¿Qué servicios de instalación ofrece Waveast?", "answer": "Waveast ofrece servicios de instalación de primera categoría, que incluyen, entre otros, toboganes acuáticos y atracciones acuáticas, estructuras de acero, atracciones mecánicas, unidades de escalada, parques infantiles y sistemas hidromecánicos."},
             {"question": "¿Qué incluye el proceso de instalación?", "answer": "El proceso de instalación incluye hojas de método y planes de acción integrales desde la ideación hasta la instalación, ensamblaje de productos con la asistencia de consultores técnicos e instaladores experimentados, y una instalación puntual que cumple con las regulaciones y estándares de seguridad."},
-            {"question": "¿Qué servicios de mantenimiento ofrece Waveast?", "answer": "Waveast se especializa en servicios de mantenimiento y renovación, incluyendo inspecciones integrales de parques y productos, un programa de mantenimiento anual, reparación de daños, pulido y limpieza de deslizadores, así como repintado de deslizadores, tanto interior como exterior."},
-            {"question": "¿Qué incluye el programa de mantenimiento anual?", "answer": "El programa de mantenimiento anual incluye, entre otros, renovación de juntas, reparación de daños, pulido y limpieza de deslizadores."},
-            {"question": "¿Cómo funciona el proceso de mantenimiento en Waveast?", "answer": "Nuestros técnicos realizan primero una inspección de los parques o deslizadores de agua del cliente. Tras esta inspección, proporcionan un informe completo junto con una propuesta de alcance para el trabajo necesario."},
-            {"question": "¿Hay garantía para los servicios de mantenimiento?", "answer": "Sí, Waveast ofrece una garantía estacional para sus servicios de mantenimiento para garantizar la satisfacción del cliente y la durabilidad del trabajo realizado."}
+            {"question": "¿Qué servicios de mantenimiento ofrece Waveast?", "answer": "Waveast está especializado en servicios de mantenimiento y renovación, que incluyen inspecciones completas de parques y productos, un programa de mantenimiento anual, reparaciones de daños, pulido y limpieza de toboganes, así como pintura de toboganes, tanto por dentro como por fuera."},
+            {"question": "¿Qué incluye el programa de mantenimiento anual?", "answer": "El programa anual de mantenimiento incluye, entre otros, la renovación de juntas, la reparación de daños y el pulido y limpieza de toboganes."},
+            {"question": "¿Cómo funciona el proceso de mantenimiento en Waveast?", "answer": "Nuestros técnicos primero realizan una inspección de los parques y/o toboganes acuáticos del cliente. Después de la inspección, proporcionan un informe completo junto con un alcance propuesto del trabajo necesario."},
+            {"question": "¿Hay garantía para los servicios de mantenimiento?", "answer": "Sí, Waveast ofrece una garantía estacional para sus servicios de mantenimiento para garantizar la satisfacción del cliente y la durabilidad a largo plazo del trabajo realizado."}
         ],
         "showBtn": "Mostrar más"
     },
@@ -170,8 +170,8 @@
         "paragraph": ["Responsabilidad", "Profesionalismo", "Fiabilidad", "Trabajo en equipo", "Calidad", "Excelencia"]
     },
     "companyPeople": [
-        "Waveast Installation & Park Services fue fundada por dos ingenieros con más de diez años de experiencia en la industria. Además, Waveast tiene una presencia global gracias a su dinámico equipo técnico y alianzas estratégicas con socios en todo el mundo.",
-        "Con un equipo de postventa centrado en el cliente y diseñadores e ingenieros competentes, Waveast se esfuerza por brindar el mejor servicio posible a sus clientes."
+        "Waveast Installation & Park Services fue fundada por dos ingenieros con más de diez años de experiencia en la industria. Además, Waveast tiene presencia global gracias a su dinámico equipo técnico y a sus asociaciones estratégicas con socios de todo el mundo.",
+        "Con un equipo de postventa enfocado en el cliente, junto con diseñadores e ingenieros calificados, Waveast puede brindar el servicio de más alta calidad a sus clientes."
     ],
     "aboutCompany": [
         "Fundada en {{yearFounded}} en la bulliciosa ciudad de Varsovia, Polonia, Waveast representa un fuerte compromiso con la industria del entretenimiento y el ocio. La visión y pasión de nuestro fundador han dado forma a nuestro viaje, impulsándonos a crear experiencias emocionantes para personas de todo el mundo. Con un equipo talentoso de más de {{teamSize}} profesionales, combinamos experiencia y dedicación para ofrecer soluciones de alta calidad para hoteles, parques temáticos, parques acuáticos y sitios de campamento.",
@@ -179,12 +179,12 @@
         "Waveast se destaca como un nombre líder en la industria, con una fuerte presencia en las regiones de EMEA, APAC y LATAM. Nos apasiona superar los límites del entretenimiento y crear experiencias inolvidables para personas de todas las edades."
     ],
     "servicesCompany": [
-        "Waveast Installation & Park Services es un proveedor líder de soluciones integrales para la industria del entretenimiento y el ocio. Con un fuerte compromiso con la excelencia, entregamos servicios impulsados por el cliente adaptados a satisfacer las necesidades únicas de cada cliente.",
+        "Waveast Installation & Park Services es un proveedor líder de soluciones integrales para la industria del entretenimiento y los juegos. Con un fuerte compromiso con la excelencia, ofrecemos servicios orientados al cliente, adaptados a las necesidades únicas de cada cliente.",
         "Aquí hay un vistazo a lo que ofrecemos:"
     ],
     "projectsCompany": [
-        "Waveast Installation & Park Services ha completado con éxito numerosos proyectos alrededor del mundo, demostrando nuestra experiencia en la creación de elementos de diversión excepcionales y parques acuáticos. Nuestra presencia global refleja nuestro compromiso con la excelencia y nuestra capacidad para satisfacer diversas necesidades del cliente en varios entornos.",
-        "En Waveast, entendemos que cada proyecto es único y estamos comprometidos a ofrecer experiencias memorables a nuestros clientes y sus clientes."
+        "Waveast Installation & Park Services ha completado con éxito numerosos proyectos en todo el mundo, demostrando nuestra experiencia en la creación de atracciones y parques acuáticos excepcionales. Nuestra presencia global refleja nuestro compromiso con la excelencia y nuestra capacidad para satisfacer las diversas necesidades de nuestros clientes en diversos entornos.",
+        "En Waveast, entendemos que cada proyecto es único, y estamos dedicados a brindar experiencias memorables a nuestros clientes y a sus clientes."
     ],
     "contactCompany": "Para todas las consultas, utiliza el formulario de contacto o comunícate directamente utilizando la información de contacto proporcionada a continuación.",
     "projectsPlaces": {

@@ -10,8 +10,8 @@ import "./contact.css"
 const contactDetails = [
     {id: 1, icon: <FaMapMarkerAlt />, title: "contact.contactInfo.address", content: ["Ul. Ludwika Rydygiera 8/609 01-793, Warsaw Poland."]},
     {id: 2, icon: <FaMapMarkerAlt />, title: "contact.contactInfo.office", content: ["Wróbla 6A, 02-736 Warsaw Poland"]},
-    {id: 3, icon: <FaPhoneAlt />, title:"contact.contactInfo.email", content: ["we@waveast.pl"]},
-    {id: 4, icon: <FaEnvelope />, title:"contact.contactInfo.phone", content: ["+48 795 564 824", "+48 731 736 446", "+48 730 218 633"]}
+    {id: 3, icon: <FaEnvelope />, title:"contact.contactInfo.email", content: ["we@waveast.pl"]},
+    {id: 4, icon: <FaPhoneAlt />, title:"contact.contactInfo.phone", content: ["+48 795 564 824", "+48 731 736 446", "+48 730 218 633"]}
 ]
 
 function Contact() {
@@ -80,7 +80,7 @@ function Contact() {
         </Helmet>
         <div className="contact__page">
             <PageHeader pageTitle={t(`pageTitles.contact`)} />
-            <p className="contact__para container section__padding--block">{t(`contactCompany`)}</p>
+            {/* <p className="contact__para container section__padding--block">{t(`contactCompany`)}</p> */}
             <div className="contact container section__padding--block">
                 <div className="contact__info">
                     {contactDetails.map((contactDetail) => {

@@ -44,12 +44,12 @@
         "right": "Scroll Right"
     },
     "services": [
-        {"title":"Waterslides & Aquatic Features", "content": [{"subTitle": "Installation: ", "subContent": "We offer 'Technical Advisor' or 'full-scope installation' services delivered by our highly qualified team."}, {"subTitle": "Maintenance & Refurbishment: ", "subContent": "Our skilled technicians are adept at handling all repair projects concerning composite elements."}, {"subTitle": "Design & Sales: ", "subContent": "We craft tailored solutions for both new developments and existing projects."}]},
-        {"title":"Amusement Rides, Climbing Units, & Playgrounds", "content": [{"subTitle": "Installation: ", "subContent": "We offer product assembly supported by our experienced technical advisors and installers."}, {"subTitle": "Consulting: ", "subContent": "Our team can assist you in creating comprehensive master plans and managing your project from the initial concept through to installation."}]},
+        {"title":"Waterslides & Aquatic Features", "content": [{"subTitle": "Installation: ", "subContent": "We offer 'Technical Advisor' or 'full-scope installation' services delivered by our highly qualified team."}, {"subTitle": "Maintenance & Refurbishment: ", "subContent": "Our skilled technicians are proficient in handling all repair projects related to composite elements."}, {"subTitle": "Design & Sales: ", "subContent": "We create customized solutions for both new developments and existing projects."}]},
+        {"title":"Amusement Rides, Climbing Units, & Playgrounds", "content": [{"subTitle": "Installation: ", "subContent": "We provide product assembly services, supported by our experienced technical advisors and installers."}, {"subTitle": "Consulting: ", "subContent": "Our team can assist you in developing comprehensive master plans and managing your project from the initial concept to installation."}]},
         {"title":"Water Technology & Hydromechanical Systems", "content": [{"subTitle": "Hydromechanical systems: ", "subContent": "We guarantee the installation of high-quality, energy-efficient systems for water treatment, circulation, and filtration."}, {"subTitle": "Water Technology: ", "subContent": "We provide a variety of features designed to enhance the aquatic experience for people of all ages, including Wave Pools, Rivers, and Surf Pools."}]},
         {"title":"Steel Structure Assembly", "content": [{"subTitle": "", "subContent": "Our team specializes in assembling both carbon and stainless steel structures, including platforms, warehouses, shelters, industrial buildings, stairs, and handrails."}]},
         {"title": "Theming Systems", "content": [{"subTitle": "", "subContent": "Our high-quality theming systems are built for durability and designed to complement the surrounding environment. Offerings include Foam-Rubber Tile Flooring, pebble decoration, artificial rocks, facades, and furniture components."}]},
-        {"title":"Commissioning & Certification", "content": [{"subTitle": "", "subContent": "We provide comprehensive safety management for water parks and leisure pools, including inspections, safety certifications per European and American standards, technical audits, and advisory services."}]},
+        {"title":"Commissioning & Certification", "content": [{"subTitle": "", "subContent": "We provide comprehensive safety management for water parks and leisure pools, including inspections, safety certifications according to European and American standards, technical audits, and advisory services."}]},
         {"title":"Innovation & New Technologies", "content": [{"subTitle": "", "subContent": "In partnership with DOF Robotics in Poland, we are excited to bring water fun to the metaverse through high-quality, immersive and visually engaging VR scenarios."}]}
     ],
     "sectionHeadings": {
@@ -60,14 +60,14 @@
     },
     "faqs": {
         "accordion": [
-            {"question": "Does Waveast provide international coverage for its services?", "answer": "Yes, Waveast offers global coverage for most projects and EMEA coverage for all services, ensuring they can meet client needs regardless of location."},
-            {"question": "Who provides the equipment and supplies for Waveast services?", "answer": "As long as equipment and supplies can be transported. Waveast's team comes fully equipped with all necessary tools, equipment, and high-quality supplies ensuring a stress-free experience for our clients."},
-            {"question": "What installation services does Waveast provide?", "answer": "Waveast offers top-notch installation services, This includes but not limited to waterslides & aquatic features, steel structures, amusement rides, climbing units, playgrounds, and hydromechanical systems."},
+            {"question": "Does Waveast provide international coverage for its services?", "answer": "Yes, Waveast offers global coverage for most projects and EMEA coverage for all services, ensuring that it can meet client needs regardless of location."},
+            {"question": "Who provides the equipment and supplies for Waveast services?", "answer": "As long as equipment and supplies are transportable, Waveast’s team is fully equipped with all the necessary tools, equipment, and high-quality materials, ensuring a stress-free experience for our clients."},
+            {"question": "What installation services does Waveast provide?", "answer": "Waveast offers top-notch installation services, including but not limited to waterslides and aquatic features, steel structures, amusement rides, climbing units, playgrounds, and hydromechanical systems."},
             {"question": "What is included in the installation process?", "answer": "The installation process includes comprehensive method sheets and action plans from ideation to installation, product assembly with the assistance of technical consultants and experienced installers, and timely installation that complies with safety regulations and standards."},
-            {"question": "What maintenance services does Waveast offer?", "answer": "Waveast specializes in maintenance and refurbishment services, including comprehensive inspections of parks and products, an annual maintenance program, damage repair, polishing and cleaning of slides, as well as repainting of slides, both inside and out."},
-            {"question": "What does the annual maintenance program include?", "answer": "The annual maintenance program includes, but is not limited to, joint refurbishment, damage repair, polishing and cleaning of slides."},
-            {"question": "How does the maintenance process work at Waveast?", "answer": "Our technicians first conduct an inspection of the client's parks or water slides. Following this inspection, they provide a complete report along with a scope proposal for the necessary work."},
-            {"question": "Is there a warranty for maintenance services?", "answer": "Yes, Waveast offers a seasonal warranty for its maintenance services to ensure customer satisfaction and the durability of the work performed."}
+            {"question": "What maintenance services does Waveast offer?", "answer": "Waveast specializes in maintenance and refurbishment services, including comprehensive inspections of parks and products, an annual maintenance program, damage repairs, polishing and cleaning of slides, as well as repainting slides, both inside and out."},
+            {"question": "What does the annual maintenance program include?", "answer": "The annual maintenance program includes, but is not limited to, joint refurbishment, damage repairs, and polishing and cleaning of slides."},
+            {"question": "How does the maintenance process work at Waveast?", "answer": "Our technicians first conduct an inspection of the client’s parks or/and water slides. After the inspection, they provide a comprehensive report along with a proposed scope of the necessary work."},
+            {"question": "Is there a warranty for maintenance services?", "answer": "Yes, Waveast offers a seasonal warranty for its maintenance services to ensure customer satisfaction and the long-term durability of the work performed."}
         ],
         "showBtn": "Show more"
     },
@@ -131,21 +131,21 @@
         "paragraph": ["Responsiblity", "Professionalism", "Reliability", "Team work", "Quality", "Excellence"]
     },
     "companyPeople": [
-        "Waveast Installation & Park Services was founded by two engineers with over ten years of industry experience. Additionally, Waveast has a global presence due to its dynamic technical team and strategic alliances with partners worldwide.",
-        "With a customer-focused after-sales team and competent designers and engineers, Waveast strives to provide the best service possible to its clients."
+        "Waveast Installation & Park Services was founded by two engineers with over ten years of industry experience. Additionally, Waveast has a global presence, thanks to its dynamic technical team and strategic partnerships with partners worldwide.",
+        "With a customer-focused after-sales team, along with skilled designers and engineers, Waveast is able to provide the highest quality service to its clients."
     ],
     "aboutCompany": [
-        "Founded in {{yearFounded}} in the lively city of Warsaw, Poland, Waveast represents a strong commitment to the amusement and entertainment industry. Our founder's vision and passion have shaped our journey, driving us to create exciting experiences for people around the world. With a talented team of over {{teamSize}} professionals, we blend expertise and dedication to deliver high-quality solutions for hotels, theme parks, waterparks, and camping sites.",
-        "Our team includes skilled engineers, installers, repairmen, and office staff, all working together to ensure that every project meets our high standards. With more than a decade of collective experience, we pride ourselves on being efficient and effective in our operations. This commitment has allowed us to build a diverse portfolio of over {{projectCount}} successful projects across {{countryCount}} countries.",
-        "Waveast stands out as a leading name in the industry, with a strong presence in the EMEA, APAC, and LATAM regions. We are passionate about pushing the boundaries of entertainment and creating unforgettable experiences for people of all ages. "
+        "Founded in {{yearFounded}} in the vibrant city of Warsaw, Poland, Waveast is committed to the amusement and entertainment industry. Our founder's vision and passion have shaped our journey, inspiring us to create exciting experiences for people worldwide. With a talented team of over {{teamSize}} professionals, we combine expertise and dedication to deliver high-quality solutions for hotels, theme parks, waterparks, and camping sites.",
+        "Our team includes skilled engineers, installers, technicians, and office staff, all working together to ensure that every project meets our high standards. With more than a decade of collective experience, we take pride in our efficiency and effectiveness. This commitment has allowed us to build a diverse portfolio of over {{projectCount}} successful projects across {{countryCount}} countries.",
+        "Waveast stands out as a leading name in the industry, with a strong presence in the EMEA, APAC, and LATAM regions. We are passionate about pushing the boundaries of entertainment and creating unforgettable experiences for people of all ages."
     ],
     "servicesCompany": [
-        "Waveast Installation & Park Services is a leading provider of comprehensive solutions for the amusement and entertainment industry. With a strong commitment to excellence, we deliver client-driven services tailored to meet the unique needs of each client.",
+        "Waveast Installation & Park Services is a leading provider of comprehensive solutions for the amusement and entertainment industry. With a strong commitment to excellence, we deliver client-driven services tailored to meet the unique needs of each customer.",
         "Here’s a glimpse of what we offer:"
     ],
     "projectsCompany": [
-        "Waveast Installation & Park Services has successfully completed numerous projects around the world, showcasing our expertise in creating exceptional amusement items and water parks. Our global presence reflects our commitment to excellence and our ability to meet diverse client needs across various environments.",
-        "At Waveast We understand that each project is unique, and we are committed to delivering memorable experiences for our clients and their customers."
+        "Waveast Installation & Park Services has successfully completed numerous projects around the world, demonstrating our expertise in creating exceptional amusement attractions and water parks. Our global presence reflects our commitment to excellence and our ability to meet diverse client needs across various environments.",
+        "At Waveast, we understand that each project is unique, and we are dedicated to delivering memorable experiences for our clients and their customers."
     ],
     "contactCompany": "For all inquiries, use the contact form or reach out directly using the contact information provided below.",
     "projectsPlaces": {

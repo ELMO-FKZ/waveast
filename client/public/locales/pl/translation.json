@@ -16,7 +16,7 @@
         "about": "O nas",
         "contact": "Skontaktuj się z nami",
         "catalogue": "Katalog",
-        "expertise": "Nasza ekspertyza",
+        "expertise": "Nasza specjalizacja",
         "services": "Usługi",
         "projects": "Projekty",
         "follow": "Obserwuj nas",
@@ -31,7 +31,7 @@
         "scrollDown": "Przewiń w dół"
     },
     "subLanding": {
-        "subTitle": "Na falach wyjątkowych instalacji i usług parków wodnych"
+        "subTitle": "Na falach unikalnych usług i instalacji Parków Wodnych"
     },
     "statistics": [
         "Lata doświadczenia",
@@ -45,68 +45,68 @@
     },
     "services": [
         {
-            "title": "Zjeżdżalnie wodne i atrakcje wodne",
+            "title": "Zjeżdżalnie i inne atrakcje wodne",
             "content": [
-                {"subTitle": "Montaż: ", "subContent": "Oferujemy usługi 'Doradcy Technicznego' lub 'kompletnego montażu', które są świadczone przez naszą wysoko wykwalifikowaną ekipę."},
-                {"subTitle": "Konserwacja i remont: ", "subContent": "Nasi wykwalifikowani technicy są biegli w obsłudze wszystkich projektów naprawczych dotyczących elementów kompozytowych."},
-                {"subTitle": "Projektowanie i sprzedaż: ", "subContent": "Tworzymy rozwiązania dostosowane do nowych inwestycji oraz istniejących projektów."}
+                {"subTitle": "Instalacja: ", "subContent": "Oferujemy usługi „Doradcy Technicznego” lub „pełnego zakresu instalacji”, realizowane przez nasz wysoko wykwalifikowany zespół."},
+                {"subTitle": "Konserwacja i renowacja: ", "subContent": "Nasi wykwalifikowani technicy skutecznie realizują prace naprawcze dotyczące elementów kompozytowych."},
+                {"subTitle": "Projektowanie i sprzedaż: ", "subContent": "Opracowujemy indywidualnie dopasowane rozwiązania zarówno dla nowych inwestycji, jak i istniejących projektów."}
             ]
         },
         {
-            "title": "Atrakcje rozrywkowe, jednostki wspinaczkowe i place zabaw",
+            "title": "Kolejki górskie, konstrukcje wspinaczkowe i place zabaw",
             "content": [
-                {"subTitle": "Montaż: ", "subContent": "Oferujemy montaż produktów wspierany przez naszych doświadczonych doradców technicznych i monterów."},
-                {"subTitle": "Konsultacje: ", "subContent": "Nasza ekipa może pomóc Ci w stworzeniu kompleksowych planów oraz zarządzaniu projektem od wstępnego pomysłu po montaż."}
+                {"subTitle": "Instalacja: ", "subContent": "Oferujemy montaż produktów wspierany przez naszych doświadczonych doradców technicznych i instalatorów."},
+                {"subTitle": "Doradztwo: ", "subContent": "Nasz zespół pomoże w opracowywaniu kompleksowych planów masterplan oraz w zarządzaniu projektem od początkowej koncepcji aż po instalację."}
             ]
         },
         {
             "title": "Technologia wodna i systemy hydromechaniczne",
             "content": [
-                {"subTitle": "Systemy hydromechaniczne: ", "subContent": "Gwarantujemy montaż systemów wysokiej jakości, efektywnych energetycznie, do uzdatniania, cyrkulacji i filtracji wody."},
-                {"subTitle": "Technologia wodna: ", "subContent": "Oferujemy szeroki wachlarz atrakcji mających na celu poprawę doświadczeń wodnych dla ludzi w każdym wieku, w tym basenów falowych, rzek i basenów surf."}
+                {"subTitle": "Systemy hydromechaniczne: ", "subContent": "Gwarantujemy instalację wysokiej jakości, energooszczędnych systemów do uzdatniania wody, jej cyrkulacji i filtracji."},
+                {"subTitle": "Technologia wodna: ", "subContent": "Oferujemy szereg funkcji zaprojektowanych w celu wzbogacenia doświadczeń wodnych dla osób w każdym wieku, w tym baseny falowe, rzeki i baseny surfingowe."}
             ]
         },
         {
             "title": "Montaż konstrukcji stalowych",
             "content": [
-                {"subTitle": "", "subContent": "Nasza ekipa specjalizuje się w montażu konstrukcji stalowych węglowych i nierdzewnych, w tym platform, magazynów, schronień, budynków przemysłowych, schodów i poręczy."}
+                {"subTitle": "", "subContent": "Nasz zespół specjalizuje się w montażu konstrukcji ze stali węglowej i nierdzewnej, w tym platform, magazynów, zadaszeń, obiektów przemysłowych, schodów oraz poręczy."}
             ]
         },
         {
-            "title": "Systemy tematyczne",
+            "title": "Aranżacja motywów",
             "content": [
-                {"subTitle": "", "subContent": "Nasze wysokiej jakości systemy tematyczne są zaprojektowane z myślą o trwałości oraz dostosowane do otaczającego środowiska. Oferty obejmują podłogi z płytek z gumy piankowej, dekoracje z kamieni, sztuczne skały, elewacje i komponenty mebli."}
+                {"subTitle": "", "subContent": "Nasze wysokiej jakości aranżacje motywów są stworzone z myślą o trwałości i zaprojektowane, aby harmonijnie współgrać z otaczającym środowiskiem. Oferujemy między innymi podłogi z płytek z pianki gumowej, dekoracje z kamyków, sztuczne skały, fasady oraz elementy meblowe."}
             ]
         },
         {
-            "title": "Uruchomienie i certyfikacja",
+            "title": "Wdrożenie i certyfikacja ",
             "content": [
-                {"subTitle": "", "subContent": "Zapewniamy kompleksowe zarządzanie bezpieczeństwem dla parków wodnych i basenów rekreacyjnych, w tym inspekcje, certyfikaty bezpieczeństwa zgodne z europejskimi i amerykańskimi normami, audyty techniczne oraz usługi doradcze."}
+                {"subTitle": "", "subContent": "Oferujemy kompleksowe zarządzanie bezpieczeństwem dla parków wodnych i basenów rekreacyjnych, w tym inspekcje, certyfikacje bezpieczeństwa zgodne z europejskimi i amerykańskimi normami, audyty techniczne oraz usługi doradcze."}
             ]
         },
         {
             "title": "Innowacje i nowe technologie",
             "content": [
-                {"subTitle": "", "subContent": "We współpracy z DOF Robotics w Polsce z radością wprowadzamy zabawę w wodzie do metawersum za pomocą wysokiej jakości, immersyjnych i wizualnie atrakcyjnych scenariuszy VR."}
+                {"subTitle": "", "subContent": "We współpracy z DOF Robotics w Polsce, z radością przenosimy wodną zabawę do metawersum, oferując wysokiej jakości, immersyjne i wizualnie angażujące scenariusze VR."}
             ]
         }
     ],
     "sectionHeadings": {
-        "services": {"title": "Usługi", "subTitle": "kompleksowe usługi dla każdego zapotrzebowania"},
-        "projects": {"title": "Projekty", "subTitle": "nasza obecność w całym świecie"},
+        "services": {"title": "Usługi", "subTitle": "kompleksowe usługi dopasowane do potrzeb"},
+        "projects": {"title": "Projekty", "subTitle": "nasze realizacje na całym świecie"},
         "faqs": {"title": "F.A.Q.", "subTitle": "Najczęściej zadawane pytania"},
         "newsletter": {"title": "Newsletter", "subTitle": "Bądź pierwszym, który się dowie"}
     },
     "faqs": {
         "accordion": [
-            {"question": "Czy Waveast oferuje międzynarodowy zasięg swoich usług?", "answer": "Tak, Waveast oferuje zasięg globalny dla większości projektów oraz zasięg EMEA dla wszystkich usług, zapewniając, że mogą sprostać potrzebom klientów niezależnie od lokalizacji."},
-            {"question": "Kto dostarcza sprzęt i materiały do usług Waveast?", "answer": "O ile sprzęt i materiały mogą być transportowane. Zespół Waveast jest w pełni wyposażony w niezbędne narzędzia, sprzęt i wysokiej jakości materiały, zapewniając klientom bezstresowe doświadczenie."},
-            {"question": "Jakie usługi montażu oferuje Waveast?", "answer": "Waveast oferuje usługi montażowe najwyższej jakości. Obejmuje to, ale nie ogranicza się do, zjeżdżalni wodnych i atrakcji wodnych, konstrukcji stalowych, atrakcji rozrywkowych, jednostek wspinaczkowych, placów zabaw i systemów hydromechanicznych."},
-            {"question": "Co obejmuje proces montażu?", "answer": "Proces montażu obejmuje kompleksowe arkusze metod oraz plany działania od etapu pomysłu do montażu, montaż produktów z pomocą doradców technicznych i doświadczonych monterów, oraz terminowy montaż zgodny z regulacjami i normami bezpieczeństwa."},
-            {"question": "Jakie usługi konserwacji oferuje Waveast?", "answer": "Waveast specjalizuje się w usługach konserwacji i modernizacji, w tym przeprowadzaniu kompleksowych inspekcji parków i produktów, rocznym programie konserwacyjnym, naprawie szkód, polerowaniu i czyszczeniu zjeżdżalni, a także malowaniu zjeżdżalni zarówno wewnątrz jak i na zewnątrz."},
-            {"question": "Co zawiera roczny program konserwacji?", "answer": "Roczny program konserwacji obejmuje, między innymi, renowację połączeń, naprawę szkód, polerowanie i czyszczenie zjeżdżalni."},
-            {"question": "Jak działa proces konserwacji w Waveast?", "answer": "Nasi technicy najpierw przeprowadzają inspekcję parków lub zjeżdżalni wodnych klientów. Po tej inspekcji dostarczają pełny raport wraz z propozycją zakresu niezbędnych prac."},
-            {"question": "Czy istnieje gwarancja na usługi konserwacji?", "answer": "Tak, Waveast oferuje sezonową gwarancję na swoje usługi konserwacji, aby zapewnić satysfakcję klienta oraz trwałość wykonywanych prac."}
+            {"question": "Czy Waveast oferuje międzynarodowy zasięg swoich usług?", "answer": "Tak,   Waveast oferuje globalny zasięg dla większości świadczonych usług oraz zasięg EMEA dla wszystkich produktów, zapewniając, że spełnia potrzeby klientów niezależnie od ich lokalizacji."},
+            {"question": "Kto dostarcza sprzęt i materiały do usług Waveast?", "answer": "Pod warunkiem, że sprzęt i materiały mogą być transportowane, zespół Waveast jest w pełni wyposażony we wszystkie niezbędne narzędzia, sprzęt oraz materiały wysokiej jakości, zapewniając klientom bezstresowe doświadczenie."},
+            {"question": "Jakie usługi instalacyjne oferuje Waveast?", "answer": "Waveast oferuje usługi instalacyjne najwyższej jakości, w tym między innymi montaż zjeżdżalni wodnych i elementów wodnych, konstrukcji stalowych, urządzeń wesołych miasteczek, jednostek wspinaczkowych, placów zabaw oraz systemów hydromechanicznych."},
+            {"question": "Co obejmuje proces montażu?", "answer": "Proces instalacji obejmuje szczegółowe instrukcje i plany działań, od etapu pomysłu po instalację, montaż produktów z pomocą konsultantów technicznych i doświadczonych instalatorów oraz terminową instalację, która spełnia przepisy bezpieczeństwa i normy."},
+            {"question": "Jakie usługi konserwacyjne oferuje Waveast?", "answer": "Waveast specjalizuje się w usługach konserwacyjnych i renowacyjnych, w tym w kompleksowych inspekcjach parków i produktów, rocznym programie konserwacji, naprawach uszkodzeń, polerowaniu i czyszczeniu zjeżdżalni, a także malowaniu zjeżdżalni, zarówno od wewnątrz, jak i na zewnątrz."},
+            {"question": "Co obejmuje roczny program konserwacji?", "answer": "Roczny program konserwacji obejmuje m.in. renowację łączeń, naprawę uszkodzeń oraz polerowanie i czyszczenie zjeżdżalni."},
+            {"question": "Jak przebiega proces konserwacji w Waveast?", "answer": "Nasi technicy najpierw przeprowadzają inspekcję parków lub/oraz zjeżdżalni wodnych klienta. Po inspekcji przygotowują szczegółowy raport wraz z propozycją zakresu niezbędnych prac."},
+            {"question": "Czy usługi konserwacyjne objęte są gwarancją?", "answer": "Tak, Waveast oferuje sezonową gwarancję na swoje usługi konserwacyjne, zapewniając satysfakcję klientów oraz długotrwałą jakość wykonanych prac."}
         ],
         "showBtn": "Pokaż więcej"
     },
@@ -130,13 +130,13 @@
         }
     },
     "whyWe": [
-        {"title": "Doświadczenie", "paragraph": "Cały nasz personel ma ponad dziesięcioletnie doświadczenie w branży."},
-        {"title": "Opieka nad klientem", "paragraph": "Świadczymy obsługę klienta online 24 godziny na dobę, 7 dni w tygodniu, i jesteśmy zorganizowaniem nastawioną na klienta, koncentrując się na satysfakcji klienta."},
-        {"title": "Know How", "paragraph": "Z naszą wykwalifikowaną ekipą zawsze jesteśmy gotowi oferować nowe pomysły i doradztwo naszym klientom."},
-        {"title": "Jakość", "paragraph": "Nasze produkty, usługi i materiały są najwyższej jakości."},
-        {"title": "Konkurencyjne ceny", "paragraph": "Oferujemy usługi najwyższej jakości w rozsądnych cenach."},
-        {"title": "Gwarancja", "paragraph": "Nasze usługi i towary objęte są różnymi gwarancjami."},
-        {"title": "Bezpieczeństwo", "paragraph": "Naszym głównym celem jest zdrowie i bezpieczeństwo ludzi oraz środowiska, a także długoterminowa trwałość naszych produktów."}
+        {"title": "Doświadczenie", "paragraph": "Cały nasz personel posiada co najmniej dziesięcioletnie doświadczenie w branży."},
+        {"title": "Obsługa Klienta", "paragraph": "Zapewniamy obsługę Klienta online 24 godziny na dobę, 7 dni w tygodniu. Jesteśmy firmą zorientowaną na Klienta i jego zadowolenie."},
+        {"title": "Know - How", "paragraph": "Dzięki naszemu wykwalifikowanemu zespołowi jesteśmy zawsze gotowi służyć naszym Klientom świeżymi pomysłami i pomocą."},
+        {"title": "Jakość", "paragraph": "Wszystkie nasze produkty, usługi i materiały są najwyższej jakości."},
+        {"title": "Konkurencyjne ceny", "paragraph": "Zapewniamy wysoką jakość usług w rozsądnych cenach."},
+        {"title": "Gwarancja", "paragraph": "Nasze usługi i towary objęte są systemem gwarancji."},
+        {"title": "Bezpieczeństwo", "paragraph": "Naszym nadrzędnym celem jest zdrowie i bezpieczeństwo ludzi oraz środowiska oraz wieloletnia trwałość naszych produktów."}
     ],
     "iaapaAlt": "Logo członka IAAPA",
     "basenprofAlt": "Logo członka BASENPROF",
@@ -159,32 +159,32 @@
     },
     "companyVision": {
         "title": "Wizja",
-        "paragraph": "Chcemy przynieść wodną zabawę ludziom w każdym wieku na całym świecie."
+        "paragraph": "Chcemy dostarczać wodną rozrywkę ludziom na całym świecie."
     },
     "companyMission": {
         "title": "Misja",
-        "paragraph": "Chcemy dostarczać elastyczne rozwiązania dla dużych i małych klientów, bez względu na ich potrzeby."
+        "paragraph": "Chcemy oferować elastyczne rozwiązania zarówno dużym, jak i małym klientom, niezależnie od ich potrzeb."
     },
     "companyValues": {
         "title": "Wartości",
-        "paragraph": ["Odpowiedzialność", "Profesjonalizm", "Wiarygodność", "Praca zespołowa", "Jakość", "Doskonalenie"]
+        "paragraph": ["Odpowiedzialność", "Profesjonalizm", "Niezawodność", "Praca zespołowa", "Jakość", "Staranność"]
     },
     "companyPeople": [
-        "Waveast Installation & Park Services została założona przez dwóch inżynierów z ponad dziesięcioletnim doświadczeniem w branży. Ponadto, Waveast ma zasięg globalny dzięki swojemu dynamicznemu zespołowi technicznemu i strategicznym sojuszom z partnerami na całym świecie.",
-        "Z zespołem nastawionym na obsługę klienta i kompetentnymi projektantami oraz inżynierami, Waveast dąży do zapewnienia możliwie najlepszej obsługi swoim klientom."
+        "Waveast Installation & Park Services została założona przez dwóch inżynierów z ponad dziesięcioletnim doświadczeniem w branży. Waveast ma globalny zasięg dzięki dynamicznemu zespołowi technicznemu oraz strategicznym partnerstwom z firmami na całym świecie.",
+        "Dzięki zorientowanemu na Klienta zespołowi obsługi posprzedażowej oraz kompetentnym projektantom i inżynierom Waveast jest w stanie zapewnić swoim Klientom usługi najwyższej jakości."
     ],
     "aboutCompany": [
-        "Założona w {{yearFounded}} w tętniącym życiem mieście Warszawie, Polska, Waveast stanowi mocne zobowiązanie wobec branży rozrywkowej i zabawowej. Wizja i pasja naszego założyciela ukształtowały naszą drogę, motywując nas do tworzenia ekscytujących doświadczeń dla ludzi na całym świecie. Z utalentowanym zespołem liczącym ponad {{teamSize}} profesjonalistów, łączymy wiedzę i oddanie, aby dostarczyć wysokiej jakości rozwiązania dla hoteli, parków tematycznych, parków wodnych i ośrodków campingowych.",
-        "Nasz zespół składa się z wykwalifikowanych inżynierów, monterów, techników i personelu biurowego, którzy wspólnie pracują, aby zapewnić, że każdy projekt spełnia nasze wysokie standardy. Z ponad dziesięcioletnim doświadczeniem zbiorowym, jesteśmy dumni z tego, że jesteśmy wydajni i skuteczni w działaniu. To zobowiązanie pozwoliło nam zbudować zróżnicowane portfolio ponad {{projectCount}} udanych projektów w {{countryCount}} krajach.",
-        "Waveast wyróżnia się jako wiodąca nazwa w branży, z silną obecnością w regionach EMEA, APAC i LATAM. Jesteśmy pasjonatami przekraczania granic rozrywki i tworzenia niezapomnianych doświadczeń dla ludzi w każdym wieku."
+        "Założona w {{yearFounded}} roku w tętniącej życiem Warszawie, Waveast to firma, która w pełni angażuje się w branżę rozrywki i atrakcji turystycznych. Wizja i pasja naszego założyciela ukształtowały naszą drogę, inspirując nas do tworzenia ekscytujących doświadczeń dla ludzi na całym świecie. Dysponujemy utalentowanym zespołem liczącym ponad {{teamSize}} profesjonalistów, którzy łączą wiedzę i zaangażowanie, aby dostarczać rozwiązania najwyższej jakości dla hoteli, parków tematycznych, parków wodnych i ośrodków campingowych.",
+        "Nasz zespół składa się z wykwalifikowanych inżynierów, instalatorów, techników i pracowników biurowych, którzy współpracują, aby każdy projekt spełniał nasze wysokie standardy. Z ponad dziesięcioletnim doświadczeniem zbiorowym jesteśmy dumni z naszej efektywności i skuteczności. To zaangażowanie pozwoliło nam stworzyć zróżnicowane portfolio ponad {{projectCount}} udanych projektów w {{countryCount}} krajach.",
+        "Waveast wyróżnia się jako lider w branży, z silną obecnością w regionach EMEA, APAC i LATAM. Pasjonujemy się przekraczaniem granic rozrywki i tworzeniem niezapomnianych doświadczeń dla ludzi w każdym wieku."
     ],
     "servicesCompany": [
-        "Waveast Installation & Park Services jest wiodącym dostawcą kompleksowych rozwiązań dla branży rekreacyjnej i rozrywkowej. Z silnym zaangażowaniem w doskonałość, dostarczamy usługi ukierunkowane na klienta, dopasowane do unikalnych potrzeb każdego klienta.",
-        "Oto przegląd tego, co oferujemy:"
+        "Waveast Installation & Park Services to czołowy dostawca kompleksowych rozwiązań dla branży rozrywki i atrakcji turystycznych. Dzięki silnemu zaangażowaniu w dążenie do doskonałości, oferujemy usługi skrojone na miarę, które w pełni odpowiadają indywidualnym potrzebom każdego klienta.",
+        "Poznaj naszą ofertę:"
     ],
     "projectsCompany": [
-        "Waveast Installation & Park Services z powodzeniem zrealizowała liczne projekty na całym świecie, demonstrując naszą ekspertyzę w tworzeniu wyjątkowych elementów amuzementowych i parków wodnych. Nasza obecność na całym świecie odzwierciedla nasze zobowiązanie do doskonałości i naszą zdolność do zaspokajania zróżnicowanych potrzeb klientów w różnych środowiskach.",
-        "W Waveast rozumiemy, że każdy projekt jest unikalny i jesteśmy zobowiązani do dostarczania niezapomnianych doświadczeń naszym klientom i ich klientom."
+        "Waveast Installation & Park Services z powodzeniem zrealizowało liczne projekty na całym świecie, co świadczy o naszej wiedzy i umiejętnościach w tworzeniu wyjątkowych atrakcji rozrywkowych i parków wodnych. Nasza obecność na całym świecie odzwierciedla nasze zaangażowanie w dążeniu do doskonałości oraz zdolność do spełniania różnorodnych potrzeb klientów w różnych warunkach.",
+        "W Waveast rozumiemy, że każdy projekt jest unikalny, i angażujemy się w dostarczanie niezapomnianych doświadczeń dla naszych klientów i ich gości."
     ],
     "contactCompany": "W przypadku wszystkich zapytań, proszę skorzystać z formularza kontaktowego lub skontaktować się bezpośrednio przy użyciu podanych poniżej informacji kontaktowych.",
     "projectsPlaces": {
@@ -213,7 +213,7 @@
             "phone": "Telefon"
         },
         "contactForm": {
-            "fullName": {"label": "Pełne imię", "placeholder": "Wprowadź swoje pełne imię"},
+            "fullName": {"label": "Imię i nazwisko", "placeholder": "Wprowadź swoje imię i nazwisko"},
             "email": {"label": "Email", "placeholder": "Wprowadź swój email"},
             "subject": {"label": "Temat", "placeholder": "Wprowadź temat"},
             "message": {"label": "Wiadomość", "placeholder": "Wprowadź swoją wiadomość"},
