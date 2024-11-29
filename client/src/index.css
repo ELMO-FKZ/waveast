@@ -4,14 +4,14 @@
 
 :root  { 
 /* Dynamic Variables */
---moonstone: hsl(186, 100%, 41%);
+--moonstone: #00bcd1;
 --moonstone-dark: hsl(186, 100%, 39%);
 --cyan-dark: hsl(196, 100%, 15%);
 --cyan-darker: hsl(196, 100%, 10%);
---mint-cream: hsl(165, 40%, 96%);
+--mint-cream: #f1f9f7;
 --mint-cream-dark: hsl(165 40% 80%);
 --rich-black: #212121; 
---warm-orange: hsl(32, 94%, 55%);
+--warm-orange: #f89320;
 --warm-orange-light: hsl(32, 94%, 75%);
 --footer-background: linear-gradient(to right, #e0eafc, #00bfd3);
 --btn-background: linear-gradient(135deg, #b2ebf2, #00bfd3);
@@ -187,25 +187,42 @@ transition: all var(--main-duration) ease-in-out; }
 .btn--primary:hover {
 background: var(--btn-hover); }
 
-.carousel-buttons {
-margin-bottom: 2rem; }
+.carousel-control {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+margin-top: 2rem; }
     .carousel-button {
-    display: inline-grid;
+    display: grid;
     place-items: center;
-    width: 3rem;
-    height: 3rem; }
-    .carousel-button svg {
-    font-size: 2rem; }
-    .carousel-button:first-child {
-    margin-right: 1rem; }
-
-.section__background {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-z-index: -1; }
+    opacity: 1;
+    background-color: transparent;
+    transition: opacity 0.3s ease; }
+    .carousel-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+        .carousel-button svg {
+        color: var(--moonstone);
+        font-size: 2.5rem; }
+    .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem; }
+        .carousel-dot {
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 50%;
+        background-color: var(--mint-cream-dark);
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        transition: all 0.3s ease; }
+        .carousel-dot:hover {
+        background-color: var(--warm-orange); }
+        .carousel-dot.active {
+        background-color: var(--moonstone);
+        transform: scale(1.2); }
 
 .section__padding--block {
 padding-block: var(--lg-section-padding-block); }

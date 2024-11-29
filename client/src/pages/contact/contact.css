@@ -35,10 +35,14 @@ gap: 4rem; } }
             border-radius: 0.4rem; }
                 .contact__info-icon svg {
                 fill: var(--warm-orange); }
-                .conatct__info-title {
-                    font-size: 1.8rem;
-                    margin-top: 0.8rem;
+                .contact__info-title {
+                font-size: 1.8rem;
+                margin-top: 0.8rem;
                 color: var(--warm-orange); }
+                    .contact__info-paragraph--span {
+                    display: inline-flex;
+                    align-items: center;
+                    }
     .contact__form {
     max-width: 70rem;
     flex: 1; } 

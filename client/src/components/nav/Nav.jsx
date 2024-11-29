@@ -1,4 +1,4 @@
-import { useState, useEffect, memo, useContext } from "react"
+import { useState, useEffect, useRef, memo, useContext } from "react"
 import { Link as LinkRouter, NavLink } from "react-router-dom"
 import { BiGlobe, BiSolidSun, BiMoon, BiX, BiMenu } from "react-icons/bi"
 import { useTranslation } from "react-i18next"
@@ -20,6 +20,8 @@ const Nav = memo(function Nav() {
     const [isMenuShown, setIsMenuShown] = useState(false)
     const [isLanguageBoxShown, setIsLanguageBoxShown] = useState(false)
     const [darkMode, setDarkMode] = useState(JSON.parse(localStorage.getItem("dark-mode")) || false)
+    const languageBoxRef = useRef(null);
+    const timeoutRef = useRef(null);
 
     const {t} = useTranslation()
     const {currentLanguage, handleCurrentLanguageChange} = useContext(LanguageContext)
@@ -27,6 +29,32 @@ const Nav = memo(function Nav() {
     const handleLanguageIconClick = () => {
         setIsLanguageBoxShown(prevState => !prevState)
     }
+
+    const handleLanguageIconOver = () => {
+        setIsLanguageBoxShown(true)
+    }
+    
+    const handleLanguageIconOut = () => {
+        clearTimeout(timeoutRef.current)
+    
+        timeoutRef.current = setTimeout(() => {
+          setIsLanguageBoxShown(false)
+        }, 300)
+    }
+    
+    const handleLanguageBoxMouseEnter = () => {
+        clearTimeout(timeoutRef.current)
+    }
+    
+    const handleLanguageBoxMouseLeave = () => {
+        handleLanguageIconOut();
+    }
+    
+    useEffect(() => {
+        return () => {
+            clearTimeout(timeoutRef.current)
+        }
+    }, [])
 
     const handleLanguageChange = (ID) => {
         const selectedLanguage = availableLanguages.find(language => language.id === ID)
@@ -103,8 +131,8 @@ const Nav = memo(function Nav() {
                             <BiMoon />
                         </div>
                         <div className="nav__language">
-                            <div className="nav__language-icon" onClick={handleLanguageIconClick} onKeyDown={handleLanguageIconClick} tabIndex={0}><BiGlobe /></div>
-                            <div className={`nav__language-box ${!isLanguageBoxShown ? "nav__language-box--hidden" : ""}`}>
+                            <div className="nav__language-icon" onMouseEnter={handleLanguageIconOver} onMouseLeave={handleLanguageIconOut} onKeyDown={handleLanguageIconClick} tabIndex={0}><BiGlobe /></div>
+                            <div className={`nav__language-box ${!isLanguageBoxShown ? "nav__language-box--hidden" : ""}`} ref={languageBoxRef} onMouseEnter={handleLanguageBoxMouseEnter} onMouseLeave={handleLanguageBoxMouseLeave} >
                                 {availableLanguages.map(language => (
                                     <div key={language.id} className={`nav__language-radios ${currentLanguage === language.symbol ? "nav__language-radios--active" : ""}`} >
                                         <input 

@@ -10,7 +10,8 @@ text-align: justify; }
     max-width: 110rem; }
         .services__service {
         display: flex;
-        column-gap: 2rem; }
+        column-gap: 2rem;
+        scroll-margin-top: 5rem; }
             .services__icon {
             display: flex;
             justify-content: center;
@@ -43,6 +44,16 @@ text-align: justify; }
                     top: 50%;
                     left: -2rem;
                     transform: translate(0, -50%);
+                    z-index: 1;
+                    width: 0.5rem;
+                    height: 0.5rem;
+                    background-color: var(--moonstone); }
+                    .services__para-item span:first-child::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: -2rem;
+                    transform: translate(0, -50%) rotate(45deg);
                     z-index: 1;
                     width: 0.5rem;
                     height: 0.5rem;

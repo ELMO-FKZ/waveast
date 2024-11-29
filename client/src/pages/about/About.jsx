@@ -9,21 +9,13 @@ import Values from "../../components/svg/Values"
 import PageHeader from "../../components/pageHeader/PageHeader"
 import SpecialHeadingTwo from "../../components/specialHeadingTwo/SpecialHeadingTwo"
 import Partmemb from "../../components/partmemb/Partmemb"
+import partners from "../../assets/partners.png"
+import memberships from "../../assets/memberships.png"
 import iaapa from "../../assets/IAAPAMember.png"
 import basenprof from "../../assets/basenprof.png"
 import isaba from "../../assets/isaba.jpg"
 import apex from "../../assets/Apex.jpg"
 import "./about.css"
-
-const memberships = [
-    {id: 1, src: iaapa, altKey: "iaapaAlt"},
-    {id: 2, src: basenprof, altKey: "basenprofAlt"}
-]
-
-const partners = [
-    {id: 1, src: isaba, altKey: "isabaAlt"},
-    {id: 2, src: apex, altKey: "apexAlt"},
-]
 
 const reasons = [
     {id: 1, titleKey:"whyWe.0.title", paragraphKey:"whyWe.0.paragraph"},
@@ -42,6 +34,15 @@ const values = [
     {id: 4, valueKey: "companyValues.paragraph.3"},
     {id: 5, valueKey: "companyValues.paragraph.4"},
     {id: 6, valueKey: "companyValues.paragraph.5"}
+]
+
+const items = [
+    {id: 1, src: partners, altKey: "specialHeadings.partners", category: "partners"},
+    {id: 2, src: isaba, altKey: "isabaAlt", category: "partners"},
+    {id: 3, src: apex, altKey: "apexAlt", category: "partners"},
+    {id: 4, src: memberships, altKey: "specialHeadings.memberships", category: "memberships"},
+    {id: 5, src: iaapa, altKey: "iaapaAlt", category: "memberships"},
+    {id: 6, src: basenprof, altKey: "basenprofAlt", category: "memberships"}, 
 ]
 
 function About() {
@@ -69,7 +70,7 @@ function About() {
                 <SpecialHeadingTwo title={t(`specialHeadings.whyWe`)} />
                 {reasons.map((reason) => (
                     <div className="reason__container" key={reason.id}>
-                        <div className="reason__number">{reason.id}</div>
+                        <div className="reason__number"></div>
                         <div className="reason__content">
                             <h3 className="reason__title">{t(reason.titleKey)}</h3>
                             <p className="reason__para">{t(reason.paragraphKey)}</p>
@@ -101,7 +102,7 @@ function About() {
                         <div className="statement__container">
                             <div className="statement__hidden"></div>
                             <h3 className="statement__title">{t(`companyValues.title`)}</h3>
-                            <p className="statement__content">
+                            <p className="statement__content statement__content--values">
                                 {values.map((value) => (
                                     <React.Fragment key={value.id}>
                                         {t(value.valueKey)}<br/>
@@ -122,12 +123,8 @@ function About() {
                 </div>
             </div>
             <div className="section__padding--block container">
-                <SpecialHeadingTwo title={t(`specialHeadings.partners`)} />
-                <Partmemb items={partners} targetClick="partners" />
-            </div>
-            <div className="section__padding--block container">
-                <SpecialHeadingTwo title={t(`specialHeadings.memberships`)} />
-                <Partmemb items={memberships} targetClick="members" />
+                <SpecialHeadingTwo title={t(`specialHeadings.partners&memberships`)} />
+                <Partmemb items={items} />
             </div>
         </div>
         </>

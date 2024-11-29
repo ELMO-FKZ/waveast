@@ -28,7 +28,7 @@ function Services() {
                 <div className="services__container section__padding--bottom container">
                     {servicesItems.map((service) => {
                         return (
-                            <div key={service.id} className="services__service">
+                            <div key={service.id} className="services__service" id={service.idTag} >
                                 <div className="services__icon">
                                     {service.icon}
                                 </div>

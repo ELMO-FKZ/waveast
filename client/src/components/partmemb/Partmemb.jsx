@@ -1,53 +1,45 @@
-import { useRef, memo } from "react"
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
-import { useTranslation } from "react-i18next"
+import { useRef, useEffect, memo } from "react"
 import PropTypes from "prop-types"
 import "./partmemb.css"
 
-const Partmemb = memo(function Partmemb({items, targetClick}) {
+const currentYear = new Date().getFullYear().toString()
 
-    const {t} = useTranslation()
+const Partmemb = memo(function Partmemb({items}) {
 
-    const partCarousel = useRef()
-    const membCarousel = useRef()
+    const scrollersRef = useRef([]);
 
-    const handleLeftClick = (e) => {
-        e.preventDefault()
-        if (targetClick== "partners") {
-            partCarousel.current.scrollLeft -= partCarousel.current.offsetWidth
-        } else {
-            membCarousel.current.scrollLeft -= membCarousel.current.offsetWidth
+    useEffect(() => {
+        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            addAnimation();
         }
-    }
+    }, []);
 
-    const handleRightClick = (e) => {
-        e.preventDefault()
-        if (targetClick== "partners") {
-            partCarousel.current.scrollLeft += partCarousel.current.offsetWidth
-        } else {
-            membCarousel.current.scrollLeft += membCarousel.current.offsetWidth
-        }
-    }
+    const addAnimation = () => {
+        scrollersRef.current.forEach((scroller) => {
+            scroller.setAttribute("data-animated", true);
+            const scrollerInner = scroller.querySelector(".scroller__inner");
+            const scrollerContent = Array.from(scrollerInner.children);
+            scrollerContent.forEach((item) => {
+                const duplicatedItem = item.cloneNode(true);
+                duplicatedItem.setAttribute("aria-hidden", true);
+                scrollerInner.appendChild(duplicatedItem);
+            });
+        });
+    };
+
 
 
     return (
-    <>
-    <div className="carousel-buttons">
-        <button className="carousel-button btn--primary" aria-label={t(`carouselBtnAriaLabel.left`)} onClick={handleLeftClick} ><FaChevronLeft /></button>
-        <button className="carousel-button btn--primary" aria-label={t(`carouselBtnAriaLabel.right`)} onClick={handleRightClick} ><FaChevronRight /></button>
-    </div>
-    <div className="partmemb-items" ref={targetClick === "partners" ? partCarousel : membCarousel} >
-        {
-            items.map((item) => {
-                return (
-                    <div className="partmemb-item" key={item.id}>
-                        <img className="partmemb-img" src={item.src} alt={item.alt} />
+        <div className="scroller" data-direction="left" data-speed="slow" ref={el => scrollersRef.current.push(el)}>
+            <div className="scroller__inner">
+                {items.map((item) => (
+                    <div key={item.id}  className={`partmemb-item partmemb-item--${item?.category}`} >
+                        <img className="partmemb-img" src={item.src} alt={item.altKey} />
+                        {item.altKey === "iaapaAlt" ? <span className="partmemb-img-span">{currentYear}</span> : ""}
                     </div>
-                )
-            })
-        }
-    </div>
-    </>
+                ))}
+            </div>
+        </div>
     )
 })
 

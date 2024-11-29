@@ -1,6 +1,5 @@
 .services {background: var(--card-hover);}
-
-.main__services-items {
+    .main__services-items {
     display: flex;
     align-items: flex-start;
     gap: 2rem;
@@ -8,115 +7,51 @@
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.main__services-items::-webkit-scrollbar {
-    display: none;
-}
-
-.main__services-item-wrapper {
-    flex: 0 0 auto;
-    width: 22rem;
-    scroll-snap-align: start;
-}
-
-.main__services-item {
-    height: 18rem;
-    overflow: hidden;
-    padding: 2rem;
-    color: var(--warm-orange);
-    font-weight: 500;
-    border-radius: 0.4rem;
-    border: solid 1px var(--warm-orange-light);
-    text-align: center;
-    
-}
-
-.main__services-item:hover {
-    color: var(--mint-cream);
-    box-shadow: var(--shadow-color) 0 10px 30px -20px;
-}
-
-.main__services-item:hover .main__services-hidden {
-    transform: translate(-50%, -50%) scale(80);
-}
-
-.main__services-icon {
-    display: flex;
-    position: relative;
-    z-index: 1;
-    justify-content: center;
-    align-items: center;
-    width: 8rem;
-    height: 8rem;
-    margin: 0 auto 1rem;
-}
-
-.main__services-title {
-position: relative;
-z-index: 1;
-}
-
-.main__services-hidden {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    border-radius: 50%;
-    width: 0.5rem;
-    height: 0.5rem;
-    background: var(--card-hover);
-    background: var(--warm-orange);
-    transition: all 0.6s ease;
-}
-
-.main__services-icon svg {
-    display: block;
-    height: 100%;
-    width: auto;
-}
-
-.carousel-dots {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 3rem;
-}
-
-.carousel-dot {
-    width: 0.75rem;
-    height: 0.75rem;
-    border-radius: 50%;
-    background-color: var(--mint-cream-dark);
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.carousel-dot:hover {
-    background-color: var(--warm-orange);
-}
-
-.carousel-dot.active {
-    background-color: var(--moonstone);
-    transform: scale(1.2);
-}
-
-.carousel-buttons {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-.carousel-button {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-}
-
-.carousel-button:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
+    scrollbar-width: none; }
+    .main__services-items::-webkit-scrollbar {
+    display: none; }
+        .main__services-item-wrapper {
+        flex: 0 0 auto;
+        width: 22rem;
+        scroll-snap-align: start; }
+            .main__services-item {
+            display: block;
+            height: 19rem;
+            overflow: hidden;
+            padding: 2rem;
+            color: var(--warm-orange);
+            font-weight: 500;
+            border-radius: 0.4rem;
+            text-align: center; }
+            .main__services-item:hover {
+            color: var(--mint-cream); }
+            .main__services-item:hover .main__services-hidden {
+            transform: translate(-50%, -50%) scale(80); }
+                .main__services-icon {
+                display: flex;
+                position: relative;
+                z-index: 1;
+                justify-content: center;
+                align-items: center;
+                width: 8rem;
+                height: 8rem;
+                margin: 0 auto 1rem; }
+                    .main__services-icon svg {
+                    display: block;
+                    height: 100%;
+                    width: auto; }
+                    .main__services-hidden {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: -1;
+                    border-radius: 50%;
+                    width: 0.5rem;
+                    height: 0.5rem;
+                    background: var(--card-hover);
+                    background: var(--warm-orange);
+                    transition: all 0.6s ease; }
+                .main__services-title {
+                position: relative;
+                z-index: 1; }
