@@ -25,6 +25,12 @@ import image2_2 from "../assets/services_gallery/maintenance_2-min.jpg";
 import image2_3 from "../assets/services_gallery/maintenance_3-min.jpg";
 import image2_4 from "../assets/services_gallery/maintenance_4-min.jpg";
 import image2_5 from "../assets/services_gallery/maintenance_5-min.jpg";
+import image2_6 from "../assets/services_gallery/maintenance_6-min.jpg";
+import image2_7 from "../assets/services_gallery/maintenance_7-min.jpg";
+import image2_8 from "../assets/services_gallery/maintenance_8-min.jpg";
+import image2_9 from "../assets/services_gallery/maintenance_9-min.jpg";
+import image2_10 from "../assets/services_gallery/maintenance_10-min.jpg";
+import image2_11 from "../assets/services_gallery/maintenance_11-min.jpg";
 
 // servicesImages
 export const servicesImages = [
@@ -51,5 +57,11 @@ export const servicesImages = [
     {"src": image2_2, "category": "maintenance", "title": "","description": ""},
     {"src": image2_3, "category": "maintenance", "title": "","description": ""},
     {"src": image2_4, "category": "maintenance", "title": "","description": ""},
-    {"src": image2_5, "category": "maintenance", "title": "","description": ""}
+    {"src": image2_5, "category": "maintenance", "title": "","description": ""},
+    {"src": image2_6, "category": "maintenance", "title": "","description": ""},
+    {"src": image2_7, "category": "maintenance", "title": "","description": ""},
+    {"src": image2_8, "category": "maintenance", "title": "","description": ""},
+    {"src": image2_9, "category": "maintenance", "title": "","description": ""},
+    {"src": image2_10, "category": "maintenance", "title": "","description": ""},
+    {"src": image2_11, "category": "maintenance", "title": "","description": ""}
 ];
