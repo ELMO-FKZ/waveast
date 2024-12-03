@@ -103,6 +103,8 @@
     "basenprofAlt": "BASENPROF member logo",
     "isabaAlt": "ISABA partner logo",
     "apexAlt": "APEX partner logo",
+    "partners": "partners",
+    "memberships": "memberships",
     "pageTitles": {
         "about": "Who are we?",
         "services": "Our services",
@@ -114,8 +116,6 @@
         "whyWe": "Why us?",
         "visionMissionValues": "Our commitment",
         "people": "Our people",
-        "partners": "Our partners",
-        "memberships": "Our memberships",
         "partners&memberships": "Our partners & memberships",
         "servicesGallery": "Gallery"
     },

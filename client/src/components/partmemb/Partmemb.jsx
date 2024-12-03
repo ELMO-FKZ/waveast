@@ -1,51 +1,39 @@
-import { useRef, useEffect, memo } from "react"
+import { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import PropTypes from "prop-types"
 import "./partmemb.css"
 
-const currentYear = new Date().getFullYear().toString()
+const currentYear = new Date().getFullYear().toString();
 
-const Partmemb = memo(function Partmemb({items}) {
-
-    const scrollersRef = useRef([]);
+function Partmemb({ items, partners, memberships }) {
+    const {t} = useTranslation()
+    const [displayedItems, setDisplayedItems] = useState([])
 
     useEffect(() => {
-        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-            addAnimation();
-        }
-    }, []);
-
-    const addAnimation = () => {
-        scrollersRef.current.forEach((scroller) => {
-            scroller.setAttribute("data-animated", true);
-            const scrollerInner = scroller.querySelector(".scroller__inner");
-            const scrollerContent = Array.from(scrollerInner.children);
-            scrollerContent.forEach((item) => {
-                const duplicatedItem = item.cloneNode(true);
-                duplicatedItem.setAttribute("aria-hidden", true);
-                scrollerInner.appendChild(duplicatedItem);
-            });
-        });
-    };
-
-
+        const duplicates = items.map(item => ({...item, id: `${item.id}-duplicate`}))
+        setDisplayedItems([...items, ...duplicates])
+    }, [items])
 
     return (
-        <div className="scroller" data-direction="left" data-speed="slow" ref={el => scrollersRef.current.push(el)}>
+        <div className="scroller" data-direction="left" data-speed="slow" data-animated="true">
             <div className="scroller__inner">
-                {items.map((item) => (
-                    <div key={item.id}  className={`partmemb-item partmemb-item--${item?.category}`} >
-                        <img className="partmemb-img" src={item.src} alt={item.altKey} />
-                        {item.altKey === "iaapaAlt" ? <span className="partmemb-img-span">{currentYear}</span> : ""}
+                {displayedItems.map((item, index) => (
+                    <div key={`${item.id}-${index}`} className={`partmemb-item partmemb-item--${item.category}`}>
+                        <img className="partmemb-img" src={item.src} alt={t(item.altKey)} />
+                        {item.altKey === "iaapaAlt" ? (<span className="partmemb-img-span">{currentYear}</span>) : ""}
+                        {item.altKey === "partners" ? (<span className="partmemb-img-title">{t(partners)}</span>) : ""}
+                        {item.altKey === "memberships" ? (<span className="partmemb-img-title">{t(memberships)}</span>) : ""}
                     </div>
                 ))}
             </div>
         </div>
     )
-})
+}
 
 Partmemb.propTypes = {
-    items: PropTypes.array,
-    targetClick: PropTypes.string
+    items: PropTypes.array.isRequired,
+    partners: PropTypes.string.isRequired,
+    memberships: PropTypes.string.isRequired,
 }
 
 export default Partmemb

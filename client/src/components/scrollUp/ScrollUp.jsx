@@ -6,7 +6,6 @@ import "./scrollUp.css"
 const ScrollUp = memo(function ScrollUp() {
 
     const [isPageOnScroll, setIsPageOnScroll] = useState(false)
-
     const {t} = useTranslation()
 
     const handleScrollToTop = () => {

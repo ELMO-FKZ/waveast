@@ -6,13 +6,11 @@ text-align: center;
 z-index: 1; }
     .special-title-two {
     display: inline-block;
-    background-image: linear-gradient(to left, #f89320, #00bcd1);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text; }
-        .special-span-two {
-        /* position: relative; */
-        font-size: 4rem; }
+    background-image: linear-gradient(to left, var(--warm-orange), var(--moonstone));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; }
+        .special-span-two {font-size: 4rem; }
             .special-span-svg {
             position: absolute;
             top: 0;

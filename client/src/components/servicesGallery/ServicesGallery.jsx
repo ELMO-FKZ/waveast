@@ -18,7 +18,6 @@ import "./servicesGallery.css"
 const ServicesGallery = memo(function ServicesGallery() {
 
   const {t} = useTranslation()
-
   const [index, setIndex] = useState(-1)
 
   const [filterItems, setFilterItems] = useState([
@@ -30,9 +29,7 @@ const ServicesGallery = memo(function ServicesGallery() {
 
   const handleFilter = (id, option) => {
     setFilterItems((prev) =>
-      prev.map((item) => ({
-        ...item, active: item.id === id,
-      }))
+      prev.map((item) => ({...item, active: item.id === id}))
     )
     setActiveFilter(option)
   }

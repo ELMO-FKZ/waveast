@@ -37,10 +37,10 @@ const values = [
 ]
 
 const items = [
-    {id: 1, src: partners, altKey: "specialHeadings.partners", category: "partners"},
+    {id: 1, src: partners, altKey: "partners", category: "partners"},
     {id: 2, src: isaba, altKey: "isabaAlt", category: "partners"},
     {id: 3, src: apex, altKey: "apexAlt", category: "partners"},
-    {id: 4, src: memberships, altKey: "specialHeadings.memberships", category: "memberships"},
+    {id: 4, src: memberships, altKey: "memberships", category: "memberships"},
     {id: 5, src: iaapa, altKey: "iaapaAlt", category: "memberships"},
     {id: 6, src: basenprof, altKey: "basenprofAlt", category: "memberships"}, 
 ]
@@ -124,7 +124,7 @@ function About() {
             </div>
             <div className="section__padding--block container">
                 <SpecialHeadingTwo title={t(`specialHeadings.partners&memberships`)} />
-                <Partmemb items={items} />
+                <Partmemb items={items} partners={t(`partners`)} memberships={t(`memberships`)} />
             </div>
         </div>
         </>

@@ -13,9 +13,9 @@ const Landing = memo(function Landing() {
         <main className="main">
             <div className="main__background">
                 <video autoPlay loop muted className="background-video">
-                <source src={Slide} type="video/webm" />
-                {t('landing.unsupported')}
-        </video>
+                    <source src={Slide} type="video/webm" />
+                    {t('landing.unsupported')}
+                </video>
             </div>
             <div className="main__scroll-down">
                 <div className="main__chevron-text">{t(`landing.scrollDown`)}</div>

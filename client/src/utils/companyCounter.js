@@ -1,7 +1,7 @@
-import { projectPlaces } from "../data/projectPlaces"
+import { projectPlacesEn } from "../data/projectPlacesEn"
 
 export const getProjectsCount = () => {
-    const count = projectPlaces.length
+    const count = projectPlacesEn.length
     const roundedCount = Math.floor(count / 10) * 10
     return `${roundedCount}`
 }
@@ -13,7 +13,7 @@ export function getYearsSince2011() {
 }
 
 export function countUniqueCountries() {
-    const countries = projectPlaces.map(place => {
+    const countries = projectPlacesEn.map(place => {
         const country = place.name.split(', ')[1]
         return country
     });
