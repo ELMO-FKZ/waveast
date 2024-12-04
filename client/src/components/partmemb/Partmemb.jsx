@@ -15,7 +15,7 @@ function Partmemb({ items, partners, memberships }) {
     }, [items])
 
     return (
-        <div className="scroller" data-direction="left" data-speed="slow" data-animated="true">
+        <div className="scroller" data-direction="left" data-speed="medium" data-animated="true">
             <div className="scroller__inner">
                 {displayedItems.map((item, index) => (
                     <div key={`${item.id}-${index}`} className={`partmemb-item partmemb-item--${item.category}`}>
