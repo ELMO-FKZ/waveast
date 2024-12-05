@@ -103,6 +103,7 @@
     "basenprofAlt": "BASENPROF member logo",
     "isabaAlt": "ISABA partner logo",
     "apexAlt": "APEX partner logo",
+    "dofAlt": "DOF partner logo",
     "partners": "partners",
     "memberships": "memberships",
     "pageTitles": {
@@ -218,7 +219,7 @@
         "firstBannerReject": "Reject All",
         "secondBannerTitle": "Manage Your Preferences",
         "secondBannerSubtitle": "Cookie usage",
-        "secondBannerText": "I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full",
+        "secondBannerText": "We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full",
         "secondBannerLink": "privacy policy.",
         "firstAccordionTitle": "Strictly Necessary Cookies",
         "firstAccordionText": "These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly.",
