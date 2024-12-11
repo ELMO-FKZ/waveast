@@ -16,7 +16,7 @@
         "about": "Sobre nosotros",
         "contact": "Contáctenos",
         "catalogue": "Catálogo",
-        "expertise": "Nuestra experiencia",
+        "expertise": "Nuestra especialización",
         "services": "Servicios",
         "projects": "Proyectos",
         "follow": "Síguenos",
@@ -31,11 +31,11 @@
         "scrollDown": "Desplazarse hacia abajo"
     },
     "subLanding": {
-        "subTitle": "Surcando las olas de instalaciones excepcionales y servicios de parques acuáticos"
+        "subTitle": "Surcando las olas de instalaciones y servicios excepcionales de parques acuáticos"
     },
     "statistics": [
         "Años de experiencia",
-        "Proyectos completados",
+        "Proyectos completados con éxito",
         "Países en los que hemos trabajado",
         "Continentes en los que hemos trabajado"
     ],
@@ -45,7 +45,7 @@
     },
     "services": [
         {
-            "title": "Toboganes Acuáticos y Elementos Acuáticas",
+            "title": "Toboganes acuáticos y elementos acuáticas",
             "content": [
                 {"subTitle": "Instalación: ", "subContent": "Ofrecemos servicios de 'asesor técnico' o 'instalación completa', entregados por nuestro equipo altamente calificado."},
                 {"subTitle": "Mantenimiento y renovación: ", "subContent": "Nuestros técnicos calificados son competentes en el manejo de todos los proyectos de reparación relacionados con elementos compuestos."},
@@ -92,19 +92,19 @@
         }
     ],
     "sectionHeadings": {
-        "services": {"title": "Servicios", "subTitle": "servicios integrales para cada necesidad"},
-        "projects": {"title": "Proyectos", "subTitle": "nuestra presencia a nivel mundial"},
+        "services": {"title": "Servicios", "subTitle": "Servicios integrales para cada necesidad"},
+        "projects": {"title": "Proyectos", "subTitle": "Dejando huellas a nivel mundial"},
         "faqs": {"title": "F.A.Q.", "subTitle": "Preguntas frecuentes"},
         "newsletter": {"title": "Newsletter", "subTitle": "Sé el primero en saber"}
     },
     "faqs": {
         "accordion": [
-            {"question": "¿Waveast ofrece cobertura internacional para sus servicios?", "answer": "Sí, Waveast ofrece cobertura global para la mayoría de los proyectos y cobertura EMEA para todos los servicios, garantizando así que puede satisfacer las necesidades de los clientes independientemente de su ubicación."},
+            {"question": "¿Waveast ofrece cobertura internacional para sus servicios?", "answer": "Sí, Waveast ofrece cobertura global para la mayoría de los proyectos y cobertura EMEA para todos los servicios, de esta manera satisfacer las necesidades de los clientes sin importar su ubicación."},
             {"question": "¿Quién proporciona el equipo y los suministros para los servicios de Waveast?", "answer": "Mientras el equipo y los suministros sean transportables, el equipo de Waveast está completamente equipado con todas las herramientas, equipos y materiales de alta calidad necesarios, garantizando así una experiencia sin estrés para nuestros clientes."},
-            {"question": "¿Qué servicios de instalación ofrece Waveast?", "answer": "Waveast ofrece servicios de instalación de primera categoría, que incluyen, entre otros, toboganes acuáticos y atracciones acuáticas, estructuras de acero, atracciones mecánicas, unidades de escalada, parques infantiles y sistemas hidromecánicos."},
+            {"question": "¿Qué servicios de instalación ofrece Waveast?", "answer": "Waveast ofrece servicios de instalación de primera categoría, que incluyen: toboganes acuáticos, atracciones acuáticas, estructuras de acero, atracciones mecánicas, unidades de escalada, parques infantiles y sistemas hidromecánicos."},
             {"question": "¿Qué incluye el proceso de instalación?", "answer": "El proceso de instalación incluye hojas de método y planes de acción integrales desde la ideación hasta la instalación, ensamblaje de productos con la asistencia de consultores técnicos e instaladores experimentados, y una instalación puntual que cumple con las regulaciones y estándares de seguridad."},
             {"question": "¿Qué servicios de mantenimiento ofrece Waveast?", "answer": "Waveast está especializado en servicios de mantenimiento y renovación, que incluyen inspecciones completas de parques y productos, un programa de mantenimiento anual, reparaciones de daños, pulido y limpieza de toboganes, así como pintura de toboganes, tanto por dentro como por fuera."},
-            {"question": "¿Qué incluye el programa de mantenimiento anual?", "answer": "El programa anual de mantenimiento incluye, entre otros, la renovación de juntas, la reparación de daños y el pulido y limpieza de toboganes."},
+            {"question": "¿Qué incluye el programa de mantenimiento anual?", "answer": "El programa anual de mantenimiento incluye: la renovación de juntas, la reparación de daños y el pulido y limpieza de toboganes."},
             {"question": "¿Cómo funciona el proceso de mantenimiento en Waveast?", "answer": "Nuestros técnicos primero realizan una inspección de los parques y/o toboganes acuáticos del cliente. Después de la inspección, proporcionan un informe completo junto con un alcance propuesto del trabajo necesario."},
             {"question": "¿Hay garantía para los servicios de mantenimiento?", "answer": "Sí, Waveast ofrece una garantía estacional para sus servicios de mantenimiento para garantizar la satisfacción del cliente y la durabilidad a largo plazo del trabajo realizado."}
         ],
@@ -131,12 +131,12 @@
     },
     "whyWe": [
         {"title": "Experiencia", "paragraph": "Todo nuestro personal tiene más de diez años de experiencia en la industria."},
-        {"title": "Atención al cliente", "paragraph": "Brindamos servicio al cliente en línea las 24 horas, los 7 días de la semana, y somos una organización enfocada en el cliente, orientada a la satisfacción del cliente."},
+        {"title": "Atención al cliente", "paragraph": "Brindamos servicio al cliente en línea las 24 horas, los 7 días de la semana, y somos una organización enfocada en atender y  satisfacer las necesidades del cliente en todo momento."},
         {"title": "Saber hacer", "paragraph": "Con nuestro equipo calificado, estamos siempre listos para ofrecer nuevas ideas y consultas a nuestros clientes."},
         {"title": "Calidad", "paragraph": "Nuestros productos, servicios y materiales son de la más alta calidad."},
         {"title": "Precios competitivos", "paragraph": "Ofrecemos servicios de alta calidad a precios razonables."},
         {"title": "Garantía", "paragraph": "Nuestros servicios y productos están cubiertos por diversas garantías."},
-        {"title": "Seguridad", "paragraph": "Nuestra principal prioridad es la salud y seguridad de las personas y del medio ambiente, así como la durabilidad a largo plazo de nuestros productos."}
+        {"title": "Seguridad", "paragraph": "Nuestra principal prioridad es la seguridad de las personas y del medio ambiente, así como la durabilidad a largo plazo de nuestros productos."}
     ],
     "iaapaAlt": "Logo de miembro de IAAPA",
     "basenprofAlt": "Logo de miembro de BASENPROF",
@@ -176,12 +176,12 @@
         "Con un equipo de postventa enfocado en el cliente, junto con diseñadores e ingenieros calificados, Waveast puede brindar el servicio de más alta calidad a sus clientes."
     ],
     "aboutCompany": [
-        "Fundada en {{yearFounded}} en la bulliciosa ciudad de Varsovia, Polonia, Waveast representa un fuerte compromiso con la industria del entretenimiento y el ocio. La visión y pasión de nuestro fundador han dado forma a nuestro viaje, impulsándonos a crear experiencias emocionantes para personas de todo el mundo. Con un equipo talentoso de más de {{teamSize}} profesionales, combinamos experiencia y dedicación para ofrecer soluciones de alta calidad para hoteles, parques temáticos, parques acuáticos y sitios de campamento.",
+        "Fundada en {{yearFounded}} en la bulliciosa ciudad de Varsovia, Polonia, Waveast representa un fuerte compromiso con la industria del entretenimiento y el ocio. La visión y pasión de nuestro fundador le han dado forma a nuestro viaje, impulsándonos a crear experiencias emocionantes para personas de todo el mundo. Con un equipo talentoso de más de {{teamSize}} profesionales, combinamos experiencia y dedicación para ofrecer soluciones de alta calidad para hoteles, parques temáticos, parques acuáticos y sitios de campamento.",
         "Nuestro equipo incluye ingenieros calificados, instaladores, técnicos y personal de oficina, todos trabajando juntos para garantizar que cada proyecto cumpla con nuestros altos estándares. Con más de una década de experiencia colectiva, nos enorgullecemos de ser eficientes y efectivos en nuestras operaciones. Este compromiso nos ha permitido construir un portafolio diverso de más de {{projectCount}} proyectos exitosos en {{countryCount}} países.",
         "Waveast se destaca como un nombre líder en la industria, con una fuerte presencia en las regiones de EMEA, APAC y LATAM. Nos apasiona superar los límites del entretenimiento y crear experiencias inolvidables para personas de todas las edades."
     ],
     "servicesCompany": [
-        "Waveast Installation & Park Services es un proveedor líder de soluciones integrales para la industria del entretenimiento y los juegos. Con un fuerte compromiso con la excelencia, ofrecemos servicios orientados al cliente, adaptados a las necesidades únicas de cada cliente.",
+        "Waveast Installation & Park Services es un proveedor líder de soluciones integrales para la industria del entretenimiento y los juegos. Con un fuerte compromiso con la excelencia, ofrecemos servicios orientados al cliente, adaptados a las necesidades únicas de cada uno.",
         "Aquí hay un vistazo a lo que ofrecemos:"
     ],
     "projectsCompany": [
@@ -212,7 +212,12 @@
             "address": "Dirección",
             "office": "Oficina de sucursal",
             "email": "Correo electrónico",
-            "phone": "Teléfono"
+            "phone": "Teléfono",
+            "mainAddress": "Ul. Ludwika Rydygiera 8/609 01-793, Varsovia Polonia.",
+            "branchOffice": "Wróbla 6A, 02-736 Varsovia Polonia.",
+            "phoneNumberOne": "+48 795 564 824",
+            "phoneNumberTwo": "+48 731 736 446",
+            "phoneNumberThree": "+48 730 218 633"
         },
         "contactForm": {
             "fullName": {"label": "Nombre completo", "placeholder": "Introduce tu nombre completo"},
@@ -252,13 +257,13 @@
     },
     "cookieConsent": {
         "firstBannerTitle": "¡Usamos cookies!",
-        "firstBannerText": "Este sitio utiliza cookies esenciales para garantizar su correcto funcionamiento, así como cookies de seguimiento para analizar cómo interactúa con él. Estas últimas solo se activarán después de su consentimiento.",
+        "firstBannerText": "Este sitio utiliza cookies esenciales para garantizar su correcto funcionamiento, así como cookies de seguimiento para analizar cómo interactúa con él. Estas cookies se activarán solo después de su consentimiento.",
         "firstBannerLink": "Déjame elegir",
         "firstBannerAccept": "Aceptar todo",
         "firstBannerReject": "Rechazar todo",
         "secondBannerTitle": "Gestiona tus preferencias",
         "secondBannerSubtitle": "Uso de cookies",
-        "secondBannerText": "Utilizamos cookies para garantizar las funciones básicas del sitio y mejorar su experiencia en línea. Tiene la posibilidad de consentir o darse de baja de cada categoría de cookies en cualquier momento. Para más detalles sobre las cookies y otros datos sensibles, consulte nuestra",
+        "secondBannerText": "Utilizamos cookies para garantizar las funciones básicas del sitio y mejorar su experiencia en línea. Tiene la posibilidad de aceptar o no cada categoría de cookies en cualquier momento. Para más detalles sobre las cookies y otros datos importantes, consulte nuestra",
         "secondBannerLink": "política de privacidad.",
         "firstAccordionTitle": "Cookies estrictamente necesarias",
         "firstAccordionText": "Estas cookies son esenciales para el correcto funcionamiento de nuestro sitio. Sin estas cookies, el sitio no podría funcionar correctamente.",
@@ -270,7 +275,7 @@
         "lngDescription": "Almacena la configuración de idioma preferida del usuario para el sitio web. Expira después de que finaliza la sesión.",
         "darkModeDescription": "Guarda la preferencia del usuario por la visualización en modo oscuro o claro. Expira después de que finaliza la sesión.",
         "thirdAccordionTitle": "Cookies de publicidad y segmentación",
-        "thirdAccordionText": "Estas cookies recopilan información sobre cómo utilizas el sitio web, qué páginas visitaste y qué enlaces hiciste clic. Todos los datos son anónimos y no se pueden usar para identificarte.",
+        "thirdAccordionText": "Estas cookies recopilan información sobre cómo utilizas el sitio web, qué páginas visitaste y en qué enlaces hiciste clic. Todos los datos son anónimos y no se pueden usar para identificarte.",
         "secondBannerSave": "Guardar configuración"
     },
     "privacy": {
@@ -304,7 +309,7 @@
         "privacyFourParagraphOne": "Tus datos serán almacenados de manera segura por --Waveast Sp. z o.o.-- No venderemos ni compartiremos tu información con terceros. Tomamos las medidas necesarias para proteger tus datos de pérdida, uso indebido o cambios.",
         "privacyFiveTitle": "¿Cómo acceder, actualizar o eliminar tus datos?",
         "privacyFiveParagraphOne": "Si deseas acceder, actualizar o eliminar tu información, puedes enviarnos un correo electrónico a --we@waveast.pl-- o usar nuestro formulario de contacto en --https://waveast.pl/contact--",
-        "privacyFiveParagraphTwo": "Podemos necesitar verificar tu identidad antes de procesar tu solicitud para actualizar o eliminar tus datos."
+        "privacyFiveParagraphTwo": "Para poder realizar esta acción necesitaremos verificar tu identidad antes de procesar tu solicitud de actualizar o eliminar tus datos."
     },
     "projectPlaces": {
         "Abu Dhabi, UAE": "Abu Dabi, EAU",

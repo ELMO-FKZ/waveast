@@ -48,8 +48,8 @@
             "title": "Toboggans & éléments aquatiques",
             "content": [
                 {"subTitle": "Installation : ", "subContent": "Nous proposons des services de \"conseil technique ou d'installation complète\", assurés par notre équipe hautement qualifiée."},
-                {"subTitle": "Maintenance & Rénovation : ", "subContent": "Nos techniciens spécialisés sont compétents pour gérer tous les projets de réparation liés aux éléments composites."},
-                {"subTitle": "Conception & Ventes : ", "subContent": "Nous créons des solutions personnalisées pour les nouveaux projets ainsi que pour les projets existants."}
+                {"subTitle": "Maintenance & rénovation : ", "subContent": "Nos techniciens spécialisés sont compétents pour gérer tous les projets de réparation liés aux éléments composites."},
+                {"subTitle": "Conception & ventes : ", "subContent": "Nous créons des solutions personnalisées pour les nouveaux projets ainsi que pour les projets existants."}
             ]
         },
         {
@@ -79,21 +79,21 @@
             ]
         },
         {
-            "title": "Mise en service & Certification",
+            "title": "Mise en service & certification",
             "content": [
                 {"subTitle": "", "subContent": "Nous assurons la conformité de vos parcs aquatiques et piscines de loisirs aux normes européennes et américaines. Nos services incluent des inspections rigoureuses, des certifications, des audits techniques et des conseils personnalisés."}
             ]
         },
         {
-            "title": "Innovation & Nouvelles Technologies",
+            "title": "Innovation & nouvelles technologies",
             "content": [
                 {"subTitle": "", "subContent": "En collaboration avec DOF Robotics en Pologne, nous sommes ravis d'apporter le plaisir de l'eau dans le métavers à travers des scénarios VR de haute qualité, immersifs et visuellement engageants."}
             ]
         }
     ],
     "sectionHeadings": {
-        "services": {"title": "Services", "subTitle": "services complets pour chaque besoin"},
-        "projects": {"title": "Projets", "subTitle": "notre présence à travers le monde"},
+        "services": {"title": "Services", "subTitle": "Services complets pour chaque besoin"},
+        "projects": {"title": "Projets", "subTitle": "Notre présence à travers le monde"},
         "faqs": {"title": "F.A.Q.", "subTitle": "Questions fréquemment posées"},
         "newsletter": {"title": "Newsletter", "subTitle": "Soyez le premier à savoir"}
     },
@@ -212,7 +212,12 @@
             "address": "Adresse",
             "office": "Bureau de branche",
             "email": "Email",
-            "phone": "Téléphone"
+            "phone": "Téléphone",
+            "mainAddress": "Ul. Ludwika Rydygiera 8/609 01-793, Varsovie Pologne.",
+            "branchOffice": "Wróbla 6A, 02-736 Varsovie Pologne.",
+            "phoneNumberOne": "+48 795 564 824",
+            "phoneNumberTwo": "+48 731 736 446",
+            "phoneNumberThree": "+48 730 218 633"
         },
         "contactForm": {
             "fullName": {"label": "Nom complet", "placeholder": "Entrez votre nom complet"},

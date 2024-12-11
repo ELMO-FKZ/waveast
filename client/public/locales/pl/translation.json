@@ -31,7 +31,7 @@
         "scrollDown": "Przewiń w dół"
     },
     "subLanding": {
-        "subTitle": "Na falach unikalnych usług i instalacji Parków Wodnych"
+        "subTitle": "Na falach unikalnych usług i instalacji parków wodnych"
     },
     "statistics": [
         "Lata doświadczenia",
@@ -92,14 +92,14 @@
         }
     ],
     "sectionHeadings": {
-        "services": {"title": "Usługi", "subTitle": "kompleksowe usługi dopasowane do potrzeb"},
-        "projects": {"title": "Projekty", "subTitle": "nasze realizacje na całym świecie"},
+        "services": {"title": "Usługi", "subTitle": "Kompleksowe usługi dopasowane do potrzeb"},
+        "projects": {"title": "Projekty", "subTitle": "Nasze realizacje na całym świecie"},
         "faqs": {"title": "F.A.Q.", "subTitle": "Najczęściej zadawane pytania"},
         "newsletter": {"title": "Newsletter", "subTitle": "Bądź pierwszym, który się dowie"}
     },
     "faqs": {
         "accordion": [
-            {"question": "Czy Waveast oferuje międzynarodowy zasięg swoich usług?", "answer": "Tak,   Waveast oferuje globalny zasięg dla większości świadczonych usług oraz zasięg EMEA dla wszystkich produktów, zapewniając, że spełnia potrzeby klientów niezależnie od ich lokalizacji."},
+            {"question": "Czy Waveast oferuje międzynarodowy zasięg swoich usług?", "answer": "Tak, Waveast oferuje globalny zasięg dla większości świadczonych usług oraz zasięg EMEA dla wszystkich produktów, zapewniając, że spełnia potrzeby klientów niezależnie od ich lokalizacji."},
             {"question": "Kto dostarcza sprzęt i materiały do usług Waveast?", "answer": "Pod warunkiem, że sprzęt i materiały mogą być transportowane, zespół Waveast jest w pełni wyposażony we wszystkie niezbędne narzędzia, sprzęt oraz materiały wysokiej jakości, zapewniając klientom bezstresowe doświadczenie."},
             {"question": "Jakie usługi instalacyjne oferuje Waveast?", "answer": "Waveast oferuje usługi instalacyjne najwyższej jakości, w tym między innymi montaż zjeżdżalni wodnych i elementów wodnych, konstrukcji stalowych, urządzeń wesołych miasteczek, jednostek wspinaczkowych, placów zabaw oraz systemów hydromechanicznych."},
             {"question": "Co obejmuje proces montażu?", "answer": "Proces instalacji obejmuje szczegółowe instrukcje i plany działań, od etapu pomysłu po instalację, montaż produktów z pomocą konsultantów technicznych i doświadczonych instalatorów oraz terminową instalację, która spełnia przepisy bezpieczeństwa i normy."},
@@ -131,7 +131,7 @@
     },
     "whyWe": [
         {"title": "Doświadczenie", "paragraph": "Cały nasz personel posiada co najmniej dziesięcioletnie doświadczenie w branży."},
-        {"title": "Obsługa Klienta", "paragraph": "Zapewniamy obsługę Klienta online 24 godziny na dobę, 7 dni w tygodniu. Jesteśmy firmą zorientowaną na Klienta i jego zadowolenie."},
+        {"title": "Obsługa klienta", "paragraph": "Zapewniamy obsługę Klienta online 24 godziny na dobę, 7 dni w tygodniu. Jesteśmy firmą zorientowaną na Klienta i jego zadowolenie."},
         {"title": "Know - How", "paragraph": "Dzięki naszemu wykwalifikowanemu zespołowi jesteśmy zawsze gotowi służyć naszym Klientom świeżymi pomysłami i pomocą."},
         {"title": "Jakość", "paragraph": "Wszystkie nasze produkty, usługi i materiały są najwyższej jakości."},
         {"title": "Konkurencyjne ceny", "paragraph": "Zapewniamy wysoką jakość usług w rozsądnych cenach."},
@@ -212,7 +212,12 @@
             "address": "Adres",
             "office": "Biuro oddziału",
             "email": "Email",
-            "phone": "Telefon"
+            "phone": "Telefon",
+            "mainAddress": "Ul. Ludwika Rydygiera 8/609 01-793, Warszawa Polska.",
+            "branchOffice": "Wróbla 6A, 02-736 Warszawa Polska.",
+            "phoneNumberOne": "+48 795 564 824",
+            "phoneNumberTwo": "+48 731 736 446",
+            "phoneNumberThree": "+48 730 218 633"
         },
         "contactForm": {
             "fullName": {"label": "Imię i nazwisko", "placeholder": "Wprowadź swoje imię i nazwisko"},
@@ -277,7 +282,7 @@
         "lastUpdated": "Ostatnia aktualizacja:",
         "privacyTextOne": "Ta Polityka prywatności wyjaśnia, jak --Waveast Sp. z o.o.-- zbiera, wykorzystuje i udostępnia Twoje informacje, gdy korzystasz z naszej strony internetowej --https://waveast.pl/--.",
         "privacyTextTwo": "Korzystając z naszej strony, zgadzasz się na zbieranie i wykorzystywanie Twoich informacji zgodnie z opisem w tej polityce. Możemy zmieniać tę Politykę prywatności w dowolnym momencie bez wcześniejszego powiadomienia Cię. Zaktualizowana polityka będzie opublikowana na naszej stronie. Nowa polityka wejdzie w życie 180 dni po jej opublikowaniu, a Twoje dalsze korzystanie z witryny oznacza, że akceptujesz nową politykę. Zalecamy regularne sprawdzanie tej strony w celu uzyskania aktualizacji.",
-        "privacyOneTitle": "Jak zbieramy Twoje dane?",
+        "privacyOneTitle": "Jak zbieramy twoje dane?",
         "privacyOneParagraphOne": "Zbieramy informacje o Tobie, gdy korzystasz z naszej strony internetowej. Obejmuje to, gdy :",
         "privacyOneFirstListItem": "1- Kontaktujesz się z nami, aby zapytać o nasze usługi.",
         "privacyOneSecondListItem": "2- Subskrybujesz nasz newsletter.",

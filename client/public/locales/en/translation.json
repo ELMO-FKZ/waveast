@@ -28,10 +28,10 @@
     "scrollUpAriaLabel": "scroll up",
     "landing": {
         "unsupported": "Your browser does not support the video tag.",
-        "scrollDown": "Scroll Down"
+        "scrollDown": "Scroll down"
     },
     "subLanding": {
-        "subTitle": "Riding the Waves of Exceptional Installations and Water Park Services"
+        "subTitle": "Riding the waves of exceptional installations and water park services"
     },
     "statistics": [
         "Years of experience",
@@ -41,20 +41,20 @@
     ],
     "carouselBtnAriaLabel": {
         "left": "Scroll left",
-        "right": "Scroll Right"
+        "right": "Scroll right"
     },
     "services": [
-        {"title":"Waterslides & Aquatic Features", "content": [{"subTitle": "Installation: ", "subContent": "We offer 'Technical Advisor' or 'full-scope installation' services delivered by our highly qualified team."}, {"subTitle": "Maintenance & Refurbishment: ", "subContent": "Our skilled technicians are proficient in handling all repair projects related to composite elements."}, {"subTitle": "Design & Sales: ", "subContent": "We create customized solutions for both new developments and existing projects."}]},
-        {"title":"Amusement Rides, Climbing Units, & Playgrounds", "content": [{"subTitle": "Installation: ", "subContent": "We provide product assembly services, supported by our experienced technical advisors and installers."}, {"subTitle": "Consulting: ", "subContent": "Our team can assist you in developing comprehensive master plans and managing your project from the initial concept to installation."}]},
-        {"title":"Water Technology & Hydromechanical Systems", "content": [{"subTitle": "Hydromechanical systems: ", "subContent": "We guarantee the installation of high-quality, energy-efficient systems for water treatment, circulation, and filtration."}, {"subTitle": "Water Technology: ", "subContent": "We provide a variety of features designed to enhance the aquatic experience for people of all ages, including Wave Pools, Rivers, and Surf Pools."}]},
-        {"title":"Steel Structure Assembly", "content": [{"subTitle": "", "subContent": "Our team specializes in assembling both carbon and stainless steel structures, including platforms, warehouses, shelters, industrial buildings, stairs, and handrails."}]},
-        {"title": "Theming Systems", "content": [{"subTitle": "", "subContent": "Our high-quality theming systems are built for durability and designed to complement the surrounding environment. Offerings include Foam-Rubber Tile Flooring, pebble decoration, artificial rocks, facades, and furniture components."}]},
-        {"title":"Commissioning & Certification", "content": [{"subTitle": "", "subContent": "We provide comprehensive safety management for water parks and leisure pools, including inspections, safety certifications according to European and American standards, technical audits, and advisory services."}]},
-        {"title":"Innovation & New Technologies", "content": [{"subTitle": "", "subContent": "In partnership with DOF Robotics in Poland, we are excited to bring water fun to the metaverse through high-quality, immersive and visually engaging VR scenarios."}]}
+        {"title":"Waterslides & aquatic features", "content": [{"subTitle": "Installation: ", "subContent": "We offer 'Technical Advisor' or 'full-scope installation' services delivered by our highly qualified team."}, {"subTitle": "Maintenance & refurbishment: ", "subContent": "Our skilled technicians are proficient in handling all repair projects related to composite elements."}, {"subTitle": "Design & sales: ", "subContent": "We create customized solutions for both new developments and existing projects."}]},
+        {"title":"Amusement rides, climbing units, & playgrounds", "content": [{"subTitle": "Installation: ", "subContent": "We provide product assembly services, supported by our experienced technical advisors and installers."}, {"subTitle": "Consulting: ", "subContent": "Our team can assist you in developing comprehensive master plans and managing your project from the initial concept to installation."}]},
+        {"title":"Water technology & hydromechanical systems", "content": [{"subTitle": "Hydromechanical systems: ", "subContent": "We guarantee the installation of high-quality, energy-efficient systems for water treatment, circulation, and filtration."}, {"subTitle": "Water technology: ", "subContent": "We provide a variety of features designed to enhance the aquatic experience for people of all ages, including Wave Pools, Rivers, and Surf Pools."}]},
+        {"title":"Steel structure assembly", "content": [{"subTitle": "", "subContent": "Our team specializes in assembling both carbon and stainless steel structures, including platforms, warehouses, shelters, industrial buildings, stairs, and handrails."}]},
+        {"title": "Theming systems", "content": [{"subTitle": "", "subContent": "Our high-quality theming systems are built for durability and designed to complement the surrounding environment. Offerings include Foam-Rubber Tile Flooring, pebble decoration, artificial rocks, facades, and furniture components."}]},
+        {"title":"Commissioning & certification", "content": [{"subTitle": "", "subContent": "We provide comprehensive safety management for water parks and leisure pools, including inspections, safety certifications according to European and American standards, technical audits, and advisory services."}]},
+        {"title":"Innovation & new technologies", "content": [{"subTitle": "", "subContent": "In partnership with DOF Robotics in Poland, we are excited to bring water fun to the metaverse through high-quality, immersive and visually engaging VR scenarios."}]}
     ],
     "sectionHeadings": {
-        "services": {"title": "Services", "subTitle": "comprehensive services for every need"},
-        "projects": {"title": "Projects", "subTitle": "our projects presence across the globe"},
+        "services": {"title": "Services", "subTitle": "Comprehensive services for every need"},
+        "projects": {"title": "Projects", "subTitle": "Our projects presence across the globe"},
         "faqs": {"title": "F.A.Q.", "subTitle": "Frequently asked questions"},
         "newsletter": {"title": "Newsletter", "subTitle": "Be the first one to know"}
     },
@@ -80,11 +80,11 @@
         },
         "modal": {
             "success": {
-                "title": "Welcome to Our Community!", 
+                "title": "Welcome to our community!", 
                 "message": "Thank you for subscribing to our newsletter! You’re now on the list to receive the latest updates, and insights directly to your inbox."
             },
             "error": {
-                "title": "Oops! Something Went Wrong",
+                "title": "Oops! Something went wrong",
                 "message": "Unfortunately, we were unable to process your subscription at this time. Please check your email address and try again. If you continue to experience issues, don’t hesitate to contact us for assistance. Thank you for your understanding!"
             },
             "okayBtn": "Okay"
@@ -92,10 +92,10 @@
     },
     "whyWe": [
         {"title":"Experience", "paragraph":"Our entire staff has over ten years of expertise in the industry."},
-        {"title":"Customer Care", "paragraph":"We provide online customer service 24 hours a day, seven days a week, and we are a customer-focused, customer-satisfaction-oriented organization."},
-        {"title":"Know How", "paragraph":"With our skilled team, we are constantly ready to offer fresh ideas and consultation to our consumers."},
+        {"title":"Customer care", "paragraph":"We provide online customer service 24 hours a day, seven days a week, and we are a customer-focused, customer-satisfaction-oriented organization."},
+        {"title":"Know how", "paragraph":"With our skilled team, we are constantly ready to offer fresh ideas and consultation to our consumers."},
         {"title":"Quality", "paragraph":"Our products, services, and materials are all of the highest quality."},
-        {"title":"Competitive Prices", "paragraph":"We provide high-quality service at reasonable prices."},
+        {"title":"Competitive prices", "paragraph":"We provide high-quality service at reasonable prices."},
         {"title":"Warranty", "paragraph":"Our services and goods are covered by a variety of warranties."},
         {"title":"Safety", "paragraph":"Our top goal is the health and safety of people and the environment, as well as the long-term durability of our products."}
     ],
@@ -173,7 +173,12 @@
             "address": "Address",
             "office": "Branch office",
             "email": "Email",
-            "phone": "Phone"
+            "phone": "Phone",
+            "mainAddress": "Ul. Ludwika Rydygiera 8/609 01-793, Warsaw Poland.",
+            "branchOffice": "Wróbla 6A, 02-736 Warsaw Poland.",
+            "phoneNumberOne": "+48 795 564 824",
+            "phoneNumberTwo": "+48 731 736 446",
+            "phoneNumberThree": "+48 730 218 633"
         },
         "contactForm": {
             "fullName": {"label": "Full name", "placeholder": "Enter your full name"},
@@ -197,48 +202,48 @@
         },
         "modal": {
             "success": {
-                "title": "Thank You for Reaching Out!", 
+                "title": "Thank you for reaching out!", 
                 "message": "Your message has been sent successfully. We appreciate your interest and will get back to you as soon as possible."
             },
             "error": {
-                "title": "Oops! Something Went Wrong",
+                "title": "Oops! Something went wrong",
                 "message": "We encountered an error while trying to send your message. Please try again or reach out to us directly via our contact information."
             },
             "okayBtn": "Okay"
         }
     },
     "notFound": {
-        "pageNotFound": "Page Not Found",
+        "pageNotFound": "Page not found",
         "goBack": "Go back"
     },
     "cookieConsent": {
-        "firstBannerTitle": "We Use Cookies!",
+        "firstBannerTitle": "We use cookies!",
         "firstBannerText": "This website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent.",
         "firstBannerLink": "Let me choose",
-        "firstBannerAccept": "Accept All",
-        "firstBannerReject": "Reject All",
-        "secondBannerTitle": "Manage Your Preferences",
+        "firstBannerAccept": "Accept all",
+        "firstBannerReject": "Reject all",
+        "secondBannerTitle": "Manage your preferences",
         "secondBannerSubtitle": "Cookie usage",
         "secondBannerText": "We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full",
         "secondBannerLink": "privacy policy.",
-        "firstAccordionTitle": "Strictly Necessary Cookies",
+        "firstAccordionTitle": "Strictly necessary cookies",
         "firstAccordionText": "These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly.",
-        "secondAccordionTitle": "Performance and Analytics Cookies",
+        "secondAccordionTitle": "Performance and analytics cookies",
         "secondAccordionText": "These cookies allow the website to remember the choices you have made in the past.",
         "gaDescription": "Used by Google Analytics to distinguish one visitor from another and lasts for 2 years.",
         "gatDescription": "Used by Google Analytics to limit the collection of data on high traffic sites. This cookie expires after 1 day.",
         "gidDescription": "Used by Google Analytics to generate statistical data on how the visitor uses the website. This cookie expires after 1 day.",
         "lngDescription": "Stores the user's preferred language setting for the website. It expires after the session ends.",
         "darkModeDescription": "Saves the user's preference for dark mode or light mode display. It expires after the session ends.",
-        "thirdAccordionTitle": "Advertisement and Targeting Cookies",
+        "thirdAccordionTitle": "Advertisement and targeting cookies",
         "thirdAccordionText": "These cookies collect information about how you use the website, which pages you visited and which links you clicked on. All of the data is anonymized and cannot be used to identify you.",
-        "secondBannerSave": "Save Settings"
+        "secondBannerSave": "Save settings"
     },
     "privacy": {
-        "lastUpdated": "Last Updated:",
+        "lastUpdated": "Last updated:",
         "privacyTextOne": "This Privacy Policy explains how --Waveast Sp. z o. o.-- collects, uses, and shares your information when you use our website --https://waveast.pl/--.",
         "privacyTextTwo": "By using our website, you agree to let us collect and use your information as described in this policy. We may change this Privacy Policy at any time without notifying you beforehand. We will post the updated policy on our website. The new policy will take effect 180 days after it is posted, and your continued use of the website means you accept the new policy. We recommend that you check this page regularly for updates.",
-        "privacyOneTitle": "How We Collect Your Data?",
+        "privacyOneTitle": "How we collect your data?",
         "privacyOneParagraphOne": "We collect information about you when you use our website. This includes when you:",
         "privacyOneFirstListItem": "1- Contact us to ask about our services.",
         "privacyOneSecondListItem": "2- Subscribe to our newsletter.",
@@ -246,14 +251,14 @@
         "privacyOneParagraphTwo": "In the --Contact-- section, you will be asked to fill out a simple form with your personal details. By clicking the --Send-- button, you agree that we can use your information to contact you via email or other methods.",
         "privacyOneParagraphThree": "In the --Newsletter-- section, you can subscribe by providing your email address. By clicking the --Subscribe-- button, you agree that we can use your email to send you newsletters and other information.",
         "privacyOneParagraphFour": "You have the right to access your information and can ask us to update or delete it by contacting us through the form on our contact page.",
-        "privacyTwoTitle": "What Information We Collect?",
+        "privacyTwoTitle": "What information we collect?",
         "privacyTwoParagraphOne": "The personal information we collect may include:",
         "privacyTwoFirstListItem": "1- Your name.",
         "privacyTwoSecondListItem": "2- Your email address.",
         "privacyTwoThirdListItem": "3- Your country.",
         "privacyTwoFourthListItem": "4- Your IP address.",
         "privacyTwoFifthListItem": "5- Information about the pages you visit on our site.",
-        "privacyThreeTitle": "How We Use Your Data?",
+        "privacyThreeTitle": "How we use your data?",
         "privacyThreeParagraphOne": "We use your data to:",
         "privacyThreeFirstListItem": "1- Respond to your inquiries about our services.",
         "privacyThreeSecondListItem": "2- Process your job application.",
@@ -261,9 +266,9 @@
         "privacyThreeFourthListItem": "4- Send you newsletters if you’ve agreed to receive them.",
         "privacyThreeFifthListItem": "5- Communicate with you during negotiations.",
         "privacyThreeParagraphTwo": "We will keep your information only as long as necessary for these activities.",
-        "privacyFourTitle": "Who Has Access to Your Data?",
+        "privacyFourTitle": "Who has access to your data?",
         "privacyFourParagraphOne": "Your data will be stored securely by --Waveast Sp. z o.o.-- We will not sell or share your information with third parties. We take necessary steps to protect your data from loss, misuse, or changes.",
-        "privacyFiveTitle": "How to Access, Update, or Delete Your Data?",
+        "privacyFiveTitle": "How to access, update, or delete your data?",
         "privacyFiveParagraphOne": "If you want to access, update, or delete your information, you can email us at --we@waveast.pl-- or use our contact form at --https://waveast.pl/contact--",
         "privacyFiveParagraphTwo": "We may need to verify your identity before we can process your request to update or delete your data."
     }
