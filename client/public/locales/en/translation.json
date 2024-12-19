@@ -15,6 +15,7 @@
         "information": "Information",
         "about": "About us",
         "contact": "Contact us",
+        "bhp": "OHS policy",
         "catalogue": "Catalogue",
         "expertise": "Our expertise",
         "services": "Services",
@@ -111,6 +112,7 @@
         "services": "Our services",
         "projects": "We've been in...",
         "contact": "Get in touch",
+        "bhp": "Occupational health and safety policy",
         "privacy": "Privacy policy"
     },
     "specialHeadings": {
@@ -163,6 +165,27 @@
         "quatreCocos": "Quatre Cocos, Mauritius",
         "izmir": "Izmir, Türkiye",
         "coventry": "Coventry, England"
+    },
+    "projects": {
+        "aguamagica": {"name": "AGUA MAGICA", "place": "Seville", "country": "Spain"},
+        "aquascope": {"name": "AQUASCOPE", "place": "Chasseneuil-du-Poitou", "country": "France"},
+        "aquaterra": {"name": "AQUATERRA", "place": "Chisinau", "country": "Moldova"},
+        "aquopolis": {"name": "AQUOPOLIS", "place": "Cullera", "country": "Spain"},
+        "capfun": {"name": "CAPFUN", "place": "Saint-Cast-le-Guildo", "country": "France"},
+        "cartoon": {"name": "CARTOON NETWORK AMAZONE", "place": "Pattaya", "country": "Thailand"},
+        "eurocamping": {"name": "EUROCAMPING", "place": "Sant Antoni de Calonge", "country": "Spain"},
+        "frenzy": {"name": "FRENZY", "place": "Torreilles", "country": "France"},
+        "izvor": {"name": "IZVOR", "place": "Arandjelovac", "country": "Serbia"},
+        "jandiamar": {"name": "JANDÍA MAR", "place": "Canary Islands", "country": "Spain"},
+        "lahacienda": {"name": "LA HACIENDA", "place": "Tarragona", "country": "Spain"},
+        "landoflegends": {"name": "LAND OF LEGENDS", "place": "Antalya", "country": "Türkiye"},
+        "maritim": {"name": "MARITIM CRYSTAL BEACH HOTEL", "place": "Quatre Cocos", "country": "Mauritius"},
+        "ogliss": {"name": "O'GLISS PARK", "place": "Le Bernard", "country": "France"},
+        "ozarowskie": {"name": "OŻAROWSKIE BASENY LETNIE", "place": "Ożarów Mazowiecki", "country": "Poland"},
+        "parkwodny": {"name": "PARK WODNY POLANICA-ZDRÓJ", "place": "Polanica-Zdrój", "country": "Poland"},
+        "sendaviva": {"name": "SENDAVIVA", "place": "Arguedas", "country": "Spain"},
+        "suntago": {"name": "SUNTAGO", "place": "Wrecza", "country": "Poland"},
+        "collection" : {"name": "COLLECTION", "place": "Global", "country": "Global"}
     },
     "servicesFilter": {
         "installation": "Installation",
@@ -271,5 +294,31 @@
         "privacyFiveTitle": "How to access, update, or delete your data?",
         "privacyFiveParagraphOne": "If you want to access, update, or delete your information, you can email us at --we@waveast.pl-- or use our contact form at --https://waveast.pl/contact--",
         "privacyFiveParagraphTwo": "We may need to verify your identity before we can process your request to update or delete your data."
+    },
+    "bhp": {
+        "paragraphOne" : "The safety of all employees of Waveast Installation & Park Services and guests staying on the company's premises is the primary goal for the Management Board and the entire management of the company. Care for the life and health of employees and guests, as well as attention to safety at each workplace are the basic elements of this system. This system is subject to a process of continuous development and improvement.",
+        "subTitleOne": "We achieve these goals by:",
+        "listOne" : [
+            "meeting the requirements contained in legal and other regulations applicable to our company.",
+            "using preventive health care.",
+            "striving to constantly improve occupational safety conditions.",
+            "continuous improvement of occupational health and safety activities.",
+            "raising awareness and qualifications of employees in the field of occupational health and safety.",
+            "preventing accidents at work, near misses and occupational diseases.",
+            "equipping employees with high-class personal protective equipment.",
+            "use of machines, devices, tools and equipment that meet the requirements of safety standards.",
+            "active involvement of employees to ensure the effectiveness of the system.",
+            "conducting efficient internal and external communication in the field of occupational health and safety.",
+            "implementing preventive and corrective actions."
+        ],
+        "subTitleTwo": "We assess the effectiveness of the system by:",
+        "listTwo": [
+            "monitoring days without an accident at work.",
+            "monitoring the number of accident events.",
+            "observation of employee behavior in order to detect behaviors and actions that cause threats.",
+            "monitoring the concentrations and intensities of factors harmful to health occurring at workplaces.",
+            "analysis of documentation and records regarding occupational health and safety."
+        ],
+        "paragraphTwo": "The Management Board of Waveast Installation & Park Services undertakes to secure resources ensuring the implementation of the adopted, implemented and maintained policy and ensures that it is understood and agreed with the company's employees and made available to interested external parties."
     }
 }

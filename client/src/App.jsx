@@ -5,6 +5,7 @@ import About from "./pages/about/About"
 import Services from "./pages/services/Services"
 import Projects from "./pages/projects/Projects"
 import Contact from "./pages/contact/Contact"
+import BHP from "./pages/bhp/BHP"
 import Privacy from "./pages/privacy/Privacy"
 import NotFound from "./pages/notFound/NotFound"
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="services" element={<Services />} />
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="bhp" element={<BHP />} />
         <Route path="privacy" element={<Privacy />} />
       </Route>
       <Route path="*" element={<NotFound />} />

@@ -5,7 +5,7 @@ import "./partmemb.css"
 
 const currentYear = new Date().getFullYear().toString();
 
-function Partmemb({ items, partners, memberships }) {
+function Partmemb({ items }) {
     const {t} = useTranslation()
     const [displayedItems, setDisplayedItems] = useState([])
 
@@ -21,8 +21,8 @@ function Partmemb({ items, partners, memberships }) {
                     <div key={`${item.id}-${index}`} className={`partmemb-item partmemb-item--${item.category}`}>
                         <img className="partmemb-img" src={item.src} alt={t(item.altKey)} />
                         {item.altKey === "iaapaAlt" ? (<span className="partmemb-img-span">{currentYear}</span>) : ""}
-                        {item.altKey === "partners" ? (<span className="partmemb-img-title">{t(partners)}</span>) : ""}
-                        {item.altKey === "memberships" ? (<span className="partmemb-img-title">{t(memberships)}</span>) : ""}
+                        {item.altKey === "partners" ? (<span className="partmemb-img-title">{t(`partners`)}</span>) : ""}
+                        {item.altKey === "memberships" ? (<span className="partmemb-img-title">{t(`memberships`)}</span>) : ""}
                     </div>
                 ))}
             </div>
@@ -31,9 +31,7 @@ function Partmemb({ items, partners, memberships }) {
 }
 
 Partmemb.propTypes = {
-    items: PropTypes.array.isRequired,
-    partners: PropTypes.string.isRequired,
-    memberships: PropTypes.string.isRequired,
+    items: PropTypes.array.isRequired
 }
 
 export default Partmemb

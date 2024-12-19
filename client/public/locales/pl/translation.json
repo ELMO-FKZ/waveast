@@ -15,6 +15,7 @@
         "information": "Informacja",
         "about": "O nas",
         "contact": "Skontaktuj się z nami",
+        "bhp": "Polityka BHP",
         "catalogue": "Katalog",
         "expertise": "Nasza specjalizacja",
         "services": "Usługi",
@@ -150,6 +151,7 @@
         "services": "Nasze usługi",
         "projects": "Byliśmy w...",
         "contact": "Skontaktuj się",
+        "bhp": "Polityka bezpieczeństwa i higieny pracy",
         "privacy": "Polityka prywatności"
     },
     "specialHeadings": {
@@ -202,6 +204,27 @@
         "quatreCocos": "Quatre Cocos, Mauritius",
         "izmir": "Izmire, Turcja",
         "coventry": "Coventry, Anglia"
+    },
+    "projects": {
+        "aguamagica": {"name": "AGUA MAGICA", "place": "Sewilla", "country": "Hiszpania"},
+        "aquascope": {"name": "AQUASCOPE", "place": "Chasseneuil-du-Poitou", "country": "Francja"},
+        "aquaterra": {"name": "AQUATERRA", "place": "Kiszyniów", "country": "Mołdawia"},
+        "aquopolis": {"name": "AQUOPOLIS", "place": "Cullera", "country": "Hiszpania"},
+        "capfun": {"name": "CAPFUN", "place": "Saint-Cast-le-Guildo", "country": "Francja"},
+        "cartoon": {"name": "CARTOON NETWORK AMAZONE", "place": "Pattaya", "country": "Tajlandia"},
+        "eurocamping": {"name": "EUROCAMPING", "place": "Sant Antoni de Calonge", "country": "Hiszpania"},
+        "frenzy": {"name": "FRENZY", "place": "Torreilles", "country": "Francja"},
+        "izvor": {"name": "IZVOR", "place": "Arandjelovac", "country": "Serbia"},
+        "jandiamar": {"name": "JANDÍA MAR", "place": "Wyspy Kanaryjskie", "country": "Hiszpania"},
+        "lahacienda": {"name": "LA HACIENDA", "place": "Tarragona", "country": "Hiszpania"},
+        "landoflegends": {"name": "LAND OF LEGENDS", "place": "Antalya", "country": "Turcja"},
+        "maritim": {"name": "MARITIM CRYSTAL BEACH HOTEL", "place": "Quatre Cocos", "country": "Mauritius"},
+        "ogliss": {"name": "O'GLISS PARK", "place": "Le Bernard", "country": "Francja"},
+        "ozarowskie": {"name": "OŻAROWSKIE BASENY LETNIE", "place": "Ożarów Mazowiecki", "country": "Polska"},
+        "parkwodny": {"name": "PARK WODNY POLANICA-ZDRÓJ", "place": "Polanica-Zdrój", "country": "Polska"},
+        "sendaviva": {"name": "SENDAVIVA", "place": "Arguedas", "country": "Hiszpania"},
+        "suntago": {"name": "SUNTAGO", "place": "Wręcza", "country": "Polska"},
+        "collection" : {"name": "KOLEKCJA", "place": "Globalny", "country": "Globalny"}
     },
     "servicesFilter": {
         "installation": "Instalacja",
@@ -310,5 +333,31 @@
         "privacyFiveTitle": "Jak uzyskać dostęp, zaktualizować lub usunąć swoje dane?",
         "privacyFiveParagraphOne": "Jeśli chcesz uzyskać dostęp, zaktualizować lub usunąć swoje informacje, możesz napisać do nas na adres --we@waveast.pl-- lub skorzystać z naszego formularza kontaktowego pod adresem --https://waveast.pl/contact--",
         "privacyFiveParagraphTwo": "Możemy potrzebować zweryfikować Twoją tożsamość zanim przetworzymy Twoją prośbę o aktualizację lub usunięcie Twoich danych."
+    },
+    "bhp": {
+        "paragraphOne" : "Bezpieczeństwo wszystkich pracowników firmy Waveast Installation & Park Services oraz przebywających na terenie firmy gości jest dla Zarządu i całego Kierownictwa firmy celem nadrzędnym. Troska o życie i zdrowie pracowników oraz gości a także dbałość o bezpieczeństwo na każdym stanowisku pracy są podstawowymi elementami tego systemu. System ten podlega procesowi ciągłego rozwoju i doskonalenia.",
+        "subTitleOne": "Cele te realizujemy poprzez:",
+        "listOne" : [
+            "spełnianie wymagań zawartych w przepisach prawnych i innych dotyczących naszej firmy.",
+            "stosowanie profilaktyki zdrowotnej.",
+            "dążenie do ciągłej poprawy warunków bezpieczeństwa pracy.",
+            "ciągłe doskonalenie działań w zakresie BHP.",
+            "podnoszenie świadomości i kwalifikacji pracowników w zakresie BHP.",
+            "zapobieganie wypadkom przy pracy, zdarzeniom potencjalnie wypadkowym oraz chorobom zawodowym.",
+            "wyposażenie pracowników w wysokiej klasy środki ochrony indywidualnej.",
+            "stosowanie maszyn, urządzeń, narzędzi i wyposażenia spełniających wymagania norm bezpieczeństwa.",
+            "aktywne zaangażowanie pracowników dla zapewnienia skuteczności systemu.",
+            "prowadzenie sprawnej komunikacji wewnętrznej i zewnętrznej w zakresie BHP.",
+            "realizowanie działań zapobiegawczych i korygujących."
+        ],
+        "subTitleTwo": "Oceny efektowności systemu dokonujemy przez:",
+        "listTwo": [
+            "monitorowanie dni bez wypadku przy pracy.",
+            "monitorowanie ilości zdarzeń wypadkowych.",
+            "obserwacja zachowań pracowników pod kątem wykrywania zachowań i działań powodujących zagrożenia.",
+            "monitorowanie stężeń i natężeń czynników szkodliwych dla zdrowia występujących na stanowiskach pracy.",
+            "analizę dokumentacji i zapisów dotyczących bezpieczeństwa i higieny pracy."
+        ],
+        "paragraphTwo": "Zarząd Waveast Installation & Park Services zobowiązuje się do zabezpieczenia zasobów zapewniających realizację przyjętej, wdrożonej i utrzymanej polityki oraz zapewnia, że jest zrozumiana i uzgodniona z pracownikami firmy oraz udostępniona zainteresowanym stronom zewnętrznym."
     }
 }

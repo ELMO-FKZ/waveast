@@ -32,6 +32,9 @@ const Footer = memo(function Footer() {
                             <LinkRouter className="footer__link" to="/contact">{t('footer.contact')}</LinkRouter>
                         </li>
                         <li className="footer__listItem">
+                            <LinkRouter className="footer__link" to="/bhp">{t('footer.bhp')}</LinkRouter>
+                        </li>
+                        <li className="footer__listItem">
                             <a className="footer__link footer__link--catalogue" href={catalogueLink} target="_blank" rel="noopener noreferrer">
                                 {t('footer.catalogue')}
                                 <BiLinkAlt />

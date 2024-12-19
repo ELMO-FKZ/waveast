@@ -15,6 +15,7 @@
         "information": "Información",
         "about": "Sobre nosotros",
         "contact": "Contáctenos",
+        "bhp": "Política SST",
         "catalogue": "Catálogo",
         "expertise": "Nuestra especialización",
         "services": "Servicios",
@@ -150,6 +151,7 @@
         "services": "Nuestros servicios",
         "projects": "Hemos estado en...",
         "contact": "Póngase en contacto",
+        "bhp": "Política de seguridad y salud en el trabajo",
         "privacy": "Política de privacidad"
     },
     "specialHeadings": {
@@ -202,6 +204,27 @@
         "quatreCocos": "Quatre Cocos, Mauricio",
         "izmir": "Izmire, Turquía",
         "coventry": "Coventry, Inglaterra"
+    },
+    "projects": {
+        "aguamagica": {"name": "AGUA MAGICA", "place": "Sevilla", "country": "España"},
+        "aquascope": {"name": "AQUASCOPE", "place": "Chasseneuil-du-Poitou", "country": "Francia"},
+        "aquaterra": {"name": "AQUATERRA", "place": "Chisinau", "country": "Moldavia"},
+        "aquopolis": {"name": "AQUOPOLIS", "place": "Cullera", "country": "España"},
+        "capfun": {"name": "CAPFUN", "place": "Saint-Cast-le-Guildo", "country": "Francia"},
+        "cartoon": {"name": "CARTOON NETWORK AMAZONE", "place": "Pattaya", "country": "Tailandia"},
+        "eurocamping": {"name": "EUROCAMPING", "place": "Sant Antoni de Calonge", "country": "España"},
+        "frenzy": {"name": "FRENZY", "place": "Torreilles", "country": "Francia"},
+        "izvor": {"name": "IZVOR", "place": "Arandjelovac", "country": "Serbia"},
+        "jandiamar": {"name": "JANDÍA MAR", "place": "Islas Canarias", "country": "España"},
+        "lahacienda": {"name": "LA HACIENDA", "place": "Tarragona", "country": "España"},
+        "landoflegends": {"name": "LAND OF LEGENDS", "place": "Antalya", "country": "Turquía"},
+        "maritim": {"name": "MARITIM CRYSTAL BEACH HOTEL", "place": "Quatre Cocos", "country": "Mauricio"},
+        "ogliss": {"name": "O'GLISS PARK", "place": "Le Bernard", "country": "Francia"},
+        "ozarowskie": {"name": "OŻAROWSKIE BASENY LETNIE", "place": "Ożarów Mazowiecki", "country": "Polonia"},
+        "parkwodny": {"name": "PARK WODNY POLANICA-ZDRÓJ", "place": "Polanica-Zdrój", "country": "Polonia"},
+        "sendaviva": {"name": "SENDAVIVA", "place": "Arguedas", "country": "España"},
+        "suntago": {"name": "SUNTAGO", "place": "Wrecza", "country": "Polonia"},
+        "collection" : {"name": "COLECCIÓN", "place": "Global", "country": "Global"}
     },
     "servicesFilter": {
         "installation": "Instalación",
@@ -376,5 +399,31 @@
         "Perth, Australia": "Perth, Australia",
         "Sydney, Australia": "Sídney, Australia",
         "Rio San Juan, Dominican Republic": "Río San Juan, República Dominicana"
+    },
+    "bhp": {
+        "paragraphOne" : "La seguridad de todos los empleados de Waveast Installation & Park Services y de los huéspedes que se alojan en las instalaciones de la empresa es el objetivo principal de la Junta Directiva y de toda la dirección de la empresa. Cuidar de la vida y la salud de los empleados y huéspedes, así como prestar atención a la seguridad en cada puesto de trabajo, son los elementos básicos de este sistema. Este sistema está sujeto a un proceso de desarrollo y mejora continua.",
+        "subTitleOne": "Logramos estos objetivos mediante:",
+        "listOne" : [
+            "cumplir con los requisitos establecidos en la legislación y otras normativas aplicables a nuestra empresa.",
+            "utilizar atención médica preventiva.",
+            "esforzándonos por mejorar constantemente las condiciones de seguridad en el trabajo.",
+            "mejorando continuamente las actividades de salud y seguridad en el trabajo.",
+            "aumentando la concienciación y las cualificaciones de los empleados en el ámbito de la salud y seguridad laboral.",
+            "previniendo accidentes laborales, incidentes cercanos y enfermedades profesionales.",
+            "proporcionando a los empleados equipos de protección personal de alta calidad.",
+            "utilizando máquinas, dispositivos, herramientas y equipos que cumplen con los requisitos de las normas de seguridad.",
+            "involucrando activamente a los empleados para garantizar la efectividad del sistema.",
+            "realizando una comunicación interna y externa eficiente en el ámbito de la salud y seguridad laboral.",
+            "implementando acciones preventivas y correctivas."
+        ],
+        "subTitleTwo": "Evaluamos la efectividad del sistema mediante:",
+        "listTwo": [
+            "monitorear los días sin accidentes laborales.",
+            "monitorear el número de eventos de accidentes.",
+            "observar el comportamiento de los empleados para detectar conductas y acciones que causan amenazas.",
+            "monitorear las concentraciones e intensidades de factores perjudiciales para la salud que ocurren en los lugares de trabajo.",
+            "analizar la documentación y los registros relacionados con la salud y la seguridad laboral."
+        ],
+        "paragraphTwo": "La Junta Directiva de Waveast Installation & Park Services se compromete a asegurar recursos que garanticen la implementación de la política adoptada, implementada y mantenida, y asegura que sea comprendida y aceptada por los empleados de la empresa y puesta a disposición de las partes externas interesadas."
     }
 }

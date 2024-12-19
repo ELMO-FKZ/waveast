@@ -12,6 +12,10 @@ function Privacy() {
     const {t} = useTranslation()
 
     const highlightText = (text) => {
+        if (!text) {
+            return null
+        }
+
         const regex = /--(.*?)--/g
         const parts = text.split(regex)
 
@@ -24,6 +28,10 @@ function Privacy() {
     }
 
     useEffect(() => {
+        if (date === null) {
+            return
+        }
+
         const interval = setInterval(() => {
             setDate(prevDate => {
                 const newDate = new Date(prevDate)
@@ -31,8 +39,9 @@ function Privacy() {
                 return newDate
             })
         }, 365 * 24 * 60 * 60 * 1000)
+
         return () => clearInterval(interval)
-    }, [])
+    }, [date])
 
     return (
 
@@ -47,7 +56,7 @@ function Privacy() {
         <div className="privacy">
             <PageHeader pageTitle={t(`pageTitles.privacy`)} />
             <div className="container section__padding--top">
-                <p className="privacy__update"><span>{t(`privacy.lastUpdated`)}</span> {date.toLocaleDateString()}</p>
+                <p className="privacy__update"><span>{t(`privacy.lastUpdated`)}</span> {date?.toLocaleDateString('en-GB')}</p>
                 <div className="privacy__text">
                     <p>{highlightText(t(`privacy.privacyTextOne`))} </p>
                     <p>{t(`privacy.privacyTextTwo`)}</p>

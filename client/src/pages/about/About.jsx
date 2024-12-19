@@ -126,7 +126,7 @@ function About() {
             </div>
             <div className="section__padding--block container">
                 <SpecialHeadingTwo title={t(`specialHeadings.partners&memberships`)} />
-                <Partmemb items={items} partners={t(`partners`)} memberships={t(`memberships`)} />
+                <Partmemb items={items} />
             </div>
         </div>
         </>
