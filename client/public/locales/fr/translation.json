@@ -214,6 +214,7 @@
         "cartoon": {"name": "CARTOON NETWORK AMAZONE", "place": "Pattaya", "country": "Thaïlande"},
         "eurocamping": {"name": "EUROCAMPING", "place": "Sant Antoni de Calonge", "country": "Espagne"},
         "frenzy": {"name": "FRENZY", "place": "Torreilles", "country": "France"},
+        "jandiagolf": {"name": "HOTEL JANDIA GOLF", "place": "Fuerteventura", "country": "Espagne"},
         "izvor": {"name": "IZVOR", "place": "Arandjelovac", "country": "Serbie"},
         "jandiamar": {"name": "JANDÍA MAR", "place": "Îles Canaries", "country": "Espagne"},
         "lahacienda": {"name": "LA HACIENDA", "place": "Tarragone", "country": "Espagne"},
@@ -222,7 +223,10 @@
         "ogliss": {"name": "O'GLISS PARK", "place": "Le Bernard", "country": "France"},
         "ozarowskie": {"name": "OŻAROWSKIE BASENY LETNIE", "place": "Ożarów Mazowiecki", "country": "Pologne"},
         "parkwodny": {"name": "PARK WODNY POLANICA-ZDRÓJ", "place": "Polanica-Zdrój", "country": "Pologne"},
+        "progliss": {"name": "PROGLISS", "place": "", "country": "France"},
+        "puntacana": {"name": "CLUB MED PUNTA CANA", "place": "Punta Cana", "country": "République dominicaine"},
         "sendaviva": {"name": "SENDAVIVA", "place": "Arguedas", "country": "Espagne"},
+        "slidesplash": {"name": "SLIDE & SPLASH", "place": "Estômbar", "country": "Portugal"},
         "suntago": {"name": "SUNTAGO", "place": "Wrecza", "country": "Pologne"},
         "collection" : {"name": "COLLECTION", "place": "Global", "country": "Global"}
     },

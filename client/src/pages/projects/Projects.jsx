@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { projectsImages } from "../../data/projectsImages";
 import { wrapCompanyName } from "../../utils/wrapCompanyName";
 import { BiSolidLayer } from "react-icons/bi";
+import LazyLoad from "react-lazyload"
 import SpecialHeadingTwo from "../../components/specialHeadingTwo/SpecialHeadingTwo";
 import PageHeader from "../../components/pageHeader/PageHeader";
 import Lightbox from "yet-another-react-lightbox";
@@ -45,6 +46,7 @@ function Projects() {
   const handleImageClick = (project) => {
     const projectSlides = project.images.map((image) => ({
       src: image, // Assuming `image` is the src of the image
+      loading: 'lazy',
     }));
     setSlides(projectSlides);
     setIsOpen(true);
@@ -90,11 +92,13 @@ function Projects() {
               >
                 {project.images && project.images[0] && (
                   <>
-                    <img
-                      className="projectImage-gallery__img"
-                      src={project.images[0]}
-                      alt={t(project.name)}
-                    />
+                    <LazyLoad height={200} offset={100} className="projectImage-gallery__lazyload">
+                      <img
+                        className="projectImage-gallery__img"
+                        src={project.images[0]}
+                        alt={t(project.name)}
+                      />
+                    </LazyLoad>
                     <div className="projectImage-gallery__overlay"></div>
                     <div className="projectImage-gallery__info">
                       <span className="projectImage-gallery__name">{t(project.name)}</span>
